@@ -300,3 +300,10 @@ LogInit: Object subsystem initialized
 [2017.08.22-04.07.32:359][428]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/TestExampleMap12534E95A4051EC16AF392DB18EF51F9F.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap'
 [2017.08.22-04.07.32:395][428]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap
 [2017.08.22-04.07.32:555][428]LogFileHelpers: Saving map 'TestExampleMap1' took 3.133
+[2017.08.22-04.18.14:628][782]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.08.22-04.18.14:911][782]SourceControl: On branch master
+[2017.08.22-04.18.14:911][782]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.08.22-04.18.14:911][782]SourceControl: Untracked files:
+[2017.08.22-04.18.14:911][782]SourceControl: 	git_test/Saved/Logs/Git-Temp1A27DA7644D4B396B46AAABE3F41A702.txt
+[2017.08.22-04.18.14:911][782]SourceControl: nothing added to commit but untracked files present
+[2017.08.22-04.18.14:924][782]SourceControl: Commited On branch master.
