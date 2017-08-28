@@ -1,0 +1,865 @@
+﻿Log file open, 08/22/17 17:40:55
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: git_test
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-812126390) SRandInit(-812126390).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.458301
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.22-08.10.57:851][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.22-08.10.57:851][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.22-08.10.57:889][  0]LogInit: Computer: TRIST-SURFACE
+[2017.08.22-08.10.57:889][  0]LogInit: User: Tristan
+[2017.08.22-08.10.57:889][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.22-08.10.57:889][  0]LogInit: High frequency timer resolution =2.435766 MHz
+[2017.08.22-08.10.57:889][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.22-08.10.57:889][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.22-08.10.57:889][  0]LogMemory: Process Physical Memory: 274.93 MB used, 274.93 MB peak
+[2017.08.22-08.10.57:889][  0]LogMemory: Process Virtual Memory: 275.93 MB used, 275.93 MB peak
+[2017.08.22-08.10.57:889][  0]LogMemory: Physical Memory: 5373.80 MB used,  2728.75 MB free, 8102.55 MB total
+[2017.08.22-08.10.57:889][  0]LogMemory: Virtual Memory: 646.41 MB used,  2728.75 MB free, 134217728.00 MB total
+[2017.08.22-08.10.58:383][  0]LogInit: Using OS detected language (en-GB).
+[2017.08.22-08.10.58:383][  0]LogInit: Using OS detected locale (en-AU).
+[2017.08.22-08.10.58:390][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.08.22-08.10.59:934][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.22-08.10.59:944][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.08.22-08.10.59:944][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.22-08.10.59:946][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.22-08.10.59:946][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.22-08.10.59:946][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.22-08.10.59:950][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.22-08.10.59:950][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.22-08.10.59:950][  0]LogWindows: EnumDisplayDevices:
+[2017.08.22-08.10.59:950][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.08.22-08.10.59:951][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.08.22-08.10.59:951][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.08.22-08.10.59:951][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.08.22-08.10.59:951][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2017.08.22-08.10.59:951][  0]LogD3D11RHI:   Driver Version: 10.18.14.4170 (internal:10.18.14.4170, unified:10.18.14.4170)
+[2017.08.22-08.10.59:951][  0]LogD3D11RHI:      Driver Date: 3-16-2015
+[2017.08.22-08.10.59:951][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2017.08.22-08.10.59:958][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.22-08.10.59:966][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.08.22-08.10.59:968][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Intermediate/Shaders/WorkingDirectory/11836/).
+[2017.08.22-08.10.59:968][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tristan/AppData/Local/Temp/UnrealShaderWorkingDir/29328C13445AFE9521CC3888CFF58301/'.
+[2017.08.22-08.10.59:968][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.22-08.11.03:214][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.22-08.11.03:415][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.22-08.11.03:620][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.22-08.11.03:824][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.22-08.11.03:998][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.22-08.11.04:180][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.22-08.11.04:346][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.22-08.11.04:535][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.22-08.11.04:691][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.22-08.11.04:834][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.22-08.11.04:985][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.22-08.11.05:127][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.22-08.11.05:257][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.22-08.11.05:382][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.22-08.11.05:514][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.22-08.11.05:848][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.22-08.11.05:848][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.22-08.11.05:931][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.22-08.11.06:070][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.22-08.11.06:135][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.22-08.11.06:238][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.22-08.11.06:342][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.22-08.11.06:463][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.22-08.11.06:582][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.22-08.11.06:582][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.22-08.11.07:445][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.22-08.11.07:575][  0]LogDerivedDataCache: Loaded boot cache 0.13s 93MB C:/Users/Tristan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.22-08.11.07:575][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tristan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.22-08.11.07:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.22-08.11.07:575][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.22-08.11.07:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.22-08.11.07:575][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.22-08.11.07:603][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.22-08.11.07:620][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tristan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.22-08.11.07:635][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.22-08.11.07:635][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.22-08.11.07:636][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.22-08.11.07:636][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.22-08.11.08:075][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
+[2017.08.22-08.11.08:320][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.22-08.11.08:607][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.22-08.11.09:147][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.22-08.11.09:227][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.22-08.11.09:228][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.22-08.11.09:228][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.22-08.11.09:228][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.22-08.11.09:228][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.22-08.11.09:903][  0]LogNetVersion: git_test , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2423607881)
+[2017.08.22-08.11.10:321][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.109353 seconds
+[2017.08.22-08.11.10:333][  0]LogUObjectArray: 35826 objects as part of root set at end of initial load.
+[2017.08.22-08.11.10:333][  0]LogUObjectAllocator: 7529336 out of 0 bytes used by permanent object pool.
+[2017.08.22-08.11.10:333][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.22-08.11.10:453][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.22-08.11.15:726][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.22-08.11.15:778][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.22-08.11.18:906][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.22-08.11.20:857][  0]SourceControl: Source control is disabled
+[2017.08.22-08.11.23:478][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.22-08.11.23:893][  0]LogOcInput: OculusInput pre-init called
+[2017.08.22-08.11.24:308][  0]LogEngine: Initializing Engine...
+[2017.08.22-08.11.24:312][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.22-08.11.24:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.22-08.11.24:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.22-08.11.24:981][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.22-08.11.24:994][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-08.11.25:208][  0]LogInit: FAudioDevice initialized.
+[2017.08.22-08.11.25:428][  0]LogDerivedDataCache: Saved boot cache 0.22s 93MB C:/Users/Tristan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.22-08.11.25:444][  0]LogInit: Texture streaming: Enabled
+[2017.08.22-08.11.26:120][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.22-08.11.27:268][  0]LogInit: Transaction tracking system initialized
+[2017.08.22-08.11.28:717][  0]BlueprintLog: New page: Editor Load
+[2017.08.22-08.11.31:841][  0]LocalizationService: Localization service is disabled
+[2017.08.22-08.11.35:618][  0]LogConsoleResponse: Display: 
+[2017.08.22-08.11.36:616][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.22-08.11.36:616][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.22-08.11.36:617][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.22-08.11.36:652][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/' took 0.04s
+[2017.08.22-08.11.41:867][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.22-08.11.41:869][  0]LightingResults: New page: Lighting Build
+[2017.08.22-08.11.42:114][  0]MapCheck: New page: Map Check
+[2017.08.22-08.11.42:114][  0]LightingResults: New page: Lighting Build
+[2017.08.22-08.11.44:900][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-08.11.45:163][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.22-08.11.45:163][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.22-08.11.45:164][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.22-08.11.45:215][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.22-08.11.45:244][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.22-08.11.45:369][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.22-08.11.45:711][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 342.025ms to complete.
+[2017.08.22-08.11.45:712][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.845
+[2017.08.22-08.11.46:421][  0]LogCollectionManager: Loaded 0 collections in 0.008701 seconds
+[2017.08.22-08.11.46:773][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Collections/' took 0.01s
+[2017.08.22-08.11.46:773][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/Developers/Tristan/Collections/' took 0.01s
+[2017.08.22-08.11.46:773][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/Collections/' took 0.01s
+[2017.08.22-08.11.46:773][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.22-08.11.46:808][  0]LogContentBrowser: Native class hierarchy populated in 0.0313 seconds. Added 2386 classes and 500 folders.
+[2017.08.22-08.11.47:058][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.08.22-08.11.47:389][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.08.22-08.11.47:565][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.08.22-08.11.47:737][  0]LogSlate: Took 0.001219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.22-08.11.47:750][  0]LogSlate: Took 0.004699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.22-08.11.47:792][  0]LogSlate: Took 0.002567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.22-08.11.48:320][  0]LogRenderer: Reallocating scene render targets to support 732x344 Format 9 NumSamples 1 (Frame:1).
+[2017.08.22-08.11.50:363][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2017.08.22-08.11.50:364][  0]LogLoad: (Engine Initialization) Total time: 59.27 seconds
+[2017.08.22-08.11.50:364][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.22-08.11.50:364][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.22-08.11.50:703][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.22-08.11.50:744][  0]SourceControl: On branch master
+[2017.08.22-08.11.50:744][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.08.22-08.11.50:745][  0]SourceControl: Changes not staged for commit:
+[2017.08.22-08.11.50:745][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.08.22-08.11.50:745][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.08.22-08.11.50:745][  0]SourceControl: 	modified:   git_test/Intermediate/CachedAssetRegistry.bin
+[2017.08.22-08.11.50:745][  0]SourceControl: 	modified:   git_test/Saved/Config/Windows/Engine.ini
+[2017.08.22-08.11.50:745][  0]SourceControl: 	deleted:    git_test/Saved/Logs/git_test-backup-2017.08.22-11.37.02.log
+[2017.08.22-08.11.50:745][  0]SourceControl: 	modified:   git_test/Saved/Logs/git_test.log
+[2017.08.22-08.11.50:745][  0]SourceControl: Untracked files:
+[2017.08.22-08.11.50:745][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.08.22-08.11.50:745][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-CFEA43A34AEB11CCC24F21924F07CE96/
+[2017.08.22-08.11.50:745][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.22-17.40.55.log
+[2017.08.22-08.11.50:745][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.08.22-08.11.50:747][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.08.22-08.11.50:785][  0]LogSlate: Took 0.001806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.22-08.11.52:713][  6]LogAssetRegistry: Asset discovery search completed in 44.6621 seconds
+[2017.08.22-08.11.52:721][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.08.22-08.11.52:721][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000207 seconds (updated 0 objects)
+[2017.08.22-08.12.23:849][252]LogSlate: Took 0.000734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.22-08.12.24:892][252]LogAIModule: Creating AISystem for world TestExampleMap1
+[2017.08.22-08.12.25:197][252]Cmd: MAP LOAD FILE="../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.22-08.12.25:197][252]LightingResults: New page: Lighting Build
+[2017.08.22-08.12.25:200][252]LoadErrors: New page: Loading map: TestExampleMap1.umap
+[2017.08.22-08.12.25:208][252]MapCheck: New page: Map Check
+[2017.08.22-08.12.25:208][252]LightingResults: New page: Lighting Build
+[2017.08.22-08.12.25:778][252]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.22-08.12.26:041][252]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.22-08.12.26:049][252]LogSlate: Took 0.000939 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.22-08.12.26:572][252]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 530.878ms to complete.
+[2017.08.22-08.12.26:575][252]LogFileHelpers: Loading map 'TestExampleMap1' took 1.384
+[2017.08.22-08.13.26:871][890]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0056 seconds. Added 113 classes and 0 folders.
+[2017.08.22-08.13.30:535][890]LogSlate: Took 0.001890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.22-08.13.31:195][891]LogSlate: Took 0.002490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.22-08.14.15:209][594]LogSlate: Took 0.002097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.22-08.16.27:706][303]LogRenderer: Reallocating scene render targets to support 760x544 Format 9 NumSamples 1 (Frame:1).
+[2017.08.22-08.21.24:643][521]LogSlate: Took 0.000888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.22-08.32.38:176][912]LogTemp: Repeating last play command: Simulate
+[2017.08.22-08.32.39:039][912]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1' with GeneratedClass '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1'
+[2017.08.22-08.32.39:040][912]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.22-08.32.39:096][912]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2017.08.22-08.32.40:878][912]LogPlayLevel: PlayLevel: Blueprint regeneration took 1838 ms (1 blueprints)
+[2017.08.22-08.32.40:886][912]PIE: New page: SIE session: TestExampleMap1 (23 Aug 2017 3:32:40 am)
+[2017.08.22-08.32.40:887][912]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_TestExampleMap1
+[2017.08.22-08.32.41:131][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.242996s)
+[2017.08.22-08.32.41:135][912]LogAIModule: Creating AISystem for world TestExampleMap1
+[2017.08.22-08.32.41:136][912]LogPlayLevel: PIE: World Init took: (0.005056s)
+[2017.08.22-08.32.41:137][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1 to /Game/FirstPersonBP/Maps/UEDPIE_0_TestExampleMap1.TestExampleMap1 (0.250210s)
+[2017.08.22-08.32.41:241][912]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-08.32.41:282][912]LogInit: FAudioDevice initialized.
+[2017.08.22-08.32.41:358][912]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-08.32.41:421][912]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestExampleMap1.TestExampleMap1 up for play (max tick rate 60) at 2017.08.22-18.02.41
+[2017.08.22-08.32.41:427][912]LogWorld: Bringing up level for play took: 0.051641
+[2017.08.22-08.32.41:432][912]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.22-08.32.41:684][912]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0029 seconds. Added 11 classes and 0 folders.
+[2017.08.22-08.32.41:692][912]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestExampleMap1 2.01
+[2017.08.22-08.32.41:746][912]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1' with GeneratedClass '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1'
+[2017.08.22-08.33.09:604][736]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1' with GeneratedClass '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1'
+[2017.08.22-08.33.09:725][736]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1' with GeneratedClass '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1'
+[2017.08.22-08.33.19:291][ 49]LogTemp: Repeating last play command: Simulate
+[2017.08.22-08.33.19:359][ 49]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1' with GeneratedClass '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1'
+[2017.08.22-08.33.19:359][ 49]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-08.33.19:360][ 49]PIE: New page: SIE session: TestExampleMap1 (23 Aug 2017 3:33:19 am)
+[2017.08.22-08.33.19:360][ 49]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_TestExampleMap1
+[2017.08.22-08.33.19:547][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.185865s)
+[2017.08.22-08.33.19:549][ 49]LogAIModule: Creating AISystem for world TestExampleMap1
+[2017.08.22-08.33.19:550][ 49]LogPlayLevel: PIE: World Init took: (0.002869s)
+[2017.08.22-08.33.19:551][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1 to /Game/FirstPersonBP/Maps/UEDPIE_0_TestExampleMap1.TestExampleMap1 (0.190111s)
+[2017.08.22-08.33.19:644][ 49]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-08.33.19:677][ 49]LogInit: FAudioDevice initialized.
+[2017.08.22-08.33.19:733][ 49]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-08.33.19:773][ 49]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestExampleMap1.TestExampleMap1 up for play (max tick rate 60) at 2017.08.22-18.03.19
+[2017.08.22-08.33.19:776][ 49]LogWorld: Bringing up level for play took: 0.041359
+[2017.08.22-08.33.19:778][ 49]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.22-08.33.19:781][ 49]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestExampleMap1 0.099
+[2017.08.22-08.33.19:793][ 49]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1' with GeneratedClass '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1'
+[2017.08.22-08.33.54:995][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1' with GeneratedClass '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1'
+[2017.08.22-08.33.55:104][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1' with GeneratedClass '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1'
+[2017.08.22-08.37.32:244][276]LogSavePackage: Save=393.58ms
+[2017.08.22-08.37.32:244][276]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/FirstPersonCharacterE3B934D5406E9D051CBE1F805DA3ED8C.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.08.22-08.37.32:277][276]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.08.22-08.39.52:389][418]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Tristan\Documents\pix art\shmup\numbers\6x9\1.bmp)
+[2017.08.22-08.39.52:420][418]LogTexture: Display: Building textures: 1 (BGRA8, 6X9)
+[2017.08.22-08.39.52:879][418]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Tristan\Documents\pix art\shmup\numbers\6x9\2.bmp)
+[2017.08.22-08.39.52:900][418]LogTexture: Display: Building textures: 2 (BGRA8, 6X9)
+[2017.08.22-08.39.53:361][418]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Tristan\Documents\pix art\shmup\numbers\6x9\3.bmp)
+[2017.08.22-08.39.53:380][418]LogTexture: Display: Building textures: 3 (BGRA8, 6X9)
+[2017.08.22-08.39.53:927][418]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Tristan\Documents\pix art\shmup\numbers\6x9\4.bmp)
+[2017.08.22-08.39.53:944][418]LogTexture: Display: Building textures: 4 (BGRA8, 6X9)
+[2017.08.22-08.39.54:328][418]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Tristan\Documents\pix art\shmup\numbers\6x9\5.bmp)
+[2017.08.22-08.39.54:345][418]LogTexture: Display: Building textures: 5 (BGRA8, 6X9)
+[2017.08.22-08.39.54:715][418]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Tristan\Documents\pix art\shmup\numbers\6x9\6.bmp)
+[2017.08.22-08.39.54:732][418]LogTexture: Display: Building textures: 6 (BGRA8, 6X9)
+[2017.08.22-08.39.55:232][418]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Tristan\Documents\pix art\shmup\numbers\6x9\7.bmp)
+[2017.08.22-08.39.55:251][418]LogTexture: Display: Building textures: 7 (BGRA8, 6X9)
+[2017.08.22-08.39.55:602][418]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Tristan\Documents\pix art\shmup\numbers\6x9\8.bmp)
+[2017.08.22-08.39.55:620][418]LogTexture: Display: Building textures: 8 (BGRA8, 6X9)
+[2017.08.22-08.39.55:978][418]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Tristan\Documents\pix art\shmup\numbers\6x9\9.bmp)
+[2017.08.22-08.39.55:991][418]LogTexture: Display: Building textures: 9 (BGRA8, 6X9)
+[2017.08.22-08.39.56:406][418]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Tristan\Documents\pix art\shmup\numbers\6x9\0.bmp)
+[2017.08.22-08.39.56:426][418]LogTexture: Display: Building textures: 0 (BGRA8, 6X9)
+[2017.08.22-08.41.34:102][571]LogSavePackage: Save=2189.83ms
+[2017.08.22-08.41.34:102][571]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/TestExampleMap1_Auto179EA38844F3F3FC60BF1EB88A102F1F1.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/TestExampleMap1_Auto1.umap'
+[2017.08.22-08.41.34:116][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/TestExampleMap1_Auto1.umap
+[2017.08.22-08.41.34:131][571]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/TestExampleMap1' took 2.429
+[2017.08.22-08.41.34:131][571]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.429
+[2017.08.22-08.41.34:149][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/dos_numbers/1] ([1] browsable assets)...
+[2017.08.22-08.41.34:155][571]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/dos_numbers/1.1]
+[2017.08.22-08.41.34:155][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/dos_numbers/1]
+[2017.08.22-08.41.34:182][571]LogSavePackage: Save=15.55ms
+[2017.08.22-08.41.34:182][571]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/1_Auto1985F91A54DA38B0CA91227A490E80A55.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/1_Auto1.uasset'
+[2017.08.22-08.41.34:195][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/1_Auto1.uasset
+[2017.08.22-08.41.34:204][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/dos_numbers/2] ([1] browsable assets)...
+[2017.08.22-08.41.34:206][571]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/dos_numbers/2.2]
+[2017.08.22-08.41.34:206][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/dos_numbers/2]
+[2017.08.22-08.41.34:226][571]LogSavePackage: Save=10.03ms
+[2017.08.22-08.41.34:226][571]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/2_Auto17AD391B84104AA8E138496BF8D252F37.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/2_Auto1.uasset'
+[2017.08.22-08.41.34:237][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/2_Auto1.uasset
+[2017.08.22-08.41.34:247][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/dos_numbers/3] ([1] browsable assets)...
+[2017.08.22-08.41.34:248][571]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/dos_numbers/3.3]
+[2017.08.22-08.41.34:249][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/dos_numbers/3]
+[2017.08.22-08.41.34:269][571]LogSavePackage: Save=10.60ms
+[2017.08.22-08.41.34:269][571]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/3_Auto1094B09094485DB7F3112D68F717292D9.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/3_Auto1.uasset'
+[2017.08.22-08.41.34:281][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/3_Auto1.uasset
+[2017.08.22-08.41.34:289][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/dos_numbers/4] ([1] browsable assets)...
+[2017.08.22-08.41.34:291][571]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/dos_numbers/4.4]
+[2017.08.22-08.41.34:291][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/dos_numbers/4]
+[2017.08.22-08.41.34:310][571]LogSavePackage: Save=9.99ms
+[2017.08.22-08.41.34:311][571]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/4_Auto15BD8D4D946590BA620ED46BDE9356D59.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/4_Auto1.uasset'
+[2017.08.22-08.41.34:322][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/4_Auto1.uasset
+[2017.08.22-08.41.34:330][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/dos_numbers/5] ([1] browsable assets)...
+[2017.08.22-08.41.34:332][571]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/dos_numbers/5.5]
+[2017.08.22-08.41.34:332][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/dos_numbers/5]
+[2017.08.22-08.41.34:356][571]LogSavePackage: Save=10.08ms
+[2017.08.22-08.41.34:356][571]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/5_Auto1AFB8DA8246B22BB3DE4E84BC16E7D0E5.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/5_Auto1.uasset'
+[2017.08.22-08.41.34:367][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/5_Auto1.uasset
+[2017.08.22-08.41.34:375][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/dos_numbers/6] ([1] browsable assets)...
+[2017.08.22-08.41.34:377][571]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/dos_numbers/6.6]
+[2017.08.22-08.41.34:377][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/dos_numbers/6]
+[2017.08.22-08.41.34:399][571]LogSavePackage: Save=10.37ms
+[2017.08.22-08.41.34:399][571]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/6_Auto14817F2624F2AA5E40E01E294FD6157EE.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/6_Auto1.uasset'
+[2017.08.22-08.41.34:409][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/6_Auto1.uasset
+[2017.08.22-08.41.34:419][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/dos_numbers/7] ([1] browsable assets)...
+[2017.08.22-08.41.34:420][571]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/dos_numbers/7.7]
+[2017.08.22-08.41.34:421][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/dos_numbers/7]
+[2017.08.22-08.41.34:442][571]LogSavePackage: Save=11.49ms
+[2017.08.22-08.41.34:442][571]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/7_Auto1EE22E0134068853183352E813707E4C8.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/7_Auto1.uasset'
+[2017.08.22-08.41.34:455][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/7_Auto1.uasset
+[2017.08.22-08.41.34:464][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/dos_numbers/8] ([1] browsable assets)...
+[2017.08.22-08.41.34:466][571]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/dos_numbers/8.8]
+[2017.08.22-08.41.34:466][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/dos_numbers/8]
+[2017.08.22-08.41.34:488][571]LogSavePackage: Save=10.40ms
+[2017.08.22-08.41.34:488][571]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/8_Auto18A2D3F7B44738FA76FAD11AE2B63A705.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/8_Auto1.uasset'
+[2017.08.22-08.41.34:498][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/8_Auto1.uasset
+[2017.08.22-08.41.34:506][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/dos_numbers/9] ([1] browsable assets)...
+[2017.08.22-08.41.34:508][571]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/dos_numbers/9.9]
+[2017.08.22-08.41.34:508][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/dos_numbers/9]
+[2017.08.22-08.41.34:532][571]LogSavePackage: Save=10.16ms
+[2017.08.22-08.41.34:532][571]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/9_Auto14108129544FEEB7FBDFA318FAFC6BE52.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/9_Auto1.uasset'
+[2017.08.22-08.41.34:546][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/9_Auto1.uasset
+[2017.08.22-08.41.34:555][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/dos_numbers/0] ([1] browsable assets)...
+[2017.08.22-08.41.34:556][571]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/dos_numbers/0.0]
+[2017.08.22-08.41.34:557][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/dos_numbers/0]
+[2017.08.22-08.41.34:578][571]LogSavePackage: Save=9.68ms
+[2017.08.22-08.41.34:578][571]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/0_Auto176752DD84C83ED2DE54C77BC7A7A51A0.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/0_Auto1.uasset'
+[2017.08.22-08.41.34:589][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/StarterContent/Textures/dos_numbers/0_Auto1.uasset
+[2017.08.22-08.41.34:590][571]LogFileHelpers: Auto-saving content packages took 0.454
+[2017.08.22-08.44.07:437][ 42]LogEditorTransaction: Undo Move Node
+[2017.08.22-08.44.09:020][ 73]LogEditorTransaction: Undo Add Node
+[2017.08.22-08.52.01:852][686]LogSavePackage: Save=2685.37ms
+[2017.08.22-08.52.01:852][686]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/TestExampleMap1_Auto230DA2192430D8F87F0EE4EAF6CDF25A8.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/TestExampleMap1_Auto2.umap'
+[2017.08.22-08.52.01:863][686]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/TestExampleMap1_Auto2.umap
+[2017.08.22-08.52.01:875][686]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/TestExampleMap1' took 2.922
+[2017.08.22-08.52.01:875][686]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.922
+[2017.08.22-08.52.01:893][686]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.08.22-08.52.01:993][686]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.08.22-08.52.01:993][686]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.08.22-08.52.02:511][686]LogSavePackage: Save=462.27ms
+[2017.08.22-08.52.02:511][686]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/FirstPersonCharacter_Auto25C142FD1410B5A2C98E28BAABF27D144.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2017.08.22-08.52.02:523][686]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset
+[2017.08.22-08.52.02:537][686]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonHUD] ([1] browsable assets)...
+[2017.08.22-08.52.02:538][686]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonHUD]
+[2017.08.22-08.52.02:732][686]LogSavePackage: Save=134.65ms
+[2017.08.22-08.52.02:732][686]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/FirstPersonHUD_Auto2C7D97FDB4B65BC3C47087A95CEA609AC.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonHUD_Auto2.uasset'
+[2017.08.22-08.52.02:769][686]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonHUD_Auto2.uasset
+[2017.08.22-08.52.02:769][686]LogFileHelpers: Auto-saving content packages took 0.887
+[2017.08.22-09.19.04:365][ 84]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/TestExampleMap1' took 0.141
+[2017.08.22-09.19.04:379][ 84]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonHUD] ([1] browsable assets)...
+[2017.08.22-09.19.04:379][ 84]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonHUD]
+[2017.08.22-09.19.04:559][ 84]LogSavePackage: Save=121.10ms
+[2017.08.22-09.19.04:560][ 84]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/FirstPersonHUD_Auto37D5D01EF41B5BF62B4E589819D65D2F9.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonHUD_Auto3.uasset'
+[2017.08.22-09.19.04:576][ 84]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonHUD_Auto3.uasset
+[2017.08.22-09.19.04:576][ 84]LogFileHelpers: Auto-saving content packages took 0.208
+[2017.08.22-09.23.22:301][393]LogSavePackage: Save=89.19ms
+[2017.08.22-09.23.22:302][393]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/FirstPersonHUDD1B18F8D4C4CF0411360BDBDD8E92140.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2017.08.22-09.23.22:326][393]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2017.08.22-09.29.05:110][346]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  Event Tick  and was replaced as a Custom Event!
+[2017.08.22-09.29.14:122][834]LogEditorTransaction: Undo Paste clipboard contents
+[2017.08.22-09.29.27:088][510]LogEditorTransaction: Undo Move Node
+[2017.08.22-09.32.29:601][696]LogSavePackage: Save=2170.43ms
+[2017.08.22-09.32.29:601][696]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/TestExampleMap1_Auto4885C77064038AAC0D731FC9D6E5C5E58.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/TestExampleMap1_Auto4.umap'
+[2017.08.22-09.32.29:612][696]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/TestExampleMap1_Auto4.umap
+[2017.08.22-09.32.29:625][696]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/TestExampleMap1' took 2.392
+[2017.08.22-09.32.29:625][696]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.392
+[2017.08.22-09.32.29:659][696]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.08.22-09.32.29:719][696]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.08.22-09.32.29:723][696]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.08.22-09.32.30:142][696]LogSavePackage: Save=385.18ms
+[2017.08.22-09.32.30:142][696]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/FirstPersonCharacter_Auto4FEFDF5A0424D72F0C6F3CABA803ACE8E.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset'
+[2017.08.22-09.32.30:158][696]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset
+[2017.08.22-09.32.30:158][696]LogFileHelpers: Auto-saving content packages took 0.508
+[2017.08.22-09.33.04:360][ 77]Cmd: TRANSACTION UNDO
+[2017.08.22-09.33.04:360][ 77]LogEditorTransaction: Undo Add Node
+[2017.08.22-09.34.51:535][739]LogSavePackage: Save=327.77ms
+[2017.08.22-09.34.51:536][739]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/FirstPersonCharacter1CB54C7341E024B5A8184AB9BB088B25.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.08.22-09.34.51:579][739]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.08.22-09.34.52:729][781]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.22-09.36.20:411][865]LogEditorTransaction: Undo Create Pin Link
+[2017.08.22-09.40.21:148][660]LogSavePackage: Save=141.19ms
+[2017.08.22-09.40.21:148][660]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/FirstPersonHUD6ADE3B94422038BEA1A40F8AE8F40F59.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2017.08.22-09.40.21:181][660]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2017.08.22-09.40.25:698][774]LogTemp: Repeating last play command: Simulate
+[2017.08.22-09.40.25:774][774]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1' with GeneratedClass '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1'
+[2017.08.22-09.40.25:774][774]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.22-09.40.25:837][774]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2017.08.22-09.40.25:918][774]LogBlueprint: Error: [Compiler FirstPersonCharacter] The property associated with  Displayed Weapon  could not be found
+[2017.08.22-09.40.25:928][774]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [5374.84] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 93 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2017.08.22-09.40.27:249][774]LogPlayLevel: [PlayLevel] Compiling FirstPersonHUD before play...
+[2017.08.22-09.40.27:276][774]LogPlayLevel: [PlayLevel]   Compiling FirstPersonCharacter as a dependent...
+[2017.08.22-09.40.28:820][774]LogPlayLevel: PlayLevel: Blueprint regeneration took 3046 ms (3 blueprints)
+[2017.08.22-09.40.28:820][774]BlueprintLog: Blueprint FirstPersonCharacter failed to compile
+[2017.08.22-09.40.46:071][184]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.08.22-09.40.57:664][611]BlueprintLog: New page: Compile FirstPersonHUD
+[2017.08.22-09.41.09:049][866]LogTemp: Repeating last play command: Simulate
+[2017.08.22-09.41.09:129][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1' with GeneratedClass '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1'
+[2017.08.22-09.41.09:129][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-09.41.09:130][866]PIE: New page: SIE session: TestExampleMap1 (23 Aug 2017 4:41:09 am)
+[2017.08.22-09.41.09:130][866]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_TestExampleMap1
+[2017.08.22-09.41.09:315][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.185250s)
+[2017.08.22-09.41.09:332][866]LogAIModule: Creating AISystem for world TestExampleMap1
+[2017.08.22-09.41.09:333][866]LogPlayLevel: PIE: World Init took: (0.017383s)
+[2017.08.22-09.41.09:334][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1 to /Game/FirstPersonBP/Maps/UEDPIE_0_TestExampleMap1.TestExampleMap1 (0.204552s)
+[2017.08.22-09.41.09:445][866]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-09.41.09:495][866]LogInit: FAudioDevice initialized.
+[2017.08.22-09.41.09:541][866]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.08.22-09.41.09:584][866]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_TestExampleMap1.TestExampleMap1 up for play (max tick rate 0) at 2017.08.22-19.11.09
+[2017.08.22-09.41.09:586][866]LogWorld: Bringing up level for play took: 0.043427
+[2017.08.22-09.41.09:588][866]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.22-09.41.09:591][866]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_TestExampleMap1 -0.091
+[2017.08.22-09.41.09:601][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1' with GeneratedClass '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1'
+[2017.08.22-09.41.48:067][517]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1' with GeneratedClass '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1'
+[2017.08.22-09.41.48:132][517]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1' with GeneratedClass '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/TestExampleMap1.TestExampleMap1:PersistentLevel.TestExampleMap1'
+[2017.08.22-09.43.12:522][865]LogSavePackage: Save=2571.36ms
+[2017.08.22-09.43.12:522][865]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/TestExampleMap1_Auto5AE7ED79F4BBE6048611E0CB9558B51F3.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/TestExampleMap1_Auto5.umap'
+[2017.08.22-09.43.12:547][865]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/TestExampleMap1_Auto5.umap
+[2017.08.22-09.43.12:568][865]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/TestExampleMap1' took 2.912
+[2017.08.22-09.43.12:568][865]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.912
+[2017.08.22-09.45.22:431][ 25]LogSavePackage: Save=2304.05ms
+[2017.08.22-09.45.22:432][ 25]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/TestExampleMap1243A533F4BB528A1360987BF5E8A61B5.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap'
+[2017.08.22-09.45.22:462][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap
+[2017.08.22-09.45.22:595][ 25]LogFileHelpers: Saving map 'TestExampleMap1' took 2.972
+[2017.08.22-09.45.22:653][ 25]LogSavePackage: Save=10.53ms
+[2017.08.22-09.45.22:653][ 25]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/14FA9160144A0663B6BC5479468DCB24B.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/1.uasset'
+[2017.08.22-09.45.22:680][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/1.uasset
+[2017.08.22-09.45.23:567][ 25]LogSavePackage: Save=9.65ms
+[2017.08.22-09.45.23:567][ 25]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/2E173D82E4B45C7A33F1AD499CBA202BB.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/2.uasset'
+[2017.08.22-09.45.23:590][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/2.uasset
+[2017.08.22-09.45.24:175][ 25]LogSavePackage: Save=8.59ms
+[2017.08.22-09.45.24:175][ 25]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/3CD9B04EC47FEA3A09E6551AA920008C6.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/3.uasset'
+[2017.08.22-09.45.24:196][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/3.uasset
+[2017.08.22-09.45.24:890][ 25]LogSavePackage: Save=10.88ms
+[2017.08.22-09.45.24:891][ 25]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/4DC7528B945D11C4E3802C5A4B2CE3750.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/4.uasset'
+[2017.08.22-09.45.24:909][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/4.uasset
+[2017.08.22-09.45.25:427][ 25]LogSavePackage: Save=6.73ms
+[2017.08.22-09.45.25:427][ 25]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/598CF8500463EFBD8810DF2BF68EE478E.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/5.uasset'
+[2017.08.22-09.45.25:442][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/5.uasset
+[2017.08.22-09.45.26:065][ 25]LogSavePackage: Save=8.03ms
+[2017.08.22-09.45.26:065][ 25]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/694F39704472941AABC55419D8D6D7AFB.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/6.uasset'
+[2017.08.22-09.45.26:088][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/6.uasset
+[2017.08.22-09.45.26:608][ 25]LogSavePackage: Save=7.28ms
+[2017.08.22-09.45.26:608][ 25]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/71D6A5AA8403B94FB92144EB7F43A9108.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/7.uasset'
+[2017.08.22-09.45.26:623][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/7.uasset
+[2017.08.22-09.45.27:390][ 25]LogSavePackage: Save=9.90ms
+[2017.08.22-09.45.27:390][ 25]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/8D4A749EA4FFB4FA658EF2CBF162BB9B1.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/8.uasset'
+[2017.08.22-09.45.27:410][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/8.uasset
+[2017.08.22-09.45.28:038][ 25]LogSavePackage: Save=8.52ms
+[2017.08.22-09.45.28:038][ 25]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/996A805C74C5F7B1075BA0398DB6FC01D.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/9.uasset'
+[2017.08.22-09.45.28:063][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/9.uasset
+[2017.08.22-09.45.28:711][ 25]LogSavePackage: Save=8.58ms
+[2017.08.22-09.45.28:711][ 25]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/03B0DDCD3461E4FEA60F1C89168CCB472.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/0.uasset'
+[2017.08.22-09.45.28:733][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/StarterContent/Textures/dos_numbers/0.uasset
+[2017.08.22-09.51.07:684][ 22]LogSavePackage: Save=2215.44ms
+[2017.08.22-09.51.07:684][ 22]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/TestExampleMap1D31EFF73431AEFE7341887B236E94439.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap'
+[2017.08.22-09.51.07:699][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap
+[2017.08.22-09.51.14:370][ 22]LogSavePackage: Save=6050.89ms
+[2017.08.22-09.51.14:370][ 22]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/TestExampleMap1_BuiltData87AB919740FA987D369E829C0186C7BE.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1_BuiltData.uasset'
+[2017.08.22-09.51.14:386][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1_BuiltData.uasset
+[2017.08.22-09.51.24:037][294]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.08.22-09.51.30:241][294]LogSavePackage: Save=139.41ms
+[2017.08.22-09.51.30:241][294]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/FirstPersonHUD6E632C62463462B7ACEAA0BA5C7838EA.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2017.08.22-09.51.30:270][294]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2017.08.22-09.52.03:730][294]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.08.22-09.52.04:027][294]SourceControl: [master 6af69e5] preliminary weapon selection, via number keys
+[2017.08.22-09.52.04:027][294]SourceControl:  14 files changed, 0 insertions(+), 0 deletions(-)
+[2017.08.22-09.52.04:027][294]SourceControl:  rewrite git_test/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset (90%)
+[2017.08.22-09.52.04:027][294]SourceControl:  rewrite git_test/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset (85%)
+[2017.08.22-09.52.04:027][294]SourceControl:  create mode 100644 git_test/Content/StarterContent/Textures/dos_numbers/0.uasset
+[2017.08.22-09.52.04:027][294]SourceControl:  create mode 100644 git_test/Content/StarterContent/Textures/dos_numbers/1.uasset
+[2017.08.22-09.52.04:027][294]SourceControl:  create mode 100644 git_test/Content/StarterContent/Textures/dos_numbers/2.uasset
+[2017.08.22-09.52.04:027][294]SourceControl:  create mode 100644 git_test/Content/StarterContent/Textures/dos_numbers/3.uasset
+[2017.08.22-09.52.04:027][294]SourceControl:  create mode 100644 git_test/Content/StarterContent/Textures/dos_numbers/4.uasset
+[2017.08.22-09.52.04:027][294]SourceControl:  create mode 100644 git_test/Content/StarterContent/Textures/dos_numbers/5.uasset
+[2017.08.22-09.52.04:027][294]SourceControl:  create mode 100644 git_test/Content/StarterContent/Textures/dos_numbers/6.uasset
+[2017.08.22-09.52.04:027][294]SourceControl:  create mode 100644 git_test/Content/StarterContent/Textures/dos_numbers/7.uasset
+[2017.08.22-09.52.04:027][294]SourceControl:  create mode 100644 git_test/Content/StarterContent/Textures/dos_numbers/8.uasset
+[2017.08.22-09.52.04:027][294]SourceControl:  create mode 100644 git_test/Content/StarterContent/Textures/dos_numbers/9.uasset
+[2017.08.22-09.52.04:034][294]SourceControl: Commited [master 6af69e5] preliminary weapon selection, via number keys.
+[2017.08.22-09.52.21:601][719]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.08.22-09.52.21:927][719]EditorErrors: Warning: No assets to check in!
+[2017.08.22-09.58.14:410][993]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.22-09.58.14:430][993]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.22-09.58.14:451][993]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.22-09.58.14:889][994]Cmd: QUIT_EDITOR
+[2017.08.22-09.58.15:112][994]LogExit: Preparing to exit.
+[2017.08.22-09.58.16:838][994]LogDirectoryWatcher: A directory notification for 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/' was aborted.
+[2017.08.22-09.58.17:706][994]LogExit: Editor shut down
+[2017.08.22-09.58.17:722][994]LogExit: Transaction tracking system shut down
+[2017.08.22-09.58.18:743][994]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.22-09.58.18:743][994]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/' was aborted.
+[2017.08.22-09.58.18:744][994]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.22-09.58.18:744][994]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.08.22-09.58.18:744][994]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.08.22-09.58.19:884][994]LogExit: Object subsystem successfully closed.
+[2017.08.22-09.58.20:065][994]LogD3D11RHI: Shutdown
+[2017.08.22-09.58.20:065][994]LogD3D11RHI: CleanupD3DDevice
+[2017.08.22-09.58.20:526][994]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.22-09.58.20:747][994]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.08.22-09.58.20:747][994]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.08.22-09.58.20:747][994]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.08.22-09.58.20:749][994]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.08.22-09.58.20:749][994]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.08.22-09.58.20:750][994]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.08.22-09.58.20:751][994]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.08.22-09.58.20:768][994]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.08.22-09.58.20:768][994]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.08.22-09.58.20:768][994]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.08.22-09.58.20:769][994]LogDirectoryWatcher: A directory notification for 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/Collections/' was aborted.
+[2017.08.22-09.58.20:769][994]LogDirectoryWatcher: A directory notification for 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/Developers/Tristan/Collections/' was aborted.
+[2017.08.22-09.58.20:770][994]LogDirectoryWatcher: A directory notification for 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Collections/' was aborted.
+[2017.08.22-09.58.20:770][994]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.08.22-09.58.20:772][994]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.08.22-09.58.20:772][994]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.08.22-09.58.20:773][994]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.08.22-09.58.20:774][994]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.08.22-09.58.20:774][994]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.08.22-09.58.20:774][994]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.08.22-09.58.20:774][994]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.08.22-09.58.20:774][994]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.08.22-09.58.20:774][994]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.08.22-09.58.20:775][994]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.08.22-09.58.20:775][994]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.08.22-09.58.20:775][994]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.08.22-09.58.20:776][994]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.08.22-09.58.20:777][994]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.08.22-09.58.20:781][994]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.08.22-09.58.20:781][994]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.08.22-09.58.20:781][994]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.08.22-09.58.20:781][994]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.08.22-09.58.20:781][994]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.08.22-09.58.20:781][994]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.08.22-09.58.20:782][994]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.08.22-09.58.20:782][994]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.08.22-09.58.20:782][994]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.08.22-09.58.20:782][994]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.08.22-09.58.20:782][994]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.08.22-09.58.20:782][994]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.08.22-09.58.20:782][994]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.08.22-09.58.20:783][994]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.08.22-09.58.20:783][994]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.08.22-09.58.20:783][994]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.08.22-09.58.20:785][994]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.08.22-09.58.20:787][994]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.08.22-09.58.20:789][994]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.08.22-09.58.20:791][994]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.08.22-09.58.20:791][994]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.08.22-09.58.20:791][994]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.08.22-09.58.20:791][994]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.08.22-09.58.21:656][994]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.08.22-09.58.21:656][994]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.08.22-09.58.21:656][994]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.08.22-09.58.21:656][994]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.08.22-09.58.21:661][994]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.08.22-09.58.21:662][994]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.08.22-09.58.21:662][994]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.08.22-09.58.21:663][994]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.08.22-09.58.21:663][994]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.08.22-09.58.21:664][994]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.08.22-09.58.21:665][994]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.08.22-09.58.21:665][994]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.08.22-09.58.21:665][994]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.08.22-09.58.21:666][994]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.08.22-09.58.21:666][994]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.08.22-09.58.21:666][994]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.08.22-09.58.21:667][994]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.08.22-09.58.21:668][994]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.08.22-09.58.21:668][994]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.08.22-09.58.21:670][994]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.08.22-09.58.21:671][994]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.08.22-09.58.21:671][994]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.08.22-09.58.21:672][994]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.08.22-09.58.21:673][994]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.08.22-09.58.21:731][994]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.08.22-09.58.21:732][994]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.08.22-09.58.21:735][994]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.08.22-09.58.21:737][994]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.08.22-09.58.21:737][994]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.08.22-09.58.21:738][994]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.08.22-09.58.21:739][994]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.08.22-09.58.21:741][994]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.08.22-09.58.21:741][994]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.08.22-09.58.21:742][994]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.08.22-09.58.21:768][994]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.08.22-09.58.21:775][994]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.08.22-09.58.21:775][994]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.08.22-09.58.21:777][994]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.08.22-09.58.21:779][994]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.08.22-09.58.21:780][994]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.08.22-09.58.21:780][994]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.08.22-09.58.21:781][994]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.08.22-09.58.21:781][994]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.08.22-09.58.21:781][994]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.08.22-09.58.21:781][994]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.08.22-09.58.21:785][994]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.08.22-09.58.21:785][994]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.08.22-09.58.21:785][994]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.08.22-09.58.21:785][994]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.08.22-09.58.21:785][994]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.08.22-09.58.21:785][994]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.08.22-09.58.21:785][994]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.08.22-09.58.21:785][994]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.08.22-09.58.21:785][994]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.08.22-09.58.21:786][994]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.08.22-09.58.21:803][994]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.08.22-09.58.21:804][994]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.08.22-09.58.21:804][994]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.08.22-09.58.21:804][994]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.08.22-09.58.21:805][994]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.08.22-09.58.21:805][994]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.08.22-09.58.21:805][994]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.08.22-09.58.21:806][994]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.08.22-09.58.21:806][994]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.08.22-09.58.21:806][994]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.08.22-09.58.21:806][994]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.08.22-09.58.21:810][994]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.08.22-09.58.21:810][994]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.08.22-09.58.21:811][994]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.08.22-09.58.21:811][994]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.08.22-09.58.21:811][994]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.08.22-09.58.21:811][994]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.08.22-09.58.21:811][994]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.08.22-09.58.21:814][994]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.08.22-09.58.21:815][994]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.08.22-09.58.21:816][994]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.08.22-09.58.21:816][994]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.08.22-09.58.21:816][994]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.08.22-09.58.21:817][994]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.08.22-09.58.21:819][994]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.08.22-09.58.21:820][994]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.08.22-09.58.21:820][994]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.08.22-09.58.21:820][994]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.08.22-09.58.21:820][994]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.08.22-09.58.21:820][994]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.08.22-09.58.21:821][994]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.08.22-09.58.21:821][994]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.08.22-09.58.21:824][994]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.08.22-09.58.21:826][994]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.08.22-09.58.21:826][994]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.08.22-09.58.21:829][994]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.08.22-09.58.21:829][994]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.08.22-09.58.21:829][994]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.08.22-09.58.21:829][994]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.08.22-09.58.21:829][994]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.08.22-09.58.21:829][994]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.08.22-09.58.21:829][994]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.08.22-09.58.21:830][994]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.08.22-09.58.21:931][994]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.08.22-09.58.22:035][994]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.08.22-09.58.22:040][994]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.08.22-09.58.22:040][994]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.08.22-09.58.22:040][994]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.08.22-09.58.22:042][994]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.08.22-09.58.22:042][994]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.08.22-09.58.22:045][994]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.08.22-09.58.22:045][994]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.08.22-09.58.22:046][994]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.08.22-09.58.22:047][994]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.08.22-09.58.22:049][994]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.08.22-09.58.22:049][994]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.08.22-09.58.22:049][994]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.08.22-09.58.22:050][994]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.08.22-09.58.22:050][994]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.08.22-09.58.22:051][994]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.08.22-09.58.22:051][994]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.08.22-09.58.22:052][994]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.08.22-09.58.22:052][994]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.08.22-09.58.22:052][994]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.08.22-09.58.22:055][994]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.08.22-09.58.22:055][994]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.08.22-09.58.22:056][994]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.08.22-09.58.22:056][994]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.08.22-09.58.22:058][994]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.08.22-09.58.22:060][994]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.08.22-09.58.22:062][994]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.08.22-09.58.22:062][994]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.08.22-09.58.22:065][994]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.08.22-09.58.22:065][994]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.08.22-09.58.22:081][994]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.08.22-09.58.22:081][994]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.08.22-09.58.22:081][994]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.08.22-09.58.22:081][994]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.08.22-09.58.22:081][994]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.08.22-09.58.22:081][994]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.08.22-09.58.22:082][994]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.08.22-09.58.22:082][994]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.08.22-09.58.22:082][994]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.08.22-09.58.22:086][994]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.08.22-09.58.22:088][994]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.08.22-09.58.22:089][994]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.08.22-09.58.22:090][994]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.08.22-09.58.22:091][994]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.08.22-09.58.22:092][994]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.08.22-09.58.22:093][994]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.08.22-09.58.22:161][994]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.22-09.58.22:236][994]LogDerivedDataCache: Shutdown
+[2017.08.22-09.58.22:236][994]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.22-09.58.22:236][994]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.22-09.58.22:238][994]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.22-09.58.22:239][994]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.22-09.58.22:240][994]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.22-09.58.22:241][994]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.22-09.58.22:243][994]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.22-09.58.22:243][994]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.22-09.58.22:245][994]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.22-09.58.22:245][994]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.22-09.58.22:248][994]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.22-09.58.22:248][994]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.22-09.58.22:248][994]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.22-09.58.22:249][994]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.22-09.58.22:249][994]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.22-09.58.22:250][994]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.22-09.58.22:251][994]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.22-09.58.22:251][994]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.22-09.58.22:252][994]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.22-09.58.22:253][994]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.22-09.58.22:253][994]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.22-09.58.22:254][994]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.22-09.58.22:254][994]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.22-09.58.22:254][994]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.22-09.58.22:255][994]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.22-09.58.22:255][994]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.22-09.58.22:256][994]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.22-09.58.22:256][994]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.22-09.58.22:256][994]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.22-09.58.22:256][994]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.22-09.58.22:256][994]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.22-09.58.22:256][994]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.22-09.58.22:256][994]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.22-09.58.22:257][994]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.22-09.58.22:257][994]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.22-09.58.22:258][994]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.22-09.58.22:259][994]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.22-09.58.22:260][994]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.22-09.58.22:260][994]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.22-09.58.22:261][994]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.22-09.58.22:262][994]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.22-09.58.22:262][994]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.22-09.58.22:262][994]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.22-09.58.22:263][994]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.08.22-09.58.22:264][994]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.08.22-09.58.22:264][994]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.08.22-09.58.22:264][994]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.22-09.58.22:265][994]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.22-09.58.22:265][994]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.22-09.58.22:265][994]LogOnline: Display: Unloading online subsystem: NULL
+[2017.08.22-09.58.22:268][994]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.22-09.58.22:273][994]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.22-09.58.22:273][994]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.22-09.58.22:274][994]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5106FA5D-4CC1-9FA5-5FA7-63859299FFF2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=d84344c44f5c584027c6d4bac1d083d7%7Cc195531ede5240b6803ccd3ec5341de7%7C9d0e379b-f9c5-4873-a6b2-123584b2f00f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.22-09.58.22:293][994]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.22-09.58.22:306][994]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.08.22-09.58.22:307][994]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.08.22-09.58.22:308][994]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.08.22-09.58.22:310][994]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.08.22-09.58.22:312][994]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.08.22-09.58.22:312][994]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.08.22-09.58.22:312][994]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.08.22-09.58.22:344][994]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.08.22-09.58.22:345][994]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.08.22-09.58.22:345][994]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.08.22-09.58.22:345][994]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.08.22-09.58.22:345][994]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.08.22-09.58.22:345][994]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.08.22-09.58.22:345][994]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.08.22-09.58.22:346][994]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.08.22-09.58.22:346][994]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.22-09.58.22:347][994]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.22-09.58.22:347][994]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.22-09.58.22:353][994]LogExit: Exiting.
+[2017.08.22-09.58.22:506][994]Log file closed, 08/22/17 19:28:22
