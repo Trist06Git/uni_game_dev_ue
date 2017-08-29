@@ -1,0 +1,588 @@
+<<<<<<< HEAD
+﻿Log file open, 08/22/17 13:38:28
+=======
+﻿Log file open, 08/22/17 13:26:13
+>>>>>>> a04a9080133e16f6819273224f26df1a20b9b73b
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: git_test
+LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
+LogInit: Display: RandInit(-1309536410) SRandInit(-1309536410).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.444330
+=======
+LogInit: Display: RandInit(633938117) SRandInit(633938118).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.331622
+>>>>>>> a04a9080133e16f6819273224f26df1a20b9b73b
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+<<<<<<< HEAD
+[2017.08.22-04.08.31:083][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.22-04.08.31:083][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.22-04.08.31:191][  0]LogInit: Computer: MYTHIC1
+[2017.08.22-04.08.31:191][  0]LogInit: User: Owner
+[2017.08.22-04.08.31:191][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.22-04.08.31:191][  0]LogInit: High frequency timer resolution =1.948750 MHz
+[2017.08.22-04.08.31:192][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2017.08.22-04.08.31:192][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.22-04.08.31:192][  0]LogMemory: Process Physical Memory: 283.01 MB used, 283.01 MB peak
+[2017.08.22-04.08.31:193][  0]LogMemory: Process Virtual Memory: 278.46 MB used, 278.46 MB peak
+[2017.08.22-04.08.31:193][  0]LogMemory: Physical Memory: 2191.18 MB used,  3804.68 MB free, 5995.86 MB total
+[2017.08.22-04.08.31:193][  0]LogMemory: Virtual Memory: 656.39 MB used,  3804.68 MB free, 8388608.00 MB total
+[2017.08.22-04.08.32:447][  0]LogInit: Using OS detected language (en-AU).
+[2017.08.22-04.08.32:447][  0]LogInit: Using OS detected locale (en-AU).
+[2017.08.22-04.08.32:552][  0]LogTextLocalizationManager: No specific localization for 'en-AU' exists, so the 'en' localization will be used.
+[2017.08.22-04.08.37:168][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.22-04.08.37:311][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 540M' (Feature Level 11_0)
+[2017.08.22-04.08.37:311][  0]LogD3D11RHI:       2000/0/2047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.22-04.08.37:379][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 540M' (Feature Level 11_0)
+[2017.08.22-04.08.37:379][  0]LogD3D11RHI:       2000/0/2047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.08.22-04.08.37:379][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.22-04.08.37:408][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.22-04.08.37:408][  0]LogD3D11RHI:     GPU DeviceId: 0xdf4 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.22-04.08.37:408][  0]LogWindows: EnumDisplayDevices:
+[2017.08.22-04.08.37:409][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.08.22-04.08.37:410][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.08.22-04.08.37:411][  0]LogWindows:    2. 'NVIDIA GeForce GT 540M' (P:0 D:0)
+[2017.08.22-04.08.37:412][  0]LogWindows:    3. 'NVIDIA GeForce GT 540M' (P:0 D:0)
+[2017.08.22-04.08.37:413][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.08.22-04.08.37:413][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.08.22-04.08.37:414][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.08.22-04.08.37:414][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2017.08.22-04.08.37:414][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 540M
+[2017.08.22-04.08.37:414][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.08.22-04.08.37:414][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.08.22-04.08.37:414][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.22-04.08.37:476][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.08.22-04.08.37:476][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.22-04.08.37:517][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.22-04.08.37:521][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Intermediate/Shaders/WorkingDirectory/5908/).
+[2017.08.22-04.08.37:522][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/F1F25D344BEA0750182B2F82387D4442/'.
+[2017.08.22-04.08.37:522][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.22-04.08.43:712][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.22-04.08.43:901][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.22-04.08.44:159][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.22-04.08.44:420][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.22-04.08.44:701][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.22-04.08.44:967][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.22-04.08.45:240][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.22-04.08.45:475][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.22-04.08.45:685][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.22-04.08.45:920][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.22-04.08.46:153][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.22-04.08.46:380][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.22-04.08.46:606][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.22-04.08.46:855][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.22-04.08.47:082][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.22-04.08.47:537][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.22-04.08.47:537][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.22-04.08.47:751][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.22-04.08.48:129][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.22-04.08.48:270][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.22-04.08.48:497][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.22-04.08.48:732][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.22-04.08.48:956][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.22-04.08.49:190][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.22-04.08.49:190][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.22-04.08.51:195][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.22-04.08.52:822][  0]LogDerivedDataCache: Loaded boot cache 1.63s 93MB C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.22-04.08.52:822][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.22-04.08.52:822][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.22-04.08.52:823][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.22-04.08.52:823][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.22-04.08.52:823][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.22-04.08.52:911][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.22-04.08.52:926][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.22-04.08.52:976][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.22-04.08.52:978][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.22-04.08.52:980][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.22-04.08.52:980][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.22-04.08.54:167][  0]LogAssetRegistry: FAssetRegistry took 0.0422 seconds to start up
+[2017.08.22-04.08.54:831][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.22-04.08.54:848][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.22-04.08.56:363][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.22-04.08.56:497][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.22-04.08.56:497][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.22-04.08.56:497][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.22-04.08.56:497][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.22-04.08.56:497][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.22-04.08.58:205][  0]LogNetVersion: git_test , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2423607881)
+[2017.08.22-04.08.59:129][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.193001 seconds
+[2017.08.22-04.08.59:152][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.22-04.08.59:153][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.08.22-04.08.59:153][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.22-04.08.59:395][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.22-04.09.09:521][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.22-04.09.09:613][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.22-04.09.12:810][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.22-04.09.14:996][  0]SourceControl: Source control is disabled
+[2017.08.22-04.09.20:860][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.22-04.09.21:943][  0]LogOcInput: OculusInput pre-init called
+[2017.08.22-04.09.22:988][  0]LogEngine: Initializing Engine...
+[2017.08.22-04.09.22:993][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.22-04.09.23:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.22-04.09.23:740][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.22-04.09.24:219][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.22-04.09.24:266][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-04.09.24:577][  0]LogInit: FAudioDevice initialized.
+[2017.08.22-04.09.24:857][  0]LogDerivedDataCache: Saved boot cache 0.28s 93MB C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.22-04.09.24:890][  0]LogInit: Texture streaming: Enabled
+[2017.08.22-04.09.25:222][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.22-04.09.25:843][  0]LogInit: Transaction tracking system initialized
+[2017.08.22-04.09.26:994][  0]BlueprintLog: New page: Editor Load
+[2017.08.22-04.09.31:394][  0]LocalizationService: Localization service is disabled
+[2017.08.22-04.09.35:925][  0]LogConsoleResponse: Display: 
+[2017.08.22-04.09.36:472][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.22-04.09.36:473][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.22-04.09.36:473][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.22-04.09.36:954][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Content/' took 0.02s
+[2017.08.22-04.09.39:490][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.22-04.09.39:508][  0]LightingResults: New page: Lighting Build
+[2017.08.22-04.09.39:618][  0]MapCheck: New page: Map Check
+[2017.08.22-04.09.39:618][  0]LightingResults: New page: Lighting Build
+[2017.08.22-04.09.44:521][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-04.09.44:601][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.22-04.09.44:602][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.22-04.09.44:602][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.22-04.09.44:622][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.22-04.09.44:628][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.22-04.09.44:741][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.22-04.09.44:998][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 257.182ms to complete.
+[2017.08.22-04.09.44:999][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 5.509
+[2017.08.22-04.09.45:653][  0]LogCollectionManager: Loaded 0 collections in 0.009691 seconds
+[2017.08.22-04.09.45:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Collections/' took 0.01s
+[2017.08.22-04.09.45:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Content/Developers/Owner/Collections/' took 0.02s
+[2017.08.22-04.09.45:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Content/Collections/' took 0.00s
+[2017.08.22-04.09.45:895][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.22-04.09.45:941][  0]LogContentBrowser: Native class hierarchy populated in 0.0462 seconds. Added 2386 classes and 500 folders.
+[2017.08.22-04.09.46:236][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0031 seconds. Added 0 classes and 0 folders.
+[2017.08.22-04.09.46:438][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0030 seconds. Added 0 classes and 0 folders.
+[2017.08.22-04.09.46:645][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0030 seconds. Added 1 classes and 2 folders.
+[2017.08.22-04.09.46:737][  0]LogSlate: Took 0.000643 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.22-04.09.46:749][  0]LogSlate: Took 0.000757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.22-04.09.46:775][  0]LogSlate: Took 0.000711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.22-04.09.47:198][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 9 NumSamples 1 (Frame:1).
+[2017.08.22-04.09.48:037][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.08.22-04.09.48:038][  0]LogLoad: (Engine Initialization) Total time: 84.74 seconds
+[2017.08.22-04.09.48:038][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.22-04.09.48:038][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.22-04.09.48:039][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.22-04.09.48:415][  0]SourceControl: On branch master
+[2017.08.22-04.09.48:415][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.08.22-04.09.48:415][  0]SourceControl: Changes not staged for commit:
+[2017.08.22-04.09.48:416][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.08.22-04.09.48:416][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Config/DefaultEngine.ini
+[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Content/FirstPersonBP/Blueprints/Buildings/OutdoorHallwayTest.uasset
+[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap
+[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Content/FirstPersonBP/Maps/TestExampleMap1_BuiltData.uasset
+[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Intermediate/CachedAssetRegistry.bin
+[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Saved/AutoScreenshot.png
+[2017.08.22-04.09.48:417][  0]SourceControl: 	modified:   git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.08.22-04.09.48:417][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-11-25-38.umap
+[2017.08.22-04.09.48:417][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-11-39-14.umap
+[2017.08.22-04.09.48:417][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-11-57-16.umap
+[2017.08.22-04.09.48:417][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-12-07-17.umap
+[2017.08.22-04.09.48:417][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-12-17-45.umap
+[2017.08.22-04.09.48:417][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-12-29-17.umap
+[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-12-40-13.umap
+[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-12-52-06.umap
+[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-13-02-07.umap
+[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-13-12-08.umap
+[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-13-29-12.umap
+[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-13-43-27.umap
+[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-14-18-56.umap
+[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-15-46-19.umap
+[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-15-56-26.umap
+[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-16-06-46.umap
+[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-16-20-58.umap
+[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-17-09-38.umap
+[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-17-35-01.umap
+[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-17-55-45.umap
+[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-18-07-10.umap
+[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-18-13-05.umap
+[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_BuiltData_2017-08-15-11-41-35.uasset
+[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_BuiltData_2017-08-15-12-17-46.uasset
+[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_BuiltData_2017-08-15-18-13-06.uasset
+[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/Floor_400x400_2017-08-15-11-21-36.uasset
+[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/test_2017-08-15-11-51-58.uasset
+[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-061BF9184ECD65254410CFA24683E768/CrashReportClient.ini
+[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-23CAD16E437439B30ACE59A7D04BF799/CrashReportClient.ini
+[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-24FF865C42A72E254A094CB60238DD70/CrashReportClient.ini
+[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-3DD715C341CC50D8245406846550C678/CrashReportClient.ini
+[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-590BCB0A4C2A497EDC4A18A5753F704C/CrashReportClient.ini
+[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-651603804701165DD06DCCA3BF8BD845/CrashReportClient.ini
+[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-E51DB1924EEA82E54B9E51889496B30F/CrashReportClient.ini
+[2017.08.22-04.09.48:420][  0]SourceControl: 	modified:   git_test/Saved/Config/Windows/Editor.ini
+[2017.08.22-04.09.48:420][  0]SourceControl: 	modified:   git_test/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.08.22-04.09.48:420][  0]SourceControl: 	modified:   git_test/Saved/Config/Windows/Engine.ini
+[2017.08.22-04.09.48:420][  0]SourceControl: 	modified:   git_test/Saved/Config/WorldState/2733464406.json
+[2017.08.22-04.09.48:421][  0]SourceControl: 	deleted:    git_test/Saved/Logs/git_test-backup-2017.08.15-11.33.06.log
+[2017.08.22-04.09.48:421][  0]SourceControl: 	modified:   git_test/Saved/Logs/git_test.log
+[2017.08.22-04.09.48:421][  0]SourceControl: Untracked files:
+[2017.08.22-04.09.48:421][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/07a2eaed.bin
+[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/2c752180.bin
+[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/5d95dedb.bin
+[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/8e3658b0.bin
+[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/c9054a63.bin
+[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/TestExampleMap1_Auto1.umap
+[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/TestExampleMap1_Auto2.umap
+[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/EntryHallTest_2017-08-22-10-58-33.uasset
+[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/EntryHallTest_2017-08-22-11-08-00.uasset
+[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/EntryHallTest_2017-08-22-11-14-37.uasset
+[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/EntryHallTest_2017-08-22-11-19-38.uasset
+[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/EntryHallTest_2017-08-22-11-39-00.uasset
+[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/FirstPersonCharacter_2017-08-22-11-50-58.uasset
+[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/FirstPersonCharacter_2017-08-22-12-28-46.uasset
+[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/FirstPersonExampleMap_2017-08-22-09-21-27.umap
+[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/OutdoorHallwayTest_2017-08-22-11-23-47.uasset
+[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/OutdoorHallwayTest_2017-08-22-11-32-32.uasset
+[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/OutdoorHallwayTest_2017-08-22-12-45-18.uasset
+[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/OutdoorHallwayTest_2017-08-22-13-32-08.uasset
+[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/SmallRoomTest_2017-08-22-12-36-32.uasset
+[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-10-39-45.umap
+[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-11-34-48.umap
+[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-11-39-57.umap
+[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-11-49-54.umap
+[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-12-23-55.umap
+[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-12-38-58.umap
+[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-12-51-03.umap
+[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-13-26-50.umap
+[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-13-37-05.umap
+[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-11-36-37.uasset
+[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-11-42-49.uasset
+[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-11-49-57.uasset
+[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-12-23-59.uasset
+[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-12-39-01.uasset
+[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-12-51-06.uasset
+[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-13-27-08.uasset
+[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-68D77EFB45153B8DEA57AAAEB1EA4338/
+[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-80659E52447C5BED6A8DCDB50AF8FB60/
+[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-8D51C972489E991F5EB47CAF992ACA9F/
+[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-980B56AF46B7559A933194B793A944EC/
+[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Config/WorldState/3651313491.json
+[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Crashes/UE4CC-Windows-80659E52447C5BED6A8DCDB50AF8FB60_0000/
+[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.22-08.58.03.log
+[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.22-10.37.57.log
+[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.22-12.05.46.log
+[2017.08.22-04.09.48:426][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.22-13.38.27.log
+[2017.08.22-04.09.48:426][  0]SourceControl: 	sh.exe.stackdump
+[2017.08.22-04.09.48:426][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.08.22-04.09.48:427][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.08.22-04.09.48:647][  0]LogSlate: Took 0.000960 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.22-04.09.49:405][  3]LogSlate: Took 0.000728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.22-04.09.50:069][  5]LogAssetRegistry: Asset discovery search completed in 55.9229 seconds
+[2017.08.22-04.09.50:077][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.08.22-04.09.50:077][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000236 seconds (updated 0 objects)
+[2017.08.22-04.14.03:122][ 41]LogSlate: Took 0.000583 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.22-04.14.04:793][ 41]LogAIModule: Creating AISystem for world TestExampleMap1
+[2017.08.22-04.14.05:044][ 41]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.22-04.14.05:045][ 41]LightingResults: New page: Lighting Build
+[2017.08.22-04.14.05:049][ 41]LoadErrors: New page: Loading map: TestExampleMap1.umap
+[2017.08.22-04.14.05:065][ 41]MapCheck: New page: Map Check
+[2017.08.22-04.14.05:066][ 41]LightingResults: New page: Lighting Build
+[2017.08.22-04.14.08:104][ 41]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2017.08.22-04.14.08:404][ 41]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.22-04.14.08:407][ 41]LogSlate: Took 0.000554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.22-04.14.08:724][ 41]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 319.377ms to complete.
+[2017.08.22-04.14.08:728][ 41]LogFileHelpers: Loading map 'TestExampleMap1' took 3.689
+[2017.08.22-04.14.10:949][102]LogEditorViewport: Clicking on Actor (LMB): OutdoorHallwayTest_C (OutdoorHallwayTest)
+[2017.08.22-04.14.13:369][168]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+=======
+[2017.08.22-03.56.16:407][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.22-03.56.16:408][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.22-03.56.16:450][  0]LogInit: Computer: TRIST-SURFACE
+[2017.08.22-03.56.16:450][  0]LogInit: User: Tristan
+[2017.08.22-03.56.16:450][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.22-03.56.16:450][  0]LogInit: High frequency timer resolution =2.435766 MHz
+[2017.08.22-03.56.16:451][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.22-03.56.16:451][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.22-03.56.16:451][  0]LogMemory: Process Physical Memory: 274.94 MB used, 274.94 MB peak
+[2017.08.22-03.56.16:451][  0]LogMemory: Process Virtual Memory: 275.90 MB used, 275.90 MB peak
+[2017.08.22-03.56.16:451][  0]LogMemory: Physical Memory: 5258.09 MB used,  2844.46 MB free, 8102.55 MB total
+[2017.08.22-03.56.16:451][  0]LogMemory: Virtual Memory: 646.41 MB used,  2844.46 MB free, 134217728.00 MB total
+[2017.08.22-03.56.17:212][  0]LogInit: Using OS detected language (en-GB).
+[2017.08.22-03.56.17:212][  0]LogInit: Using OS detected locale (en-AU).
+[2017.08.22-03.56.17:233][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.08.22-03.56.20:230][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.22-03.56.20:251][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.08.22-03.56.20:251][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.22-03.56.20:257][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.22-03.56.20:257][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.22-03.56.20:257][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.22-03.56.20:272][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.22-03.56.20:272][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.22-03.56.20:272][  0]LogWindows: EnumDisplayDevices:
+[2017.08.22-03.56.20:273][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.08.22-03.56.20:274][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.08.22-03.56.20:275][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.08.22-03.56.20:275][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.08.22-03.56.20:275][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2017.08.22-03.56.20:275][  0]LogD3D11RHI:   Driver Version: 10.18.14.4170 (internal:10.18.14.4170, unified:10.18.14.4170)
+[2017.08.22-03.56.20:275][  0]LogD3D11RHI:      Driver Date: 3-16-2015
+[2017.08.22-03.56.20:275][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2017.08.22-03.56.20:296][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.22-03.56.20:313][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.08.22-03.56.20:316][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Intermediate/Shaders/WorkingDirectory/4020/).
+[2017.08.22-03.56.20:317][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tristan/AppData/Local/Temp/UnrealShaderWorkingDir/BDC9CB3B4C24A11BC9B2FDAF9C05004D/'.
+[2017.08.22-03.56.20:317][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.22-03.56.24:573][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.22-03.56.24:763][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.22-03.56.24:949][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.22-03.56.25:170][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.22-03.56.25:436][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.22-03.56.25:785][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.22-03.56.26:033][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.22-03.56.26:292][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.22-03.56.26:494][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.22-03.56.26:730][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.22-03.56.27:029][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.22-03.56.27:321][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.22-03.56.27:561][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.22-03.56.27:802][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.22-03.56.28:041][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.22-03.56.28:628][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.22-03.56.28:628][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.22-03.56.28:817][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.22-03.56.29:169][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.22-03.56.29:311][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.22-03.56.29:541][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.22-03.56.29:817][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.22-03.56.30:069][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.22-03.56.30:310][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.22-03.56.30:311][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.22-03.56.32:526][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.22-03.56.32:878][  0]LogDerivedDataCache: Loaded boot cache 0.35s 93MB C:/Users/Tristan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.22-03.56.32:879][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tristan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.22-03.56.32:879][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.22-03.56.32:879][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.22-03.56.32:880][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.22-03.56.32:880][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.22-03.56.32:958][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.22-03.56.32:975][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tristan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.22-03.56.33:019][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.22-03.56.33:021][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.22-03.56.33:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.22-03.56.33:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.22-03.56.34:174][  0]LogAssetRegistry: FAssetRegistry took 0.0432 seconds to start up
+[2017.08.22-03.56.34:848][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.22-03.56.35:620][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.22-03.56.37:004][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.22-03.56.37:196][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.22-03.56.37:196][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.22-03.56.37:196][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.22-03.56.37:196][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.22-03.56.37:196][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.22-03.56.38:832][  0]LogNetVersion: git_test , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2423607881)
+[2017.08.22-03.56.39:860][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.269901 seconds
+[2017.08.22-03.56.39:881][  0]LogUObjectArray: 35826 objects as part of root set at end of initial load.
+[2017.08.22-03.56.39:881][  0]LogUObjectAllocator: 7529336 out of 0 bytes used by permanent object pool.
+[2017.08.22-03.56.39:881][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.22-03.56.40:155][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.22-03.56.52:456][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.22-03.56.52:607][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.22-03.56.55:511][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.22-03.56.57:462][  0]SourceControl: Source control is disabled
+[2017.08.22-03.57.03:274][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.22-03.57.04:470][  0]LogOcInput: OculusInput pre-init called
+[2017.08.22-03.57.05:677][  0]LogEngine: Initializing Engine...
+[2017.08.22-03.57.05:686][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.22-03.57.06:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.22-03.57.06:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.22-03.57.07:345][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.22-03.57.07:376][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-03.57.07:629][  0]LogInit: FAudioDevice initialized.
+[2017.08.22-03.57.08:476][  0]LogDerivedDataCache: Saved boot cache 0.85s 93MB C:/Users/Tristan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.22-03.57.08:516][  0]LogInit: Texture streaming: Enabled
+[2017.08.22-03.57.09:079][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.22-03.57.10:156][  0]LogInit: Transaction tracking system initialized
+[2017.08.22-03.57.11:724][  0]BlueprintLog: New page: Editor Load
+[2017.08.22-03.57.16:179][  0]LocalizationService: Localization service is disabled
+[2017.08.22-03.57.20:733][  0]LogConsoleResponse: Display: 
+[2017.08.22-03.57.21:695][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.22-03.57.21:695][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.22-03.57.21:695][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.22-03.57.21:864][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/' took 0.04s
+[2017.08.22-03.57.27:046][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.22-03.57.27:048][  0]LightingResults: New page: Lighting Build
+[2017.08.22-03.57.27:258][  0]MapCheck: New page: Map Check
+[2017.08.22-03.57.27:258][  0]LightingResults: New page: Lighting Build
+[2017.08.22-03.57.29:811][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.22-03.57.29:992][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.22-03.57.29:993][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.22-03.57.29:993][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.22-03.57.30:035][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.22-03.57.30:044][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.22-03.57.30:183][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.22-03.57.30:547][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 363.714ms to complete.
+[2017.08.22-03.57.30:548][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.502
+[2017.08.22-03.57.30:641][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.22-03.57.30:641][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.22-03.57.31:147][  0]LogCollectionManager: Loaded 0 collections in 0.009461 seconds
+[2017.08.22-03.57.31:451][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Collections/' took 0.01s
+[2017.08.22-03.57.31:452][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/Developers/Tristan/Collections/' took 0.01s
+[2017.08.22-03.57.31:452][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/Collections/' took 0.01s
+[2017.08.22-03.57.31:452][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.22-03.57.31:494][  0]LogContentBrowser: Native class hierarchy populated in 0.0419 seconds. Added 2386 classes and 500 folders.
+[2017.08.22-03.57.31:733][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2017.08.22-03.57.31:925][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0028 seconds. Added 0 classes and 0 folders.
+[2017.08.22-03.57.32:145][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.08.22-03.57.32:234][  0]LogSlate: Took 0.000902 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.22-03.57.32:244][  0]LogSlate: Took 0.001567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.22-03.57.32:277][  0]LogSlate: Took 0.001051 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.22-03.57.32:747][  0]LogRenderer: Reallocating scene render targets to support 732x344 Format 9 NumSamples 1 (Frame:1).
+[2017.08.22-03.57.34:413][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2017.08.22-03.57.34:413][  0]LogLoad: (Engine Initialization) Total time: 84.05 seconds
+[2017.08.22-03.57.34:413][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.22-03.57.34:414][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.22-03.57.34:446][  0]SourceControl: On branch master
+[2017.08.22-03.57.34:447][  0]SourceControl: Your branch is ahead of 'origin/master' by 1 commit.
+[2017.08.22-03.57.34:447][  0]SourceControl:   (use "git push" to publish your local commits)
+[2017.08.22-03.57.34:447][  0]SourceControl: Changes not staged for commit:
+[2017.08.22-03.57.34:447][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.08.22-03.57.34:447][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.08.22-03.57.34:447][  0]SourceControl: 	modified:   git_test/Intermediate/CachedAssetRegistry.bin
+[2017.08.22-03.57.34:447][  0]SourceControl: 	modified:   git_test/Saved/Config/Windows/Editor.ini
+[2017.08.22-03.57.34:447][  0]SourceControl: 	modified:   git_test/Saved/Config/Windows/Engine.ini
+[2017.08.22-03.57.34:447][  0]SourceControl: 	modified:   git_test/Saved/Logs/git_test.log
+[2017.08.22-03.57.34:447][  0]SourceControl: Untracked files:
+[2017.08.22-03.57.34:447][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.08.22-03.57.34:447][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-67469FD94849F7F8637C7BB6B084A7DC/
+[2017.08.22-03.57.34:447][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.22-13.26.13.log
+[2017.08.22-03.57.34:447][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.08.22-03.57.34:448][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.08.22-03.57.34:469][  0]LogSlate: Took 0.000852 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.22-03.57.35:394][  5]LogAssetRegistry: Asset discovery search completed in 61.2427 seconds
+[2017.08.22-03.57.35:401][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.22-03.57.35:401][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000165 seconds (updated 0 objects)
+[2017.08.22-03.57.53:736][594]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0038 seconds. Added 2 classes and 3 folders.
+[2017.08.22-03.58.19:586][374]LogSlate: Took 0.000793 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.22-03.58.20:256][374]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.08.22-03.58.20:256][374]LogStaticMesh: Building static mesh Floor_400x400...
+[2017.08.22-03.58.20:258][374]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2017.08.22-03.58.20:502][374]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.08.22-03.58.20:881][374]LogAIModule: Creating AISystem for world TestExampleMap1
+[2017.08.22-03.58.21:226][374]Cmd: MAP LOAD FILE="../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.22-03.58.21:227][374]LightingResults: New page: Lighting Build
+[2017.08.22-03.58.21:230][374]LoadErrors: New page: Loading map: TestExampleMap1.umap
+[2017.08.22-03.58.21:238][374]MapCheck: New page: Map Check
+[2017.08.22-03.58.21:238][374]LightingResults: New page: Lighting Build
+[2017.08.22-03.58.21:683][374]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.22-03.58.21:899][374]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.22-03.58.22:270][374]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 369.858ms to complete.
+[2017.08.22-03.58.22:273][374]LogSlate: Took 0.000548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.22-03.58.22:283][374]LogFileHelpers: Loading map 'TestExampleMap1' took 1.059
+[2017.08.22-04.04.13:579][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube_Chamfer)
+[2017.08.22-04.04.14:878][879]Cmd: EDIT COPY
+[2017.08.22-04.04.15:066][884]Cmd: EDIT PASTE
+[2017.08.22-04.04.56:132][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube)
+[2017.08.22-04.07.32:359][428]LogSavePackage: Save=2427.34ms
+[2017.08.22-04.07.32:359][428]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/TestExampleMap12534E95A4051EC16AF392DB18EF51F9F.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap'
+[2017.08.22-04.07.32:395][428]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap
+[2017.08.22-04.07.32:555][428]LogFileHelpers: Saving map 'TestExampleMap1' took 3.133
+>>>>>>> a04a9080133e16f6819273224f26df1a20b9b73b

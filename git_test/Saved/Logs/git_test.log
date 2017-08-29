@@ -1,22 +1,12 @@
-<<<<<<< HEAD
-﻿Log file open, 08/22/17 13:38:28
-=======
-﻿Log file open, 08/22/17 13:26:13
->>>>>>> a04a9080133e16f6819273224f26df1a20b9b73b
+﻿Log file open, 08/29/17 10:31:38
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: git_test
 LogPlatformFile: Not using cached read wrapper
-<<<<<<< HEAD
-LogInit: Display: RandInit(-1309536410) SRandInit(-1309536410).
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.444330
-=======
-LogInit: Display: RandInit(633938117) SRandInit(633938118).
+LogInit: Display: RandInit(-2137647103) SRandInit(-2137647103).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.331622
->>>>>>> a04a9080133e16f6819273224f26df1a20b9b73b
+LogStats: Stats thread started at 0.375031
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -118,471 +108,896 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-<<<<<<< HEAD
-[2017.08.22-04.08.31:083][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.22-04.08.31:083][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.22-04.08.31:191][  0]LogInit: Computer: MYTHIC1
-[2017.08.22-04.08.31:191][  0]LogInit: User: Owner
-[2017.08.22-04.08.31:191][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.08.22-04.08.31:191][  0]LogInit: High frequency timer resolution =1.948750 MHz
-[2017.08.22-04.08.31:192][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
-[2017.08.22-04.08.31:192][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.22-04.08.31:192][  0]LogMemory: Process Physical Memory: 283.01 MB used, 283.01 MB peak
-[2017.08.22-04.08.31:193][  0]LogMemory: Process Virtual Memory: 278.46 MB used, 278.46 MB peak
-[2017.08.22-04.08.31:193][  0]LogMemory: Physical Memory: 2191.18 MB used,  3804.68 MB free, 5995.86 MB total
-[2017.08.22-04.08.31:193][  0]LogMemory: Virtual Memory: 656.39 MB used,  3804.68 MB free, 8388608.00 MB total
-[2017.08.22-04.08.32:447][  0]LogInit: Using OS detected language (en-AU).
-[2017.08.22-04.08.32:447][  0]LogInit: Using OS detected locale (en-AU).
-[2017.08.22-04.08.32:552][  0]LogTextLocalizationManager: No specific localization for 'en-AU' exists, so the 'en' localization will be used.
-[2017.08.22-04.08.37:168][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.22-04.08.37:311][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 540M' (Feature Level 11_0)
-[2017.08.22-04.08.37:311][  0]LogD3D11RHI:       2000/0/2047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.08.22-04.08.37:379][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 540M' (Feature Level 11_0)
-[2017.08.22-04.08.37:379][  0]LogD3D11RHI:       2000/0/2047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
-[2017.08.22-04.08.37:379][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.22-04.08.37:408][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.22-04.08.37:408][  0]LogD3D11RHI:     GPU DeviceId: 0xdf4 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.22-04.08.37:408][  0]LogWindows: EnumDisplayDevices:
-[2017.08.22-04.08.37:409][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
-[2017.08.22-04.08.37:410][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2017.08.22-04.08.37:411][  0]LogWindows:    2. 'NVIDIA GeForce GT 540M' (P:0 D:0)
-[2017.08.22-04.08.37:412][  0]LogWindows:    3. 'NVIDIA GeForce GT 540M' (P:0 D:0)
-[2017.08.22-04.08.37:413][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.08.22-04.08.37:413][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.08.22-04.08.37:414][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.08.22-04.08.37:414][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
-[2017.08.22-04.08.37:414][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 540M
-[2017.08.22-04.08.37:414][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
-[2017.08.22-04.08.37:414][  0]LogD3D11RHI:      Driver Date: 5-17-2017
-[2017.08.22-04.08.37:414][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.08.22-04.08.37:476][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2017.08.22-04.08.37:476][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.22-04.08.37:517][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.08.22-04.08.37:521][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Intermediate/Shaders/WorkingDirectory/5908/).
-[2017.08.22-04.08.37:522][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/F1F25D344BEA0750182B2F82387D4442/'.
-[2017.08.22-04.08.37:522][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.08.22-04.08.43:712][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.22-04.08.43:901][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.08.22-04.08.44:159][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.22-04.08.44:420][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.08.22-04.08.44:701][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.08.22-04.08.44:967][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.22-04.08.45:240][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.22-04.08.45:475][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.22-04.08.45:685][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.08.22-04.08.45:920][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.08.22-04.08.46:153][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.22-04.08.46:380][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.22-04.08.46:606][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.22-04.08.46:855][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.22-04.08.47:082][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.22-04.08.47:537][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.22-04.08.47:537][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.22-04.08.47:751][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.08.22-04.08.48:129][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.08.22-04.08.48:270][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.08.22-04.08.48:497][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.22-04.08.48:732][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.22-04.08.48:956][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.22-04.08.49:190][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.08.22-04.08.49:190][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.08.22-04.08.51:195][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.08.22-04.08.52:822][  0]LogDerivedDataCache: Loaded boot cache 1.63s 93MB C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.08.22-04.08.52:822][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.08.22-04.08.52:822][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.22-04.08.52:823][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.22-04.08.52:823][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.22-04.08.52:823][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.22-04.08.52:911][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.22-04.08.52:926][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.22-04.08.52:976][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.08.22-04.08.52:978][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.22-04.08.52:980][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.22-04.08.52:980][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.22-04.08.54:167][  0]LogAssetRegistry: FAssetRegistry took 0.0422 seconds to start up
-[2017.08.22-04.08.54:831][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.22-04.08.54:848][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.22-04.08.56:363][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.22-04.08.56:497][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.22-04.08.56:497][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.22-04.08.56:497][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.08.22-04.08.56:497][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.08.22-04.08.56:497][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.08.22-04.08.58:205][  0]LogNetVersion: git_test , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2423607881)
-[2017.08.22-04.08.59:129][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.193001 seconds
-[2017.08.22-04.08.59:152][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.08.22-04.08.59:153][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.08.22-04.08.59:153][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.22-04.08.59:395][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.22-04.09.09:521][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.22-04.09.09:613][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.22-04.09.12:810][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.22-04.09.14:996][  0]SourceControl: Source control is disabled
-[2017.08.22-04.09.20:860][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.08.22-04.09.21:943][  0]LogOcInput: OculusInput pre-init called
-[2017.08.22-04.09.22:988][  0]LogEngine: Initializing Engine...
-[2017.08.22-04.09.22:993][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.08.22-04.09.23:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.22-04.09.23:740][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.22-04.09.24:219][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.22-04.09.24:266][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.22-04.09.24:577][  0]LogInit: FAudioDevice initialized.
-[2017.08.22-04.09.24:857][  0]LogDerivedDataCache: Saved boot cache 0.28s 93MB C:/Users/Owner/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.08.22-04.09.24:890][  0]LogInit: Texture streaming: Enabled
-[2017.08.22-04.09.25:222][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.22-04.09.25:843][  0]LogInit: Transaction tracking system initialized
-[2017.08.22-04.09.26:994][  0]BlueprintLog: New page: Editor Load
-[2017.08.22-04.09.31:394][  0]LocalizationService: Localization service is disabled
-[2017.08.22-04.09.35:925][  0]LogConsoleResponse: Display: 
-[2017.08.22-04.09.36:472][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.22-04.09.36:473][  0]LogCook: Display: Mobile HDR setting 1
-[2017.08.22-04.09.36:473][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.08.22-04.09.36:954][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Content/' took 0.02s
-[2017.08.22-04.09.39:490][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.22-04.09.39:508][  0]LightingResults: New page: Lighting Build
-[2017.08.22-04.09.39:618][  0]MapCheck: New page: Map Check
-[2017.08.22-04.09.39:618][  0]LightingResults: New page: Lighting Build
-[2017.08.22-04.09.44:521][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.08.22-04.09.44:601][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
-[2017.08.22-04.09.44:602][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
-[2017.08.22-04.09.44:602][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
-[2017.08.22-04.09.44:622][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
-[2017.08.22-04.09.44:628][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.22-04.09.44:741][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.22-04.09.44:998][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 257.182ms to complete.
-[2017.08.22-04.09.44:999][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 5.509
-[2017.08.22-04.09.45:653][  0]LogCollectionManager: Loaded 0 collections in 0.009691 seconds
-[2017.08.22-04.09.45:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Collections/' took 0.01s
-[2017.08.22-04.09.45:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Content/Developers/Owner/Collections/' took 0.02s
-[2017.08.22-04.09.45:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Content/Collections/' took 0.00s
-[2017.08.22-04.09.45:895][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.08.22-04.09.45:941][  0]LogContentBrowser: Native class hierarchy populated in 0.0462 seconds. Added 2386 classes and 500 folders.
-[2017.08.22-04.09.46:236][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0031 seconds. Added 0 classes and 0 folders.
-[2017.08.22-04.09.46:438][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0030 seconds. Added 0 classes and 0 folders.
-[2017.08.22-04.09.46:645][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0030 seconds. Added 1 classes and 2 folders.
-[2017.08.22-04.09.46:737][  0]LogSlate: Took 0.000643 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.22-04.09.46:749][  0]LogSlate: Took 0.000757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.22-04.09.46:775][  0]LogSlate: Took 0.000711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.22-04.09.47:198][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 9 NumSamples 1 (Frame:1).
-[2017.08.22-04.09.48:037][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
-[2017.08.22-04.09.48:038][  0]LogLoad: (Engine Initialization) Total time: 84.74 seconds
-[2017.08.22-04.09.48:038][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.08.22-04.09.48:038][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.08.22-04.09.48:039][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.08.22-04.09.48:415][  0]SourceControl: On branch master
-[2017.08.22-04.09.48:415][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
-[2017.08.22-04.09.48:415][  0]SourceControl: Changes not staged for commit:
-[2017.08.22-04.09.48:416][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
-[2017.08.22-04.09.48:416][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Config/DefaultEngine.ini
-[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Content/FirstPersonBP/Blueprints/Buildings/OutdoorHallwayTest.uasset
-[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap
-[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Content/FirstPersonBP/Maps/TestExampleMap1_BuiltData.uasset
-[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Intermediate/AssetRegistryCache/c90e3f55.bin
-[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Intermediate/CachedAssetRegistry.bin
-[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
-[2017.08.22-04.09.48:416][  0]SourceControl: 	modified:   git_test/Saved/AutoScreenshot.png
-[2017.08.22-04.09.48:417][  0]SourceControl: 	modified:   git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
-[2017.08.22-04.09.48:417][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-11-25-38.umap
-[2017.08.22-04.09.48:417][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-11-39-14.umap
-[2017.08.22-04.09.48:417][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-11-57-16.umap
-[2017.08.22-04.09.48:417][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-12-07-17.umap
-[2017.08.22-04.09.48:417][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-12-17-45.umap
-[2017.08.22-04.09.48:417][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-12-29-17.umap
-[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-12-40-13.umap
-[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-12-52-06.umap
-[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-13-02-07.umap
-[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-13-12-08.umap
-[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-13-29-12.umap
-[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-13-43-27.umap
-[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-14-18-56.umap
-[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-15-46-19.umap
-[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-15-56-26.umap
-[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-16-06-46.umap
-[2017.08.22-04.09.48:418][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-16-20-58.umap
-[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-17-09-38.umap
-[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-17-35-01.umap
-[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-17-55-45.umap
-[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-18-07-10.umap
-[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_2017-08-15-18-13-05.umap
-[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_BuiltData_2017-08-15-11-41-35.uasset
-[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_BuiltData_2017-08-15-12-17-46.uasset
-[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/FirstPersonExampleMap_BuiltData_2017-08-15-18-13-06.uasset
-[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/Floor_400x400_2017-08-15-11-21-36.uasset
-[2017.08.22-04.09.48:419][  0]SourceControl: 	deleted:    git_test/Saved/Backup/test_2017-08-15-11-51-58.uasset
-[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-061BF9184ECD65254410CFA24683E768/CrashReportClient.ini
-[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-23CAD16E437439B30ACE59A7D04BF799/CrashReportClient.ini
-[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-24FF865C42A72E254A094CB60238DD70/CrashReportClient.ini
-[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-3DD715C341CC50D8245406846550C678/CrashReportClient.ini
-[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-590BCB0A4C2A497EDC4A18A5753F704C/CrashReportClient.ini
-[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-651603804701165DD06DCCA3BF8BD845/CrashReportClient.ini
-[2017.08.22-04.09.48:420][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-E51DB1924EEA82E54B9E51889496B30F/CrashReportClient.ini
-[2017.08.22-04.09.48:420][  0]SourceControl: 	modified:   git_test/Saved/Config/Windows/Editor.ini
-[2017.08.22-04.09.48:420][  0]SourceControl: 	modified:   git_test/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.08.22-04.09.48:420][  0]SourceControl: 	modified:   git_test/Saved/Config/Windows/Engine.ini
-[2017.08.22-04.09.48:420][  0]SourceControl: 	modified:   git_test/Saved/Config/WorldState/2733464406.json
-[2017.08.22-04.09.48:421][  0]SourceControl: 	deleted:    git_test/Saved/Logs/git_test-backup-2017.08.15-11.33.06.log
-[2017.08.22-04.09.48:421][  0]SourceControl: 	modified:   git_test/Saved/Logs/git_test.log
-[2017.08.22-04.09.48:421][  0]SourceControl: Untracked files:
-[2017.08.22-04.09.48:421][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/07a2eaed.bin
-[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/2c752180.bin
-[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/5d95dedb.bin
-[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/8e3658b0.bin
-[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/c9054a63.bin
-[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/TestExampleMap1_Auto1.umap
-[2017.08.22-04.09.48:421][  0]SourceControl: 	git_test/Saved/Autosaves/Game/FirstPersonBP/Maps/TestExampleMap1_Auto2.umap
-[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/EntryHallTest_2017-08-22-10-58-33.uasset
-[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/EntryHallTest_2017-08-22-11-08-00.uasset
-[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/EntryHallTest_2017-08-22-11-14-37.uasset
-[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/EntryHallTest_2017-08-22-11-19-38.uasset
-[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/EntryHallTest_2017-08-22-11-39-00.uasset
-[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/FirstPersonCharacter_2017-08-22-11-50-58.uasset
-[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/FirstPersonCharacter_2017-08-22-12-28-46.uasset
-[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/FirstPersonExampleMap_2017-08-22-09-21-27.umap
-[2017.08.22-04.09.48:422][  0]SourceControl: 	git_test/Saved/Backup/OutdoorHallwayTest_2017-08-22-11-23-47.uasset
-[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/OutdoorHallwayTest_2017-08-22-11-32-32.uasset
-[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/OutdoorHallwayTest_2017-08-22-12-45-18.uasset
-[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/OutdoorHallwayTest_2017-08-22-13-32-08.uasset
-[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/SmallRoomTest_2017-08-22-12-36-32.uasset
-[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-10-39-45.umap
-[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-11-34-48.umap
-[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-11-39-57.umap
-[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-11-49-54.umap
-[2017.08.22-04.09.48:423][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-12-23-55.umap
-[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-12-38-58.umap
-[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-12-51-03.umap
-[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-13-26-50.umap
-[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_2017-08-22-13-37-05.umap
-[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-11-36-37.uasset
-[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-11-42-49.uasset
-[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-11-49-57.uasset
-[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-12-23-59.uasset
-[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-12-39-01.uasset
-[2017.08.22-04.09.48:424][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-12-51-06.uasset
-[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Backup/TestExampleMap1_BuiltData_2017-08-22-13-27-08.uasset
-[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-68D77EFB45153B8DEA57AAAEB1EA4338/
-[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-80659E52447C5BED6A8DCDB50AF8FB60/
-[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-8D51C972489E991F5EB47CAF992ACA9F/
-[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-980B56AF46B7559A933194B793A944EC/
-[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Config/WorldState/3651313491.json
-[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Crashes/UE4CC-Windows-80659E52447C5BED6A8DCDB50AF8FB60_0000/
-[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.22-08.58.03.log
-[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.22-10.37.57.log
-[2017.08.22-04.09.48:425][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.22-12.05.46.log
-[2017.08.22-04.09.48:426][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.22-13.38.27.log
-[2017.08.22-04.09.48:426][  0]SourceControl: 	sh.exe.stackdump
-[2017.08.22-04.09.48:426][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.08.22-04.09.48:427][  0]LogContentStreaming: Texture pool size now 400 MB
-[2017.08.22-04.09.48:647][  0]LogSlate: Took 0.000960 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.22-04.09.49:405][  3]LogSlate: Took 0.000728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.22-04.09.50:069][  5]LogAssetRegistry: Asset discovery search completed in 55.9229 seconds
-[2017.08.22-04.09.50:077][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2017.08.22-04.09.50:077][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000236 seconds (updated 0 objects)
-[2017.08.22-04.14.03:122][ 41]LogSlate: Took 0.000583 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.22-04.14.04:793][ 41]LogAIModule: Creating AISystem for world TestExampleMap1
-[2017.08.22-04.14.05:044][ 41]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.22-04.14.05:045][ 41]LightingResults: New page: Lighting Build
-[2017.08.22-04.14.05:049][ 41]LoadErrors: New page: Loading map: TestExampleMap1.umap
-[2017.08.22-04.14.05:065][ 41]MapCheck: New page: Map Check
-[2017.08.22-04.14.05:066][ 41]LightingResults: New page: Lighting Build
-[2017.08.22-04.14.08:104][ 41]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2017.08.22-04.14.08:404][ 41]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.22-04.14.08:407][ 41]LogSlate: Took 0.000554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.22-04.14.08:724][ 41]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 319.377ms to complete.
-[2017.08.22-04.14.08:728][ 41]LogFileHelpers: Loading map 'TestExampleMap1' took 3.689
-[2017.08.22-04.14.10:949][102]LogEditorViewport: Clicking on Actor (LMB): OutdoorHallwayTest_C (OutdoorHallwayTest)
-[2017.08.22-04.14.13:369][168]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-=======
-[2017.08.22-03.56.16:407][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.22-03.56.16:408][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.22-03.56.16:450][  0]LogInit: Computer: TRIST-SURFACE
-[2017.08.22-03.56.16:450][  0]LogInit: User: Tristan
-[2017.08.22-03.56.16:450][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.08.22-03.56.16:450][  0]LogInit: High frequency timer resolution =2.435766 MHz
-[2017.08.22-03.56.16:451][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.08.22-03.56.16:451][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.22-03.56.16:451][  0]LogMemory: Process Physical Memory: 274.94 MB used, 274.94 MB peak
-[2017.08.22-03.56.16:451][  0]LogMemory: Process Virtual Memory: 275.90 MB used, 275.90 MB peak
-[2017.08.22-03.56.16:451][  0]LogMemory: Physical Memory: 5258.09 MB used,  2844.46 MB free, 8102.55 MB total
-[2017.08.22-03.56.16:451][  0]LogMemory: Virtual Memory: 646.41 MB used,  2844.46 MB free, 134217728.00 MB total
-[2017.08.22-03.56.17:212][  0]LogInit: Using OS detected language (en-GB).
-[2017.08.22-03.56.17:212][  0]LogInit: Using OS detected locale (en-AU).
-[2017.08.22-03.56.17:233][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2017.08.22-03.56.20:230][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.22-03.56.20:251][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
-[2017.08.22-03.56.20:251][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2017.08.22-03.56.20:257][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.08.22-03.56.20:257][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.08.22-03.56.20:257][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.22-03.56.20:272][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.22-03.56.20:272][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.22-03.56.20:272][  0]LogWindows: EnumDisplayDevices:
-[2017.08.22-03.56.20:273][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
-[2017.08.22-03.56.20:274][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2017.08.22-03.56.20:275][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
-[2017.08.22-03.56.20:275][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2017.08.22-03.56.20:275][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
-[2017.08.22-03.56.20:275][  0]LogD3D11RHI:   Driver Version: 10.18.14.4170 (internal:10.18.14.4170, unified:10.18.14.4170)
-[2017.08.22-03.56.20:275][  0]LogD3D11RHI:      Driver Date: 3-16-2015
-[2017.08.22-03.56.20:275][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
-[2017.08.22-03.56.20:296][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.22-03.56.20:313][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2017.08.22-03.56.20:316][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Intermediate/Shaders/WorkingDirectory/4020/).
-[2017.08.22-03.56.20:317][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tristan/AppData/Local/Temp/UnrealShaderWorkingDir/BDC9CB3B4C24A11BC9B2FDAF9C05004D/'.
-[2017.08.22-03.56.20:317][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.08.22-03.56.24:573][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.22-03.56.24:763][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.08.22-03.56.24:949][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.22-03.56.25:170][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.08.22-03.56.25:436][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.08.22-03.56.25:785][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.22-03.56.26:033][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.22-03.56.26:292][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.22-03.56.26:494][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.08.22-03.56.26:730][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.08.22-03.56.27:029][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.22-03.56.27:321][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.22-03.56.27:561][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.22-03.56.27:802][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.22-03.56.28:041][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.22-03.56.28:628][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.22-03.56.28:628][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.22-03.56.28:817][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.08.22-03.56.29:169][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.08.22-03.56.29:311][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.08.22-03.56.29:541][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.22-03.56.29:817][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.22-03.56.30:069][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.22-03.56.30:310][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.08.22-03.56.30:311][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.08.22-03.56.32:526][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.08.22-03.56.32:878][  0]LogDerivedDataCache: Loaded boot cache 0.35s 93MB C:/Users/Tristan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.08.22-03.56.32:879][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tristan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.08.22-03.56.32:879][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.22-03.56.32:879][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.22-03.56.32:880][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.22-03.56.32:880][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.22-03.56.32:958][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.22-03.56.32:975][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tristan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.22-03.56.33:019][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.08.22-03.56.33:021][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.22-03.56.33:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.22-03.56.33:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.22-03.56.34:174][  0]LogAssetRegistry: FAssetRegistry took 0.0432 seconds to start up
-[2017.08.22-03.56.34:848][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.22-03.56.35:620][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.22-03.56.37:004][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.22-03.56.37:196][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.22-03.56.37:196][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.22-03.56.37:196][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.08.22-03.56.37:196][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.08.22-03.56.37:196][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.08.22-03.56.38:832][  0]LogNetVersion: git_test , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2423607881)
-[2017.08.22-03.56.39:860][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.269901 seconds
-[2017.08.22-03.56.39:881][  0]LogUObjectArray: 35826 objects as part of root set at end of initial load.
-[2017.08.22-03.56.39:881][  0]LogUObjectAllocator: 7529336 out of 0 bytes used by permanent object pool.
-[2017.08.22-03.56.39:881][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.22-03.56.40:155][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.22-03.56.52:456][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.22-03.56.52:607][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.22-03.56.55:511][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.22-03.56.57:462][  0]SourceControl: Source control is disabled
-[2017.08.22-03.57.03:274][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.08.22-03.57.04:470][  0]LogOcInput: OculusInput pre-init called
-[2017.08.22-03.57.05:677][  0]LogEngine: Initializing Engine...
-[2017.08.22-03.57.05:686][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.08.22-03.57.06:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.22-03.57.06:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.22-03.57.07:345][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.22-03.57.07:376][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.22-03.57.07:629][  0]LogInit: FAudioDevice initialized.
-[2017.08.22-03.57.08:476][  0]LogDerivedDataCache: Saved boot cache 0.85s 93MB C:/Users/Tristan/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.08.22-03.57.08:516][  0]LogInit: Texture streaming: Enabled
-[2017.08.22-03.57.09:079][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.22-03.57.10:156][  0]LogInit: Transaction tracking system initialized
-[2017.08.22-03.57.11:724][  0]BlueprintLog: New page: Editor Load
-[2017.08.22-03.57.16:179][  0]LocalizationService: Localization service is disabled
-[2017.08.22-03.57.20:733][  0]LogConsoleResponse: Display: 
-[2017.08.22-03.57.21:695][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.22-03.57.21:695][  0]LogCook: Display: Mobile HDR setting 1
-[2017.08.22-03.57.21:695][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.08.22-03.57.21:864][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/' took 0.04s
-[2017.08.22-03.57.27:046][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.22-03.57.27:048][  0]LightingResults: New page: Lighting Build
-[2017.08.22-03.57.27:258][  0]MapCheck: New page: Map Check
-[2017.08.22-03.57.27:258][  0]LightingResults: New page: Lighting Build
-[2017.08.22-03.57.29:811][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.08.22-03.57.29:992][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
-[2017.08.22-03.57.29:993][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
-[2017.08.22-03.57.29:993][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
-[2017.08.22-03.57.30:035][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
-[2017.08.22-03.57.30:044][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.22-03.57.30:183][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.22-03.57.30:547][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 363.714ms to complete.
-[2017.08.22-03.57.30:548][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.502
-[2017.08.22-03.57.30:641][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.08.22-03.57.30:641][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.08.22-03.57.31:147][  0]LogCollectionManager: Loaded 0 collections in 0.009461 seconds
-[2017.08.22-03.57.31:451][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/Collections/' took 0.01s
-[2017.08.22-03.57.31:452][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/Developers/Tristan/Collections/' took 0.01s
-[2017.08.22-03.57.31:452][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/Collections/' took 0.01s
-[2017.08.22-03.57.31:452][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.08.22-03.57.31:494][  0]LogContentBrowser: Native class hierarchy populated in 0.0419 seconds. Added 2386 classes and 500 folders.
-[2017.08.22-03.57.31:733][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
-[2017.08.22-03.57.31:925][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0028 seconds. Added 0 classes and 0 folders.
-[2017.08.22-03.57.32:145][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
-[2017.08.22-03.57.32:234][  0]LogSlate: Took 0.000902 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.22-03.57.32:244][  0]LogSlate: Took 0.001567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.22-03.57.32:277][  0]LogSlate: Took 0.001051 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.22-03.57.32:747][  0]LogRenderer: Reallocating scene render targets to support 732x344 Format 9 NumSamples 1 (Frame:1).
-[2017.08.22-03.57.34:413][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
-[2017.08.22-03.57.34:413][  0]LogLoad: (Engine Initialization) Total time: 84.05 seconds
-[2017.08.22-03.57.34:413][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.08.22-03.57.34:414][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.08.22-03.57.34:446][  0]SourceControl: On branch master
-[2017.08.22-03.57.34:447][  0]SourceControl: Your branch is ahead of 'origin/master' by 1 commit.
-[2017.08.22-03.57.34:447][  0]SourceControl:   (use "git push" to publish your local commits)
-[2017.08.22-03.57.34:447][  0]SourceControl: Changes not staged for commit:
-[2017.08.22-03.57.34:447][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.08.22-03.57.34:447][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.08.22-03.57.34:447][  0]SourceControl: 	modified:   git_test/Intermediate/CachedAssetRegistry.bin
-[2017.08.22-03.57.34:447][  0]SourceControl: 	modified:   git_test/Saved/Config/Windows/Editor.ini
-[2017.08.22-03.57.34:447][  0]SourceControl: 	modified:   git_test/Saved/Config/Windows/Engine.ini
-[2017.08.22-03.57.34:447][  0]SourceControl: 	modified:   git_test/Saved/Logs/git_test.log
-[2017.08.22-03.57.34:447][  0]SourceControl: Untracked files:
-[2017.08.22-03.57.34:447][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.08.22-03.57.34:447][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-67469FD94849F7F8637C7BB6B084A7DC/
-[2017.08.22-03.57.34:447][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.22-13.26.13.log
-[2017.08.22-03.57.34:447][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.08.22-03.57.34:448][  0]LogContentStreaming: Texture pool size now 400 MB
-[2017.08.22-03.57.34:469][  0]LogSlate: Took 0.000852 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.22-03.57.35:394][  5]LogAssetRegistry: Asset discovery search completed in 61.2427 seconds
-[2017.08.22-03.57.35:401][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.08.22-03.57.35:401][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000165 seconds (updated 0 objects)
-[2017.08.22-03.57.53:736][594]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0038 seconds. Added 2 classes and 3 folders.
-[2017.08.22-03.58.19:586][374]LogSlate: Took 0.000793 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.22-03.58.20:256][374]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2017.08.22-03.58.20:256][374]LogStaticMesh: Building static mesh Floor_400x400...
-[2017.08.22-03.58.20:258][374]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
-[2017.08.22-03.58.20:502][374]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
-[2017.08.22-03.58.20:881][374]LogAIModule: Creating AISystem for world TestExampleMap1
-[2017.08.22-03.58.21:226][374]Cmd: MAP LOAD FILE="../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.22-03.58.21:227][374]LightingResults: New page: Lighting Build
-[2017.08.22-03.58.21:230][374]LoadErrors: New page: Loading map: TestExampleMap1.umap
-[2017.08.22-03.58.21:238][374]MapCheck: New page: Map Check
-[2017.08.22-03.58.21:238][374]LightingResults: New page: Lighting Build
-[2017.08.22-03.58.21:683][374]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.22-03.58.21:899][374]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.22-03.58.22:270][374]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 369.858ms to complete.
-[2017.08.22-03.58.22:273][374]LogSlate: Took 0.000548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.22-03.58.22:283][374]LogFileHelpers: Loading map 'TestExampleMap1' took 1.059
-[2017.08.22-04.04.13:579][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube_Chamfer)
-[2017.08.22-04.04.14:878][879]Cmd: EDIT COPY
-[2017.08.22-04.04.15:066][884]Cmd: EDIT PASTE
-[2017.08.22-04.04.56:132][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube)
-[2017.08.22-04.07.32:359][428]LogSavePackage: Save=2427.34ms
-[2017.08.22-04.07.32:359][428]LogSavePackage: Moving '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Saved/TestExampleMap12534E95A4051EC16AF392DB18EF51F9F.tmp' to '../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap'
-[2017.08.22-04.07.32:395][428]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tristan/Documents/GitHub/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/TestExampleMap1.umap
-[2017.08.22-04.07.32:555][428]LogFileHelpers: Saving map 'TestExampleMap1' took 3.133
->>>>>>> a04a9080133e16f6819273224f26df1a20b9b73b
+[2017.08.29-01.01.41:094][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.29-01.01.41:094][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.29-01.01.41:143][  0]LogInit: Computer: DESKTOP-SLAUCA6
+[2017.08.29-01.01.41:143][  0]LogInit: User: Matmo
+[2017.08.29-01.01.41:143][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.29-01.01.41:143][  0]LogInit: High frequency timer resolution =2.343750 MHz
+[2017.08.29-01.01.41:144][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.29-01.01.41:144][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.29-01.01.41:145][  0]LogMemory: Process Physical Memory: 277.29 MB used, 277.29 MB peak
+[2017.08.29-01.01.41:145][  0]LogMemory: Process Virtual Memory: 276.15 MB used, 276.15 MB peak
+[2017.08.29-01.01.41:145][  0]LogMemory: Physical Memory: 3603.91 MB used,  4479.99 MB free, 8083.90 MB total
+[2017.08.29-01.01.41:145][  0]LogMemory: Virtual Memory: 652.95 MB used,  4479.99 MB free, 134217728.00 MB total
+[2017.08.29-01.01.41:795][  0]LogInit: Using OS detected language (en-US).
+[2017.08.29-01.01.41:795][  0]LogInit: Using OS detected locale (en-AU).
+[2017.08.29-01.01.41:808][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.29-01.01.44:366][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.29-01.01.44:386][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.08.29-01.01.44:386][  0]LogD3D11RHI:       128/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.29-01.01.45:001][  0]LogD3D11RHI:    1. 'AMD Radeon R5 M335' (Feature Level 11_0)
+[2017.08.29-01.01.45:001][  0]LogD3D11RHI:       2039/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2017.08.29-01.01.45:006][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.29-01.01.45:006][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.29-01.01.45:006][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2017.08.29-01.01.45:019][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.29-01.01.45:019][  0]LogD3D11RHI:     GPU DeviceId: 0x6660 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.29-01.01.45:019][  0]LogWindows: EnumDisplayDevices:
+[2017.08.29-01.01.45:020][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.08.29-01.01.45:020][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.08.29-01.01.45:021][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.08.29-01.01.45:022][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.29-01.01.45:022][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R5 M335
+[2017.08.29-01.01.45:022][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.29-01.01.45:022][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.29-01.01.45:022][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.29-01.01.45:087][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.29-01.01.45:116][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.08.29-01.01.45:120][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Intermediate/Shaders/WorkingDirectory/9244/).
+[2017.08.29-01.01.45:120][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matmo/AppData/Local/Temp/UnrealShaderWorkingDir/2390253747E916C8326501AA6824B678/'.
+[2017.08.29-01.01.45:120][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.29-01.01.48:787][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.29-01.01.49:031][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.29-01.01.49:279][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.29-01.01.49:510][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.29-01.01.49:750][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.29-01.01.49:980][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.29-01.01.50:214][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.29-01.01.50:448][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.29-01.01.50:653][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.29-01.01.50:886][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.29-01.01.51:107][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.29-01.01.51:332][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.29-01.01.51:555][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.29-01.01.51:778][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.29-01.01.52:002][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.29-01.01.52:454][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.29-01.01.52:454][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.29-01.01.52:637][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.29-01.01.52:967][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.29-01.01.53:086][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.29-01.01.53:307][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.29-01.01.53:529][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.29-01.01.53:753][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.29-01.01.53:977][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.29-01.01.53:978][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.29-01.01.56:121][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.29-01.01.56:349][  0]LogDerivedDataCache: Loaded boot cache 0.23s 93MB C:/Users/Matmo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.29-01.01.56:349][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Matmo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.29-01.01.56:350][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.29-01.01.56:350][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.29-01.01.56:350][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.29-01.01.56:350][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.29-01.01.56:414][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.29-01.01.56:430][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matmo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.29-01.01.56:465][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.29-01.01.56:466][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.29-01.01.56:469][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.29-01.01.56:469][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.29-01.01.57:459][  0]LogAssetRegistry: FAssetRegistry took 0.0381 seconds to start up
+[2017.08.29-01.01.58:078][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.29-01.01.58:753][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.29-01.02.00:077][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.29-01.02.00:268][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.29-01.02.00:268][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.29-01.02.00:268][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.29-01.02.00:268][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.29-01.02.00:268][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.29-01.02.01:563][  0]LogNetVersion: git_test , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2423607881)
+[2017.08.29-01.02.02:525][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.261520 seconds
+[2017.08.29-01.02.02:545][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.29-01.02.02:545][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.08.29-01.02.02:545][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.29-01.02.02:816][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.29-01.02.13:912][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.29-01.02.14:064][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.29-01.02.16:943][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.29-01.02.18:817][  0]SourceControl: Source control is disabled
+[2017.08.29-01.02.23:779][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.29-01.02.24:955][  0]LogOcInput: OculusInput pre-init called
+[2017.08.29-01.02.26:117][  0]LogEngine: Initializing Engine...
+[2017.08.29-01.02.26:125][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.29-01.02.26:900][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.29-01.02.26:900][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.29-01.02.27:513][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.29-01.02.27:540][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-01.02.27:891][  0]LogInit: FAudioDevice initialized.
+[2017.08.29-01.02.28:201][  0]LogDerivedDataCache: Saved boot cache 0.31s 93MB C:/Users/Matmo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.29-01.02.28:227][  0]LogInit: Texture streaming: Enabled
+[2017.08.29-01.02.28:794][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.29-01.02.30:035][  0]LogInit: Transaction tracking system initialized
+[2017.08.29-01.02.31:584][  0]BlueprintLog: New page: Editor Load
+[2017.08.29-01.02.35:884][  0]LocalizationService: Localization service is disabled
+[2017.08.29-01.02.39:231][  0]LogConsoleResponse: Display: 
+[2017.08.29-01.02.40:124][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.29-01.02.40:124][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.29-01.02.40:125][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.29-01.02.41:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/' took 0.04s
+[2017.08.29-01.02.45:524][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.29-01.02.45:525][  0]LightingResults: New page: Lighting Build
+[2017.08.29-01.02.45:730][  0]MapCheck: New page: Map Check
+[2017.08.29-01.02.45:730][  0]LightingResults: New page: Lighting Build
+[2017.08.29-01.02.48:278][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.08.29-01.02.48:333][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.29-01.02.48:333][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.29-01.02.48:333][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.29-01.02.48:350][  0]LogSkinnedMeshComp: Warning: GetSocketByName(GripPoint): No SkeletalMesh for Component(Mesh2P) Actor(FirstPersonCharacter_C_1)
+[2017.08.29-01.02.48:355][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.29-01.02.48:437][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.29-01.02.48:825][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 387.504ms to complete.
+[2017.08.29-01.02.48:826][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.302
+[2017.08.29-01.02.48:924][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.29-01.02.49:505][  0]LogCollectionManager: Loaded 0 collections in 0.012428 seconds
+[2017.08.29-01.02.49:848][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Collections/' took 0.01s
+[2017.08.29-01.02.49:848][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/Developers/Matmo/Collections/' took 0.01s
+[2017.08.29-01.02.49:849][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/Collections/' took 0.01s
+[2017.08.29-01.02.49:849][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.29-01.02.49:882][  0]LogContentBrowser: Native class hierarchy populated in 0.0319 seconds. Added 2386 classes and 500 folders.
+[2017.08.29-01.02.50:189][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2017.08.29-01.02.50:407][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2017.08.29-01.02.50:612][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2017.08.29-01.02.50:691][  0]LogSlate: Took 0.000807 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.29-01.02.50:698][  0]LogSlate: Took 0.000888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.29-01.02.50:718][  0]LogSlate: Took 0.001783 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.29-01.02.51:110][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 10 NumSamples 1 (Frame:1).
+[2017.08.29-01.02.51:728][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.08.29-01.02.51:728][  0]LogLoad: (Engine Initialization) Total time: 77.73 seconds
+[2017.08.29-01.02.51:729][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.29-01.02.51:729][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.29-01.02.51:729][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.29-01.02.51:762][  0]SourceControl: On branch master
+[2017.08.29-01.02.51:763][  0]SourceControl: Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+[2017.08.29-01.02.51:763][  0]SourceControl:   (use "git pull" to update your local branch)
+[2017.08.29-01.02.51:763][  0]SourceControl: Changes not staged for commit:
+[2017.08.29-01.02.51:763][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.08.29-01.02.51:763][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.08.29-01.02.51:763][  0]SourceControl: 	modified:   git_test/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.08.29-01.02.51:763][  0]SourceControl: 	modified:   git_test/Intermediate/CachedAssetRegistry.bin
+[2017.08.29-01.02.51:763][  0]SourceControl: 	modified:   git_test/Saved/AutoScreenshot.png
+[2017.08.29-01.02.51:763][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-0A7A3A59489F08055BE57098A3471141/CrashReportClient.ini
+[2017.08.29-01.02.51:763][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-4014F5CD401EC3FB0AAA12BF666AEEF0/CrashReportClient.ini
+[2017.08.29-01.02.51:763][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-67469FD94849F7F8637C7BB6B084A7DC/CrashReportClient.ini
+[2017.08.29-01.02.51:763][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-68D77EFB45153B8DEA57AAAEB1EA4338/CrashReportClient.ini
+[2017.08.29-01.02.51:763][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-80659E52447C5BED6A8DCDB50AF8FB60/CrashReportClient.ini
+[2017.08.29-01.02.51:763][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-8D51C972489E991F5EB47CAF992ACA9F/CrashReportClient.ini
+[2017.08.29-01.02.51:763][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-980B56AF46B7559A933194B793A944EC/CrashReportClient.ini
+[2017.08.29-01.02.51:763][  0]SourceControl: 	deleted:    git_test/Saved/Config/CrashReportClient/UE4CC-Windows-E7482D2545913E29A2DCF9AFA62B6904/CrashReportClient.ini
+[2017.08.29-01.02.51:763][  0]SourceControl: 	modified:   git_test/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.08.29-01.02.51:764][  0]SourceControl: 	modified:   git_test/Saved/Config/Windows/Engine.ini
+[2017.08.29-01.02.51:764][  0]SourceControl: 	deleted:    git_test/Saved/Logs/git_test-backup-2017.08.22-08.58.03.log
+[2017.08.29-01.02.51:764][  0]SourceControl: 	deleted:    git_test/Saved/Logs/git_test-backup-2017.08.22-13.26.13.log
+[2017.08.29-01.02.51:764][  0]SourceControl: 	deleted:    git_test/Saved/Logs/git_test-backup-2017.08.22-13.38.27.log
+[2017.08.29-01.02.51:764][  0]SourceControl: 	deleted:    git_test/Saved/Logs/git_test-backup-2017.08.22-13.50.50.log
+[2017.08.29-01.02.51:764][  0]SourceControl: 	modified:   git_test/Saved/Logs/git_test.log
+[2017.08.29-01.02.51:764][  0]SourceControl: Untracked files:
+[2017.08.29-01.02.51:764][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.08.29-01.02.51:764][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/1d5167fa.bin
+[2017.08.29-01.02.51:764][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/5a627529.bin
+[2017.08.29-01.02.51:764][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/94c5d5a7.bin
+[2017.08.29-01.02.51:764][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/bf121eca.bin
+[2017.08.29-01.02.51:764][  0]SourceControl: 	git_test/Intermediate/AssetRegistryCache/cef2e191.bin
+[2017.08.29-01.02.51:764][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-4E06C8A1432BEDE652AFF7B8685D0B38/
+[2017.08.29-01.02.51:764][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-8FD8C48B48D5AED8ECE02C86C9A176E8/
+[2017.08.29-01.02.51:764][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-B59EAC4F4A9D35DFB6023FBE5ADC2AB7/
+[2017.08.29-01.02.51:764][  0]SourceControl: 	git_test/Saved/Config/CrashReportClient/UE4CC-Windows-D681AA564B3E8E5F39F8F98CEED94A30/
+[2017.08.29-01.02.51:764][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.28-14.09.31.log
+[2017.08.29-01.02.51:765][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.29-10.12.12.log
+[2017.08.29-01.02.51:765][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.29-10.17.25.log
+[2017.08.29-01.02.51:765][  0]SourceControl: 	git_test/Saved/Logs/git_test-backup-2017.08.29-10.31.38.log
+[2017.08.29-01.02.51:765][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.08.29-01.02.51:766][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.29-01.02.51:821][  0]LogSlate: Took 0.000625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.29-01.02.52:181][  4]LogAssetRegistry: Asset discovery search completed in 54.7448 seconds
+[2017.08.29-01.02.52:188][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.29-01.02.52:188][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000208 seconds (updated 0 objects)
+[2017.08.29-01.03.08:036][645]LogSlate: Took 0.000880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.29-01.03.09:461][703]LogSlate: Took 0.000610 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.29-01.03.10:438][703]LogSlate: Took 0.000719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.29-01.03.10:966][703]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0034 seconds. Added 113 classes and 0 folders.
+[2017.08.29-01.03.13:331][703]LogSlate: Took 0.000806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.29-01.16.42:582][292]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Unreal engine 4 stuff from Schonn/femaleplayer_01b_test/FemalePlayer_Mesh.fbx)
+[2017.08.29-01.16.43:072][292]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.29-01.16.43:072][292]LogFbx: ItemName: NodeAttribute, ItemCount : 90
+[2017.08.29-01.16.43:073][292]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.08.29-01.16.43:073][292]LogFbx: ItemName: Model, ItemCount : 91
+[2017.08.29-01.16.43:073][292]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.08.29-01.16.43:073][292]LogFbx: ItemName: Deformer, ItemCount : 90
+[2017.08.29-01.16.43:073][292]LogFbx: ItemName: Material, ItemCount : 3
+[2017.08.29-01.16.43:073][292]LogFbx: ItemName: Texture, ItemCount : 4
+[2017.08.29-01.16.43:073][292]LogFbx: ItemName: Video, ItemCount : 4
+[2017.08.29-01.16.43:205][292]LogFbx: Loading FBX Scene from D:/Unreal engine 4 stuff from Schonn/femaleplayer_01b_test/FemalePlayer_Mesh.fbx
+[2017.08.29-01.16.43:832][292]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.29-01.18.59:467][292]LogFbx: Loading FBX Scene from D:/Unreal engine 4 stuff from Schonn/femaleplayer_01b_test/FemalePlayer_Mesh.fbx
+[2017.08.29-01.19.00:019][292]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.29-01.19.00:062][292]LogFbx: =================================================
+[2017.08.29-01.19.00:062][292]LogFbx: Dumping Node START [ChelleBody] 
+[2017.08.29-01.19.00:062][292]LogFbx: 	Total Deformer Count -1375287744.
+[2017.08.29-01.19.00:062][292]LogFbx: 		[Node 1] ChelleRig (Type Skin).
+[2017.08.29-01.19.00:062][292]LogFbx: =================================================
+[2017.08.29-01.19.00:062][292]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.08.29-01.19.00:062][292]LogFbx: 		[Node Attribute Child 1] ChelleBody (Type Mesh).
+[2017.08.29-01.19.00:062][292]LogFbx: Dumping Node END [ChelleBody]
+[2017.08.29-01.19.00:075][292]LogFbx: =================================================
+[2017.08.29-01.19.00:075][292]LogFbx: Dumping Node START [ChelleBody] 
+[2017.08.29-01.19.00:075][292]LogFbx: 	Total Deformer Count -1375287744.
+[2017.08.29-01.19.00:075][292]LogFbx: 		[Node 1] ChelleRig (Type Skin).
+[2017.08.29-01.19.00:075][292]LogFbx: =================================================
+[2017.08.29-01.19.00:076][292]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.08.29-01.19.00:076][292]LogFbx: 		[Node Attribute Child 1] ChelleBody (Type Mesh).
+[2017.08.29-01.19.00:076][292]LogFbx: Dumping Node END [ChelleBody]
+[2017.08.29-01.19.00:118][292]LogFbx: Valid bind pose for Pose (Mesh) - ChelleBody
+[2017.08.29-01.19.00:161][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/Material_008'
+[2017.08.29-01.19.00:162][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/Material_008'
+[2017.08.29-01.19.00:182][292]LogMaterial: Warning: Material /Game/GlycoSanatorium/Models/Characters/Player/Material_008.Material_008 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.08.29-01.19.00:190][292]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.19.00:487][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/ChelleComposited'
+[2017.08.29-01.19.00:489][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/ChelleComposited'
+[2017.08.29-01.19.00:490][292]LogFbxMaterialImport: Warning: Unable to find Texture file /home/pierre/Documents/blender/uni/glycosanatorium/textures/characters/Player/ChelleComposited.png
+[2017.08.29-01.19.00:491][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/ChelleBump'
+[2017.08.29-01.19.00:493][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/ChelleBump'
+[2017.08.29-01.19.00:495][292]LogFbxMaterialImport: Warning: Unable to find Texture file /home/pierre/Documents/blender/uni/glycosanatorium/textures/characters/Player/ChelleBump.png
+[2017.08.29-01.19.00:510][292]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.19.00:823][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/Material_009'
+[2017.08.29-01.19.00:824][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/Material_009'
+[2017.08.29-01.19.00:829][292]LogMaterial: Warning: Material /Game/GlycoSanatorium/Models/Characters/Player/Material_009.Material_009 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.08.29-01.19.00:874][292]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-01.19.01:100][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/lensgradient'
+[2017.08.29-01.19.01:101][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/lensgradient'
+[2017.08.29-01.19.01:102][292]LogFbxMaterialImport: Warning: Unable to find Texture file /home/pierre/Documents/blender/uni/glycosanatorium/textures/characters/lensgradient.png
+[2017.08.29-01.19.01:115][292]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-01.19.01:318][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/Material_010'
+[2017.08.29-01.19.01:319][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/Material_010'
+[2017.08.29-01.19.01:322][292]LogMaterial: Warning: Material /Game/GlycoSanatorium/Models/Characters/Player/Material_010.Material_010 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.08.29-01.19.01:332][292]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-01.19.01:551][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/hairbitsbrown'
+[2017.08.29-01.19.01:552][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/hairbitsbrown'
+[2017.08.29-01.19.01:554][292]LogFbxMaterialImport: Warning: Unable to find Texture file /home/pierre/Documents/blender/uni/glycosanatorium/textures/characters/hairbitsbrown.png
+[2017.08.29-01.19.01:566][292]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-01.19.02:077][292]LogFbx: Triangulating skeletal mesh ChelleBody
+[2017.08.29-01.19.18:569][292]LogFbx: Warning: Bones digested - 133  Depth of hierarchy - 12
+[2017.08.29-01.19.21:388][292]LogSkeletalMesh: Section 0: 32798 vertices, 78 active bones
+[2017.08.29-01.19.21:388][292]LogSkeletalMesh: Section 1: 178 vertices, 2 active bones
+[2017.08.29-01.19.21:389][292]LogSkeletalMesh: Section 2: 5387 vertices, 10 active bones
+[2017.08.29-01.19.21:611][292]LogSkeletalMesh: Section 0: Material=0, 60427 triangles
+[2017.08.29-01.19.21:611][292]LogSkeletalMesh: Section 1: Material=1, 320 triangles
+[2017.08.29-01.19.21:611][292]LogSkeletalMesh: Section 2: Material=2, 7424 triangles
+[2017.08.29-01.19.21:679][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Skeleton'
+[2017.08.29-01.19.21:679][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Skeleton'
+[2017.08.29-01.19.21:685][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_PhysicsAsset'
+[2017.08.29-01.19.21:686][292]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_PhysicsAsset'
+[2017.08.29-01.19.21:707][292]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2017.08.29-01.19.21:794][292]FBXImport: Warning: The following bones are missing from the bind pose:
+Eyeright_end  
+Eyeleft_end  
+LidUpperLeft_end  
+LidLowerLeft_end  
+BrowInnerLeft_end  
+BrowOuterLeft_end  
+LidUpperRight_end  
+LidLowerRight_end  
+BrowInnerRight_end  
+BrowOuterRight_end  
+Tongue_end  
+LipUpperMiddle_end  
+LipLowerMiddle_end  
+MouthCornerRight_end  
+MouthCornerLeft_end  
+LipUpperRight_end  
+LipUpperLeft_end  
+LipLowerRight_end  
+LipLowerLeft_end  
+NoseSneer_end  
+PonyTail_end  
+IDTag_end  
+Small3Left_end  
+Ring3Left_end  
+Middle3Left_end  
+Pointer3Left_end  
+Thumb3Left_end  
+Small3Right_end  
+Ring3Right_end  
+Middle3Right_end  
+Pointer3Right_end  
+Thumb3Right_end  
+BallLeft_end  
+BallRight_end  
+CoatLeft2_end  
+CoatBack2_end  
+CoatRight2_end  
+PBScrew_end  
+PBHammer_end  
+PBTrigger_end  
+PBPellet_end  
+PBBottleHatch_end  
+PBScrewDriver_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.08.29-01.19.22:054][292]LogRenderer: Reallocating scene render targets to support 856x396 Format 10 NumSamples 1 (Frame:8859).
+[2017.08.29-01.19.43:523][ 67]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.171
+[2017.08.29-01.19.43:541][ 67]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh] ([1] browsable assets)...
+[2017.08.29-01.19.43:628][ 67]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh.FemalePlayer_Mesh]
+[2017.08.29-01.19.43:629][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh]
+[2017.08.29-01.19.44:100][ 67]LogSavePackage: Save=454.45ms
+[2017.08.29-01.19.44:100][ 67]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/FemalePlayer_Mesh_Auto19D3808C846F43895BBD69A9751349939.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Auto1.uasset'
+[2017.08.29-01.19.44:115][ 67]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Auto1.uasset
+[2017.08.29-01.19.44:124][ 67]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Models/Characters/Player/Material_008] ([1] browsable assets)...
+[2017.08.29-01.19.44:243][ 67]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GlycoSanatorium/Models/Characters/Player/Material_008.Material_008]
+[2017.08.29-01.19.44:243][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Characters/Player/Material_008]
+[2017.08.29-01.19.44:307][ 67]LogSavePackage: Save=51.93ms
+[2017.08.29-01.19.44:307][ 67]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_008_Auto1F3D2967548DF27264DED4D9026036AE9.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_008_Auto1.uasset'
+[2017.08.29-01.19.44:323][ 67]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_008_Auto1.uasset
+[2017.08.29-01.19.44:334][ 67]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Models/Characters/Player/Material_009] ([1] browsable assets)...
+[2017.08.29-01.19.44:403][ 67]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GlycoSanatorium/Models/Characters/Player/Material_009.Material_009]
+[2017.08.29-01.19.44:403][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Characters/Player/Material_009]
+[2017.08.29-01.19.44:461][ 67]LogSavePackage: Save=46.45ms
+[2017.08.29-01.19.44:461][ 67]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_009_Auto141C9C3CF465E6C7B823F33AFE9E67ECF.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_009_Auto1.uasset'
+[2017.08.29-01.19.44:530][ 67]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_009_Auto1.uasset
+[2017.08.29-01.19.44:541][ 67]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Models/Characters/Player/Material_010] ([1] browsable assets)...
+[2017.08.29-01.19.44:613][ 67]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GlycoSanatorium/Models/Characters/Player/Material_010.Material_010]
+[2017.08.29-01.19.44:613][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Characters/Player/Material_010]
+[2017.08.29-01.19.44:679][ 67]LogSavePackage: Save=54.86ms
+[2017.08.29-01.19.44:680][ 67]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_010_Auto15258E0FF499AC150A229FEBC06E2658A.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_010_Auto1.uasset'
+[2017.08.29-01.19.44:696][ 67]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_010_Auto1.uasset
+[2017.08.29-01.19.44:707][ 67]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Skeleton] ([1] browsable assets)...
+[2017.08.29-01.19.44:707][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Skeleton]
+[2017.08.29-01.19.44:749][ 67]LogSavePackage: Save=30.57ms
+[2017.08.29-01.19.44:749][ 67]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/FemalePlayer_Mesh_Skeleton_Auto1A8FA282140CBDD42066E5BB8733E50CA.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Skeleton_Auto1.uasset'
+[2017.08.29-01.19.44:770][ 67]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Skeleton_Auto1.uasset
+[2017.08.29-01.19.44:781][ 67]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_PhysicsAsset] ([1] browsable assets)...
+[2017.08.29-01.19.44:781][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_PhysicsAsset]
+[2017.08.29-01.19.44:810][ 67]LogSavePackage: Save=16.76ms
+[2017.08.29-01.19.44:810][ 67]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/FemalePlayer_Mesh_PhysicsAsset_Auto10994FD7644751311C9F580810B27B52B.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_PhysicsAsset_Auto1.uasset'
+[2017.08.29-01.19.44:833][ 67]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_PhysicsAsset_Auto1.uasset
+[2017.08.29-01.19.44:833][ 67]LogFileHelpers: Auto-saving content packages took 1.308
+[2017.08.29-01.28.28:485][ 75]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Unreal engine 4 stuff from Schonn/femaleplayer_01b_test/FemalePlayer_Mesh.fbx)
+[2017.08.29-01.28.28:567][ 75]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.29-01.28.28:567][ 75]LogFbx: ItemName: NodeAttribute, ItemCount : 90
+[2017.08.29-01.28.28:567][ 75]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.08.29-01.28.28:567][ 75]LogFbx: ItemName: Model, ItemCount : 91
+[2017.08.29-01.28.28:568][ 75]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.08.29-01.28.28:568][ 75]LogFbx: ItemName: Deformer, ItemCount : 90
+[2017.08.29-01.28.28:568][ 75]LogFbx: ItemName: Material, ItemCount : 3
+[2017.08.29-01.28.28:568][ 75]LogFbx: ItemName: Texture, ItemCount : 4
+[2017.08.29-01.28.28:568][ 75]LogFbx: ItemName: Video, ItemCount : 4
+[2017.08.29-01.28.28:595][ 75]LogFbx: Loading FBX Scene from D:/Unreal engine 4 stuff from Schonn/femaleplayer_01b_test/FemalePlayer_Mesh.fbx
+[2017.08.29-01.28.28:961][ 75]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.29-01.29.07:307][ 75]LogFbx: Loading FBX Scene from D:/Unreal engine 4 stuff from Schonn/femaleplayer_01b_test/FemalePlayer_Mesh.fbx
+[2017.08.29-01.29.07:756][ 75]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.29-01.29.07:784][ 75]LogFbx: =================================================
+[2017.08.29-01.29.07:784][ 75]LogFbx: Dumping Node START [ChelleBody] 
+[2017.08.29-01.29.07:784][ 75]LogFbx: 	Total Deformer Count -1382056448.
+[2017.08.29-01.29.07:784][ 75]LogFbx: 		[Node 1] ChelleRig (Type Skin).
+[2017.08.29-01.29.07:784][ 75]LogFbx: =================================================
+[2017.08.29-01.29.07:784][ 75]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.08.29-01.29.07:784][ 75]LogFbx: 		[Node Attribute Child 1] ChelleBody (Type Mesh).
+[2017.08.29-01.29.07:785][ 75]LogFbx: Dumping Node END [ChelleBody]
+[2017.08.29-01.29.07:791][ 75]LogFbx: =================================================
+[2017.08.29-01.29.07:791][ 75]LogFbx: Dumping Node START [ChelleBody] 
+[2017.08.29-01.29.07:791][ 75]LogFbx: 	Total Deformer Count -1382056448.
+[2017.08.29-01.29.07:791][ 75]LogFbx: 		[Node 1] ChelleRig (Type Skin).
+[2017.08.29-01.29.07:791][ 75]LogFbx: =================================================
+[2017.08.29-01.29.07:791][ 75]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.08.29-01.29.07:791][ 75]LogFbx: 		[Node Attribute Child 1] ChelleBody (Type Mesh).
+[2017.08.29-01.29.07:791][ 75]LogFbx: Dumping Node END [ChelleBody]
+[2017.08.29-01.29.07:795][ 75]LogFbx: Valid bind pose for Pose (Mesh) - ChelleBody
+[2017.08.29-01.29.07:823][ 75]LogMaterial: Warning: Material /Game/GlycoSanatorium/Models/Characters/Player/Material_008.Material_008 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.08.29-01.29.07:834][ 75]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.29.07:977][ 75]LogFbxMaterialImport: Warning: Unable to find Texture file /home/pierre/Documents/blender/uni/glycosanatorium/textures/characters/Player/ChelleComposited.png
+[2017.08.29-01.29.07:978][ 75]LogFbxMaterialImport: Warning: Unable to find Texture file /home/pierre/Documents/blender/uni/glycosanatorium/textures/characters/Player/ChelleBump.png
+[2017.08.29-01.29.07:989][ 75]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.29.08:268][ 75]LogMaterial: Warning: Material /Game/GlycoSanatorium/Models/Characters/Player/Material_009.Material_009 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.08.29-01.29.08:281][ 75]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-01.29.08:505][ 75]LogFbxMaterialImport: Warning: Unable to find Texture file /home/pierre/Documents/blender/uni/glycosanatorium/textures/characters/lensgradient.png
+[2017.08.29-01.29.08:519][ 75]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-01.29.08:767][ 75]LogMaterial: Warning: Material /Game/GlycoSanatorium/Models/Characters/Player/Material_010.Material_010 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.08.29-01.29.08:777][ 75]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-01.29.08:992][ 75]LogFbxMaterialImport: Warning: Unable to find Texture file /home/pierre/Documents/blender/uni/glycosanatorium/textures/characters/hairbitsbrown.png
+[2017.08.29-01.29.09:003][ 75]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-01.29.09:463][ 75]LogFbx: Triangulating skeletal mesh ChelleBody
+[2017.08.29-01.29.25:851][ 75]LogFbx: Warning: Bones digested - 90  Depth of hierarchy - 11
+[2017.08.29-01.29.28:623][ 75]LogSkeletalMesh: Section 0: 32798 vertices, 78 active bones
+[2017.08.29-01.29.28:623][ 75]LogSkeletalMesh: Section 1: 178 vertices, 2 active bones
+[2017.08.29-01.29.28:623][ 75]LogSkeletalMesh: Section 2: 5387 vertices, 10 active bones
+[2017.08.29-01.29.28:849][ 75]LogSkeletalMesh: Section 0: Material=0, 60427 triangles
+[2017.08.29-01.29.28:849][ 75]LogSkeletalMesh: Section 1: Material=1, 320 triangles
+[2017.08.29-01.29.28:849][ 75]LogSkeletalMesh: Section 2: Material=2, 7424 triangles
+[2017.08.29-01.29.28:919][ 75]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_3.SkeletalMeshComponent0'
+[2017.08.29-01.29.53:512][475]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.126
+[2017.08.29-01.29.53:533][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Models/Characters/Player/Material_009] ([1] browsable assets)...
+[2017.08.29-01.29.53:619][475]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GlycoSanatorium/Models/Characters/Player/Material_009.Material_009]
+[2017.08.29-01.29.53:620][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Characters/Player/Material_009]
+[2017.08.29-01.29.53:703][475]LogSavePackage: Save=65.01ms
+[2017.08.29-01.29.53:703][475]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_009_Auto249DACE204A1028C81F2B249A9AB743E9.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_009_Auto2.uasset'
+[2017.08.29-01.29.53:728][475]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_009_Auto2.uasset
+[2017.08.29-01.29.53:744][475]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_PhysicsAsset] ([1] browsable assets)...
+[2017.08.29-01.29.53:745][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_PhysicsAsset]
+[2017.08.29-01.29.53:777][475]LogSavePackage: Save=16.86ms
+[2017.08.29-01.29.53:778][475]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/FemalePlayer_Mesh_PhysicsAsset_Auto25033BED8438863C1DFFE4E9558292B98.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_PhysicsAsset_Auto2.uasset'
+[2017.08.29-01.29.53:797][475]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_PhysicsAsset_Auto2.uasset
+[2017.08.29-01.29.53:808][475]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Skeleton] ([1] browsable assets)...
+[2017.08.29-01.29.53:809][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Skeleton]
+[2017.08.29-01.29.53:836][475]LogSavePackage: Save=14.50ms
+[2017.08.29-01.29.53:836][475]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/FemalePlayer_Mesh_Skeleton_Auto2BD4D130248B441496DF2CCAEF7B7E927.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Skeleton_Auto2.uasset'
+[2017.08.29-01.29.53:857][475]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Skeleton_Auto2.uasset
+[2017.08.29-01.29.53:871][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Models/Characters/Player/Material_010] ([1] browsable assets)...
+[2017.08.29-01.29.53:943][475]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GlycoSanatorium/Models/Characters/Player/Material_010.Material_010]
+[2017.08.29-01.29.53:943][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Characters/Player/Material_010]
+[2017.08.29-01.29.54:009][475]LogSavePackage: Save=50.62ms
+[2017.08.29-01.29.54:009][475]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_010_Auto27645C87F40397A276ECEDDB9A71B8217.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_010_Auto2.uasset'
+[2017.08.29-01.29.54:027][475]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_010_Auto2.uasset
+[2017.08.29-01.29.54:038][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Models/Characters/Player/Material_008] ([1] browsable assets)...
+[2017.08.29-01.29.54:109][475]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GlycoSanatorium/Models/Characters/Player/Material_008.Material_008]
+[2017.08.29-01.29.54:109][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Characters/Player/Material_008]
+[2017.08.29-01.29.54:171][475]LogSavePackage: Save=51.56ms
+[2017.08.29-01.29.54:171][475]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_008_Auto2FBB123A440B5AE7D535C72BF09B4C4F3.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_008_Auto2.uasset'
+[2017.08.29-01.29.54:190][475]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_008_Auto2.uasset
+[2017.08.29-01.29.54:201][475]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh] ([1] browsable assets)...
+[2017.08.29-01.29.54:276][475]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh.FemalePlayer_Mesh]
+[2017.08.29-01.29.54:276][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh]
+[2017.08.29-01.29.54:645][475]LogSavePackage: Save=357.07ms
+[2017.08.29-01.29.54:646][475]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/FemalePlayer_Mesh_Auto2BB28624747F093A22BF9DBBFC6E2F6CC.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Auto2.uasset'
+[2017.08.29-01.29.54:665][475]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/FemalePlayer_Mesh_Auto2.uasset
+[2017.08.29-01.29.54:666][475]LogFileHelpers: Auto-saving content packages took 1.151
+[2017.08.29-01.30.08:721][653]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0040 seconds. Added 1 classes and 2 folders.
+[2017.08.29-01.30.09:876][653]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.29-01.30.10:417][653]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.08.29-01.30.12:508][653]LogSlate: Took 0.015808 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.29-01.30.12:704][653]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0033 seconds. Added 1 classes and 0 folders.
+[2017.08.29-01.31.18:392][951]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0040 seconds. Added 1 classes and 0 folders.
+[2017.08.29-01.31.18:421][951]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.31.18:971][951]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.31.19:128][951]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.31.19:355][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-01.31.33:683][349]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.29-01.31.33:683][349]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.29-01.31.33:683][349]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.29-01.35.00:094][  3]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Unreal engine 4 stuff from Schonn\femaleplayer_01b_test\ChelleBump.png)
+[2017.08.29-01.35.00:432][  3]LogTexture: Display: Building textures: ChelleBump (AutoDXT, 1024X1024)
+[2017.08.29-01.35.29:667][101]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Unreal engine 4 stuff from Schonn\femaleplayer_01b_test\ChelleComposited.png)
+[2017.08.29-01.35.30:650][101]LogTexture: Display: Building textures: ChelleComposited (AutoDXT, 2048X2048)
+[2017.08.29-01.36.03:700][147]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Unreal engine 4 stuff from Schonn\femaleplayer_01b_test\PepperBoxBump.png)
+[2017.08.29-01.36.04:070][147]LogTexture: Display: Building textures: PepperBoxBump (AutoDXT, 1024X1024)
+[2017.08.29-01.36.24:741][197]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Unreal engine 4 stuff from Schonn\femaleplayer_01b_test\PepperBoxComposited.png)
+[2017.08.29-01.36.25:983][197]LogTexture: Display: Building textures: PepperBoxComposited (AutoDXT, 2048X2048)
+[2017.08.29-01.37.04:089][356]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Unreal engine 4 stuff from Schonn\femaleplayer_01b_test\hairbitsbrown.png)
+[2017.08.29-01.37.04:161][356]LogTexture: Display: Building textures: hairbitsbrown (BGRA8, 400X299)
+[2017.08.29-01.37.46:034][480]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Unreal engine 4 stuff from Schonn\femaleplayer_01b_test\lensgradient.png)
+[2017.08.29-01.37.46:131][480]LogTexture: Display: Building textures: lensgradient (BGRA8, 478X492)
+[2017.08.29-01.39.26:370][987]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-01.39.26:794][987]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-01.39.26:957][987]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-01.39.27:142][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-01.39.39:522][335]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-01.39.39:585][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.29-01.39.39:624][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-01.39.39:633][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.29-01.39.49:274][610]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.29-01.39.49:274][610]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.29-01.39.49:274][610]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.29-01.40.20:363][872]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.127
+[2017.08.29-01.40.20:385][872]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Materials/Characters/Player/ChelleBump] ([1] browsable assets)...
+[2017.08.29-01.40.20:441][872]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GlycoSanatorium/Materials/Characters/Player/ChelleBump.ChelleBump]
+[2017.08.29-01.40.20:441][872]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Materials/Characters/Player/ChelleBump]
+[2017.08.29-01.40.20:514][872]LogSavePackage: Save=54.61ms
+[2017.08.29-01.40.20:515][872]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/ChelleBump_Auto39974C28D4AB13DD66B6FE1B43E9321F6.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Materials/Characters/Player/ChelleBump_Auto3.uasset'
+[2017.08.29-01.40.20:535][872]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Materials/Characters/Player/ChelleBump_Auto3.uasset
+[2017.08.29-01.40.20:548][872]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Materials/Characters/Player/ChelleComposited] ([1] browsable assets)...
+[2017.08.29-01.40.20:597][872]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GlycoSanatorium/Materials/Characters/Player/ChelleComposited.ChelleComposited]
+[2017.08.29-01.40.20:597][872]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Materials/Characters/Player/ChelleComposited]
+[2017.08.29-01.40.20:691][872]LogSavePackage: Save=77.57ms
+[2017.08.29-01.40.20:692][872]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/ChelleComposited_Auto3348E5B134649D24B1620FE96BCCED4D3.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Materials/Characters/Player/ChelleComposited_Auto3.uasset'
+[2017.08.29-01.40.20:715][872]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Materials/Characters/Player/ChelleComposited_Auto3.uasset
+[2017.08.29-01.40.20:733][872]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Materials/Characters/Player/PepperBoxBump] ([1] browsable assets)...
+[2017.08.29-01.40.20:768][872]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GlycoSanatorium/Materials/Characters/Player/PepperBoxBump.PepperBoxBump]
+[2017.08.29-01.40.20:768][872]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Materials/Characters/Player/PepperBoxBump]
+[2017.08.29-01.40.20:840][872]LogSavePackage: Save=58.93ms
+[2017.08.29-01.40.20:840][872]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/PepperBoxBump_Auto33F5510FD4921D1EF6A42E492065F52DA.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Materials/Characters/Player/PepperBoxBump_Auto3.uasset'
+[2017.08.29-01.40.20:863][872]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Materials/Characters/Player/PepperBoxBump_Auto3.uasset
+[2017.08.29-01.40.20:877][872]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Materials/Characters/Player/PepperBoxComposited] ([1] browsable assets)...
+[2017.08.29-01.40.20:921][872]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GlycoSanatorium/Materials/Characters/Player/PepperBoxComposited.PepperBoxComposited]
+[2017.08.29-01.40.20:921][872]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Materials/Characters/Player/PepperBoxComposited]
+[2017.08.29-01.40.21:004][872]LogSavePackage: Save=71.02ms
+[2017.08.29-01.40.21:004][872]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/PepperBoxComposited_Auto3859FE4604F3872293AF527941BDD19D4.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Materials/Characters/Player/PepperBoxComposited_Auto3.uasset'
+[2017.08.29-01.40.21:023][872]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Materials/Characters/Player/PepperBoxComposited_Auto3.uasset
+[2017.08.29-01.40.21:035][872]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Materials/Characters/Player/hairbitsbrown] ([1] browsable assets)...
+[2017.08.29-01.40.21:067][872]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GlycoSanatorium/Materials/Characters/Player/hairbitsbrown.hairbitsbrown]
+[2017.08.29-01.40.21:067][872]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Materials/Characters/Player/hairbitsbrown]
+[2017.08.29-01.40.21:130][872]LogSavePackage: Save=48.50ms
+[2017.08.29-01.40.21:130][872]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/hairbitsbrown_Auto31E299FBF432D5BFB896AC8AF8AC779A8.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Materials/Characters/Player/hairbitsbrown_Auto3.uasset'
+[2017.08.29-01.40.21:153][872]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Materials/Characters/Player/hairbitsbrown_Auto3.uasset
+[2017.08.29-01.40.21:168][872]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Materials/Characters/Player/lensgradient] ([1] browsable assets)...
+[2017.08.29-01.40.21:205][872]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/GlycoSanatorium/Materials/Characters/Player/lensgradient.lensgradient]
+[2017.08.29-01.40.21:205][872]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Materials/Characters/Player/lensgradient]
+[2017.08.29-01.40.21:292][872]LogSavePackage: Save=71.70ms
+[2017.08.29-01.40.21:293][872]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/lensgradient_Auto3E326374A44035BE006CF87B0CB3B5E13.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Materials/Characters/Player/lensgradient_Auto3.uasset'
+[2017.08.29-01.40.21:314][872]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Materials/Characters/Player/lensgradient_Auto3.uasset
+[2017.08.29-01.40.21:315][872]LogFileHelpers: Auto-saving content packages took 0.948
+[2017.08.29-01.46.33:625][372]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-01.46.33:811][372]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-01.46.34:070][372]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-01.46.34:460][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_010, compiling. 
+[2017.08.29-01.46.41:620][372]TextureStreamingBuild: Display: Compiling optional shaders took 7.229 seconds.
+[2017.08.29-01.47.00:034][509]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-01.47.00:409][509]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-01.47.00:558][509]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-01.47.00:803][509]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-01.47.09:629][819]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-01.47.09:691][819]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.08.29-01.47.09:726][819]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-01.47.09:734][819]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.08.29-01.47.18:520][264]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.29-01.47.18:520][264]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.29-01.47.18:520][264]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.29-01.50.22:605][ 83]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.197
+[2017.08.29-01.50.22:631][ 83]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Models/Characters/Player/Material_010] ([1] browsable assets)...
+[2017.08.29-01.50.22:748][ 83]OBJ SavePackage:     Rendered thumbnail for [Material /Game/GlycoSanatorium/Models/Characters/Player/Material_010.Material_010]
+[2017.08.29-01.50.22:748][ 83]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Characters/Player/Material_010]
+[2017.08.29-01.50.22:839][ 83]LogSavePackage: Save=73.50ms
+[2017.08.29-01.50.22:839][ 83]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_010_Auto48FCBD599433696C54F7E17946F61450B.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_010_Auto4.uasset'
+[2017.08.29-01.50.22:859][ 83]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Characters/Player/Material_010_Auto4.uasset
+[2017.08.29-01.50.22:859][ 83]LogFileHelpers: Auto-saving content packages took 0.251
+[2017.08.29-01.51.14:873][340]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.51.15:460][340]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.51.15:724][340]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.51.15:932][340]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-01.51.26:229][583]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.29-01.51.26:229][583]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.29-01.51.26:229][583]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.29-01.52.00:336][785]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.52.00:463][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.08.29-01.52.00:522][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-01.52.00:561][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.08.29-01.52.12:024][138]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.29-01.52.12:024][138]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.29-01.52.12:024][138]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.29-01.53.19:771][ 45]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.53.19:958][ 45]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.08.29-01.53.31:070][346]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.08.29-01.53.31:070][346]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-01.53.31:070][346]MaterialEditorStats: Texture samplers: 2/16
+[2017.08.29-01.53.31:070][346]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-01.54.37:363][355]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.54.37:558][355]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.54.49:164][592]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.08.29-01.54.49:164][592]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-01.54.49:164][592]MaterialEditorStats: Texture samplers: 2/16
+[2017.08.29-01.54.49:164][592]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-01.55.26:360][850]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.55.26:712][850]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.08.29-01.55.44:856][352]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.08.29-01.55.44:856][352]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-01.55.44:856][352]MaterialEditorStats: Texture samplers: 2/16
+[2017.08.29-01.55.44:856][352]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-01.56.16:540][765]LogMaterialEditor: Saving and Compiling material Material_008
+[2017.08.29-01.56.18:774][765]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.56.19:152][765]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.56.19:718][765]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.56.20:312][765]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_008, compiling. 
+[2017.08.29-01.56.31:650][765]TextureStreamingBuild: Display: Compiling optional shaders took 11.372 seconds.
+[2017.08.29-01.56.44:389][765]LogSavePackage: Save=50.60ms
+[2017.08.29-01.56.44:389][765]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_0088F95C02A4C70056581E96182B2B88851.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_008.uasset'
+[2017.08.29-01.56.44:431][765]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_008.uasset
+[2017.08.29-01.56.45:183][765]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.08.29-01.56.45:184][765]MaterialEditorStats: Vertex shader: 33 instructions
+[2017.08.29-01.56.45:184][765]MaterialEditorStats: Texture samplers: 3/16
+[2017.08.29-01.56.45:184][765]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-01.57.29:818][447]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.57.30:173][447]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.08.29-01.57.30:239][447]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-01.57.30:271][447]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.08.29-01.57.30:316][447]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.08.29-01.57.38:854][841]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.57.46:140][177]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.57.46:207][177]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.08.29-01.57.52:969][252]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.08.29-01.57.52:969][252]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-01.57.52:969][252]MaterialEditorStats: Texture samplers: 2/16
+[2017.08.29-01.57.52:969][252]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-01.57.57:515][357]LogMaterialEditor: Saving and Compiling material Material_008
+[2017.08.29-01.57.59:952][357]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.58.00:153][357]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.58.00:395][357]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.58.00:738][357]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_008, compiling. 
+[2017.08.29-01.58.07:915][357]TextureStreamingBuild: Display: Compiling optional shaders took 7.205 seconds.
+[2017.08.29-01.58.15:554][357]LogSavePackage: Save=77.63ms
+[2017.08.29-01.58.15:554][357]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_008D6058F1E4D5B63B8EC5D1BBF76E04482.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_008.uasset'
+[2017.08.29-01.58.15:586][357]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_008.uasset
+[2017.08.29-01.58.15:602][357]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.08.29-01.58.15:602][357]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-01.58.15:603][357]MaterialEditorStats: Texture samplers: 3/16
+[2017.08.29-01.58.15:603][357]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-01.59.31:202][ 47]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.59.31:383][ 47]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.08.29-01.59.31:449][ 47]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-01.59.31:492][ 47]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.08.29-01.59.31:549][ 47]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.08.29-01.59.41:971][441]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-01.59.42:037][441]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.08.29-01.59.49:980][664]MaterialEditorStats: Base pass shader: 82 instructions
+[2017.08.29-01.59.49:980][664]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-01.59.49:980][664]MaterialEditorStats: Texture samplers: 3/16
+[2017.08.29-01.59.49:980][664]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.00.00:227][831]LogMaterialEditor: Saving and Compiling material Material_008
+[2017.08.29-02.00.02:509][831]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-02.00.02:696][831]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-02.00.02:938][831]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-02.00.03:295][831]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_008, compiling. 
+[2017.08.29-02.00.09:811][831]TextureStreamingBuild: Display: Compiling optional shaders took 6.546 seconds.
+[2017.08.29-02.00.16:861][831]LogSavePackage: Save=68.49ms
+[2017.08.29-02.00.16:861][831]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_0082FE57119433299F5FB1671902BC09142.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_008.uasset'
+[2017.08.29-02.00.16:903][831]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_008.uasset
+[2017.08.29-02.00.16:922][831]MaterialEditorStats: Base pass shader: 82 instructions
+[2017.08.29-02.00.16:922][831]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-02.00.16:922][831]MaterialEditorStats: Texture samplers: 4/16
+[2017.08.29-02.00.16:922][831]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.02.36:924][785]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-02.02.40:923][905]LogMaterialEditor: Saving and Compiling material Material_008
+[2017.08.29-02.02.42:264][905]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-02.02.42:374][905]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-02.02.42:461][905]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.08.29-02.02.42:587][905]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_008, compiling. 
+[2017.08.29-02.02.47:712][905]TextureStreamingBuild: Display: Compiling optional shaders took 5.136 seconds.
+[2017.08.29-02.02.55:204][905]LogSavePackage: Save=65.72ms
+[2017.08.29-02.02.55:204][905]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_008A3C6ACBF4C43FD7C14E77DB8D31219C9.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_008.uasset'
+[2017.08.29-02.02.55:258][905]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_008.uasset
+[2017.08.29-02.02.55:274][905]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.08.29-02.02.55:274][905]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-02.02.55:274][905]MaterialEditorStats: Texture samplers: 3/16
+[2017.08.29-02.02.55:274][905]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.03.15:857][ 77]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.29-02.03.16:242][ 77]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.29-02.03.16:372][ 77]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.29-02.03.16:528][ 77]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-02.03.19:901][169]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.29-02.03.19:994][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.08.29-02.03.20:037][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-02.03.20:050][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.08.29-02.03.28:357][497]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.29-02.03.28:428][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.08.29-02.03.36:352][718]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.08.29-02.03.36:352][718]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-02.03.36:352][718]MaterialEditorStats: Texture samplers: 2/16
+[2017.08.29-02.03.36:352][718]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.03.58:196][245]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.29-02.03.58:386][245]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.29-02.04.03:481][389]LogMaterialEditor: Saving and Compiling material Material_009
+[2017.08.29-02.04.04:582][389]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.29-02.04.04:691][389]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-02.04.04:780][389]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-02.04.04:910][389]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_009, compiling. 
+[2017.08.29-02.04.09:986][389]TextureStreamingBuild: Display: Compiling optional shaders took 5.086 seconds.
+[2017.08.29-02.04.17:962][389]LogSavePackage: Save=49.97ms
+[2017.08.29-02.04.17:962][389]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_009E3BE3E7B472C6440121A12ADEFD90C2D.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_009.uasset'
+[2017.08.29-02.04.18:001][389]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_009.uasset
+[2017.08.29-02.04.18:669][389]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.08.29-02.04.18:669][389]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-02.04.18:670][389]MaterialEditorStats: Texture samplers: 3/16
+[2017.08.29-02.04.18:670][389]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.04.48:135][930]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.29-02.04.48:279][930]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.08.29-02.04.48:344][930]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-02.04.48:371][930]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.08.29-02.04.48:400][930]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.08.29-02.04.51:710][ 50]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.29-02.04.56:704][262]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.29-02.04.56:769][262]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.08.29-02.05.03:809][351]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.08.29-02.05.03:810][351]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-02.05.03:810][351]MaterialEditorStats: Texture samplers: 2/16
+[2017.08.29-02.05.03:810][351]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.06.27:888][473]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.29-02.06.28:343][473]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.08.29-02.06.34:926][690]LogMaterialEditor: Saving and Compiling material Material_009
+[2017.08.29-02.06.36:055][690]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.29-02.06.36:268][690]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-02.06.36:455][690]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-02.06.36:675][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_009, compiling. 
+[2017.08.29-02.06.46:821][690]TextureStreamingBuild: Display: Compiling optional shaders took 10.158 seconds.
+[2017.08.29-02.06.59:491][690]LogSavePackage: Save=83.37ms
+[2017.08.29-02.06.59:491][690]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_00949C25D4E4D8EA27F8099CBBC1BC034A3.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_009.uasset'
+[2017.08.29-02.06.59:542][690]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_009.uasset
+[2017.08.29-02.06.59:559][690]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.08.29-02.06.59:559][690]MaterialEditorStats: Vertex shader: 33 instructions
+[2017.08.29-02.06.59:560][690]MaterialEditorStats: Texture samplers: 3/16
+[2017.08.29-02.06.59:560][690]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.08.00:257][603]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.08.00:866][603]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.08.01:008][603]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.08.01:153][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-02.08.01:177][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.29-02.08.12:117][893]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.08.12:176][893]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.08.29-02.08.12:210][893]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-02.08.12:219][893]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.29-02.08.12:228][893]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.08.29-02.08.18:718][941]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.08.29-02.08.18:718][941]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.08.29-02.08.18:718][941]MaterialEditorStats: Texture samplers: 1/16
+[2017.08.29-02.08.25:877][ 63]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.08.29:950][185]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.08.30:047][185]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.08.29-02.08.38:307][461]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.08.29-02.08.38:307][461]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-02.08.38:307][461]MaterialEditorStats: Texture samplers: 2/16
+[2017.08.29-02.08.38:307][461]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.09.22:955][333]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.09.23:155][333]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.09.34:370][659]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.08.29-02.09.34:370][659]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-02.09.34:370][659]MaterialEditorStats: Texture samplers: 2/16
+[2017.08.29-02.09.34:371][659]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.09.43:366][745]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.09.43:674][745]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.08.29-02.09.45:684][797]LogMaterialEditor: Saving and Compiling material Material_010
+[2017.08.29-02.09.47:614][797]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.09.47:892][797]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-02.09.48:139][797]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-02.09.48:400][797]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_010, compiling. 
+[2017.08.29-02.09.58:415][797]TextureStreamingBuild: Display: Compiling optional shaders took 10.029 seconds.
+[2017.08.29-02.10.11:091][797]LogSavePackage: Save=22.95ms
+[2017.08.29-02.10.11:091][797]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_010C738534D4289ADBC05A87D85A89C7ADF.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_010.uasset'
+[2017.08.29-02.10.11:102][797]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_010.uasset
+[2017.08.29-02.10.11:787][797]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.08.29-02.10.11:787][797]MaterialEditorStats: Vertex shader: 33 instructions
+[2017.08.29-02.10.11:787][797]MaterialEditorStats: Texture samplers: 3/16
+[2017.08.29-02.10.11:787][797]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.11.04:092][574]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.11.04:370][574]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.11.20:126][759]MaterialEditorStats: Base pass shader: 47 instructions
+[2017.08.29-02.11.20:126][759]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.08.29-02.11.20:126][759]MaterialEditorStats: Texture samplers: 5/16
+[2017.08.29-02.11.20:126][759]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.12.00:100][151]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.12.00:359][151]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.08.29-02.12.02:845][206]LogMaterialEditor: Saving and Compiling material Material_010
+[2017.08.29-02.12.04:600][206]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.12.04:780][206]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-02.12.04:917][206]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-02.12.05:093][206]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_010, compiling. 
+[2017.08.29-02.12.15:278][206]TextureStreamingBuild: Display: Compiling optional shaders took 10.198 seconds.
+[2017.08.29-02.12.26:432][206]LogSavePackage: Save=22.50ms
+[2017.08.29-02.12.26:432][206]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_010D843DF6F451DAA118C5808AEBD9E7793.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_010.uasset'
+[2017.08.29-02.12.26:444][206]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_010.uasset
+[2017.08.29-02.12.26:475][206]MaterialEditorStats: Base pass shader: 50 instructions
+[2017.08.29-02.12.26:475][206]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.08.29-02.12.26:475][206]MaterialEditorStats: Texture samplers: 5/16
+[2017.08.29-02.12.26:475][206]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.12.54:194][617]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.12.54:461][617]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.13.11:670][887]MaterialEditorStats: Base pass shader: 49 instructions
+[2017.08.29-02.13.11:670][887]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.08.29-02.13.11:670][887]MaterialEditorStats: Texture samplers: 5/16
+[2017.08.29-02.13.11:670][887]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.13.30:295][ 77]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.13.31:229][ 91]LogMaterialEditor: Saving and Compiling material Material_010
+[2017.08.29-02.13.34:064][ 91]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.13.34:282][ 91]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-02.13.34:450][ 91]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-02.13.34:671][ 91]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_010, compiling. 
+[2017.08.29-02.13.44:738][ 91]TextureStreamingBuild: Display: Compiling optional shaders took 10.084 seconds.
+[2017.08.29-02.13.55:618][ 91]LogSavePackage: Save=18.14ms
+[2017.08.29-02.13.55:618][ 91]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_010E4BFF5AD40C8B8B4B2C716A5C75F3B48.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_010.uasset'
+[2017.08.29-02.13.55:630][ 91]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_010.uasset
+[2017.08.29-02.13.55:658][ 91]MaterialEditorStats: Base pass shader: 49 instructions
+[2017.08.29-02.13.55:658][ 91]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.08.29-02.13.55:658][ 91]MaterialEditorStats: Texture samplers: 5/16
+[2017.08.29-02.13.55:658][ 91]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.14.10:736][432]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.14.10:737][432]LogMaterial: Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.29-02.14.10:738][432]LogMaterial: Warning: 	Dynamically lit translucency is not supported for BLEND_Modulate materials.
+[2017.08.29-02.14.10:738][432]LogMaterial: Warning: 	Translucency after DOF with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
+[2017.08.29-02.14.10:759][432]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.14.10:761][432]LogMaterial: Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.29-02.14.10:761][432]LogMaterial: Warning: 	Dynamically lit translucency is not supported for BLEND_Modulate materials.
+[2017.08.29-02.14.10:761][432]LogMaterial: Warning: 	Translucency after DOF with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
+[2017.08.29-02.14.10:771][432]MaterialEditorStats: Error: [SM5] Dynamically lit translucency is not supported for BLEND_Modulate materials.
+[2017.08.29-02.14.10:771][432]MaterialEditorStats: Error: [SM5] Translucency after DOF with BLEND_Modulate is not supported. Consider using BLEND_Translucent with black emissive
+[2017.08.29-02.14.22:578][702]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.14.22:839][702]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.14.32:724][959]LogMaterialEditor: Saving and Compiling material Material_010
+[2017.08.29-02.14.33:813][959]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.14.33:952][959]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-02.14.34:059][959]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-02.14.34:208][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_010, compiling. 
+[2017.08.29-02.14.44:150][959]TextureStreamingBuild: Display: Compiling optional shaders took 9.954 seconds.
+[2017.08.29-02.14.55:671][959]LogSavePackage: Save=20.86ms
+[2017.08.29-02.14.55:671][959]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_010FDDD2BA94A35C04D2398E98DFC590A96.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_010.uasset'
+[2017.08.29-02.14.55:682][959]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_010.uasset
+[2017.08.29-02.14.55:713][959]MaterialEditorStats: Base pass shader: 49 instructions
+[2017.08.29-02.14.55:713][959]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.08.29-02.14.55:713][959]MaterialEditorStats: Texture samplers: 5/16
+[2017.08.29-02.14.55:713][959]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.15.28:574][287]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.15.28:864][287]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.15.32:760][397]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.15.34:222][435]LogMaterialEditor: Saving and Compiling material Material_010
+[2017.08.29-02.15.35:372][435]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.08.29-02.15.35:521][435]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-02.15.35:631][435]LogMaterial: Missing cached shader map for material Material_010, compiling. 
+[2017.08.29-02.15.35:789][435]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_010, compiling. 
+[2017.08.29-02.15.45:847][435]TextureStreamingBuild: Display: Compiling optional shaders took 10.070 seconds.
+[2017.08.29-02.15.56:558][435]LogSavePackage: Save=23.75ms
+[2017.08.29-02.15.56:558][435]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_010B5B1A9DB4E9BA6FF55B50C9D7CE18553.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_010.uasset'
+[2017.08.29-02.15.56:572][435]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_010.uasset
+[2017.08.29-02.15.56:598][435]MaterialEditorStats: Base pass shader: 50 instructions
+[2017.08.29-02.15.56:598][435]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.08.29-02.15.56:599][435]MaterialEditorStats: Texture samplers: 5/16
+[2017.08.29-02.15.56:599][435]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.16.07:325][582]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.16.08:132][582]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.16.08:391][582]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.16.08:791][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.08.29-02.16.08:816][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-02.16.16:428][815]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.16.16:518][815]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.16.20:246][981]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.16.20:337][981]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.08.29-02.16.21:537][ 15]LogMaterialEditor: Saving and Compiling material Material_009
+[2017.08.29-02.16.22:586][ 15]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.16.22:724][ 15]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-02.16.22:832][ 15]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-02.16.22:976][ 15]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_009, compiling. 
+[2017.08.29-02.16.33:795][ 15]TextureStreamingBuild: Display: Compiling optional shaders took 10.830 seconds.
+[2017.08.29-02.16.44:402][ 15]LogSavePackage: Save=50.42ms
+[2017.08.29-02.16.44:402][ 15]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_009414951934EFFDD65FC32578F4F55F9F4.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_009.uasset'
+[2017.08.29-02.16.44:430][ 15]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_009.uasset
+[2017.08.29-02.16.44:483][ 15]MaterialEditorStats: Base pass shader: 50 instructions
+[2017.08.29-02.16.44:483][ 15]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.08.29-02.16.44:483][ 15]MaterialEditorStats: Texture samplers: 5/16
+[2017.08.29-02.16.44:483][ 15]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.18.51:379][601]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.18.51:645][601]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.18.56:483][716]LogMaterialEditor: Saving and Compiling material Material_009
+[2017.08.29-02.18.57:640][716]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.18.57:759][716]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-02.18.57:864][716]LogMaterial: Missing cached shader map for material Material_009, compiling. 
+[2017.08.29-02.18.58:010][716]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material_009, compiling. 
+[2017.08.29-02.19.05:552][716]TextureStreamingBuild: Display: Compiling optional shaders took 7.553 seconds.
+[2017.08.29-02.19.12:910][716]LogSavePackage: Save=18.16ms
+[2017.08.29-02.19.12:910][716]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Material_009235A9BD544F8AAEEE4096A93F632A11E.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_009.uasset'
+[2017.08.29-02.19.12:943][716]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_009.uasset
+[2017.08.29-02.19.13:001][716]MaterialEditorStats: Base pass shader: 49 instructions
+[2017.08.29-02.19.13:001][716]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-02.19.13:001][716]MaterialEditorStats: Texture samplers: 5/16
+[2017.08.29-02.19.13:001][716]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.32.09:723][268]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.32.09:991][268]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.32.20:813][661]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.32.20:904][661]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.32.26:360][892]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.32.26:446][892]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.32.37:425][236]MaterialEditorStats: Base pass shader: 49 instructions
+[2017.08.29-02.32.37:425][236]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-02.32.37:425][236]MaterialEditorStats: Texture samplers: 5/16
+[2017.08.29-02.32.37:426][236]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.34.06:599][430]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.34.17:666][792]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.08.29-02.34.28:407][926]MaterialEditorStats: Base pass shader: 49 instructions
+[2017.08.29-02.34.28:407][926]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.08.29-02.34.28:407][926]MaterialEditorStats: Texture samplers: 5/16
+[2017.08.29-02.34.28:408][926]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-02.35.43:898][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_1, compiling. 
+[2017.08.29-02.36.45:335][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_2, compiling. 
+[2017.08.29-02.36.59:672][623]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_2, compiling. 
+[2017.08.29-02.37.01:869][655]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_2, compiling. 
+[2017.08.29-02.38.16:012][300]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.08.29-02.38.42:073][300]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.08.29-02.38.42:374][300]SourceControl: [master 69a6521] I have added folders for materials, models, sounds and scripts
+[2017.08.29-02.38.42:374][300]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2017.08.29-02.38.42:375][300]SourceControl:  create mode 100644 git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_008.uasset
+[2017.08.29-02.38.42:375][300]SourceControl:  create mode 100644 git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_009.uasset
+[2017.08.29-02.38.42:375][300]SourceControl:  create mode 100644 git_test/Content/GlycoSanatorium/Models/Characters/Player/Material_010.uasset
+[2017.08.29-02.38.42:392][300]SourceControl: Commited [master 69a6521] I have added folders for materials, models, sounds and scripts.
+[2017.08.29-02.48.06:833][422]LogRenderer: Reallocating scene render targets to support 856x440 Format 10 NumSamples 1 (Frame:6097).
