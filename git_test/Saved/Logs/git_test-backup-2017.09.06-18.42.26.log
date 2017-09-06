@@ -1,0 +1,1102 @@
+﻿Log file open, 09/05/17 18:42:00
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: git_test
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2049021689) SRandInit(2049021689).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.179946
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.05-09.12.01:574][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.05-09.12.01:574][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.05-09.12.01:605][  0]LogInit: Computer: BATMAN
+[2017.09.05-09.12.01:605][  0]LogInit: User: Matmo
+[2017.09.05-09.12.01:605][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.05-09.12.01:605][  0]LogInit: High frequency timer resolution =3.323587 MHz
+[2017.09.05-09.12.01:605][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.05-09.12.01:605][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.05-09.12.01:605][  0]LogMemory: Process Physical Memory: 277.35 MB used, 277.35 MB peak
+[2017.09.05-09.12.01:605][  0]LogMemory: Process Virtual Memory: 274.25 MB used, 274.25 MB peak
+[2017.09.05-09.12.01:606][  0]LogMemory: Physical Memory: 3757.29 MB used,  4395.23 MB free, 8152.51 MB total
+[2017.09.05-09.12.01:606][  0]LogMemory: Virtual Memory: 654.57 MB used,  4395.23 MB free, 134217728.00 MB total
+[2017.09.05-09.12.01:884][  0]LogInit: Using OS detected language (en-US).
+[2017.09.05-09.12.01:884][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.05-09.12.01:966][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.05-09.12.04:016][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.05-09.12.04:041][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 670' (Feature Level 11_0)
+[2017.09.05-09.12.04:041][  0]LogD3D11RHI:       1989/0/4076 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.05-09.12.04:043][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.05-09.12.04:043][  0]LogD3D11RHI:       0/0/4076 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.05-09.12.04:043][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.05-09.12.04:048][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.05-09.12.04:048][  0]LogD3D11RHI:     GPU DeviceId: 0x1189 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.05-09.12.04:048][  0]LogWindows: EnumDisplayDevices:
+[2017.09.05-09.12.04:048][  0]LogWindows:    0. 'NVIDIA GeForce GTX 670' (P:1 D:1)
+[2017.09.05-09.12.04:048][  0]LogWindows:    1. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2017.09.05-09.12.04:048][  0]LogWindows:    2. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2017.09.05-09.12.04:049][  0]LogWindows:    3. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2017.09.05-09.12.04:049][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.05-09.12.04:049][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 670
+[2017.09.05-09.12.04:049][  0]LogD3D11RHI:   Driver Version: 358.91 (internal:10.18.13.5891, unified:358.91)
+[2017.09.05-09.12.04:049][  0]LogD3D11RHI:      Driver Date: 11-5-2015
+[2017.09.05-09.12.04:049][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.05-09.12.04:063][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.09.05-09.12.04:063][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.05-09.12.04:082][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.05-09.12.04:083][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Intermediate/Shaders/WorkingDirectory/22908/).
+[2017.09.05-09.12.04:083][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Matmo/AppData/Local/Temp/UnrealShaderWorkingDir/8F6F65DC420B87F73AEDDEA123D7D729/'.
+[2017.09.05-09.12.04:084][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.05-09.12.05:607][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.05-09.12.05:678][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.05-09.12.05:750][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.05-09.12.05:821][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.05-09.12.05:904][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.05-09.12.05:975][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.05-09.12.06:046][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.05-09.12.06:118][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.05-09.12.06:184][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.05-09.12.06:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.05-09.12.06:351][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.05-09.12.06:424][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.05-09.12.06:500][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.05-09.12.06:570][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.05-09.12.06:641][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.05-09.12.06:788][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.05-09.12.06:788][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.05-09.12.06:855][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.05-09.12.06:997][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.05-09.12.07:036][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.05-09.12.07:109][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.05-09.12.07:186][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.05-09.12.07:271][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.05-09.12.07:355][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.05-09.12.07:355][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.05-09.12.08:229][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.05-09.12.08:665][  0]LogDerivedDataCache: Loaded boot cache 0.44s 93MB C:/Users/Matmo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.05-09.12.08:665][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Matmo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.05-09.12.08:666][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.05-09.12.08:666][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.05-09.12.08:666][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.05-09.12.08:666][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.05-09.12.08:687][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.05-09.12.08:700][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matmo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.05-09.12.08:711][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.05-09.12.08:711][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.05-09.12.08:727][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.05-09.12.08:727][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.05-09.12.10:485][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2017.09.05-09.12.10:635][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.05-09.12.10:887][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.05-09.12.11:292][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.05-09.12.11:351][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.05-09.12.11:351][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.05-09.12.11:351][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.05-09.12.11:351][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.05-09.12.11:351][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.05-09.12.12:076][  0]LogNetVersion: git_test , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2423607881)
+[2017.09.05-09.12.12:601][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.067573 seconds
+[2017.09.05-09.12.12:607][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.05-09.12.12:607][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.05-09.12.12:607][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.05-09.12.12:692][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.05-09.12.27:854][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.05-09.12.27:907][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.05-09.12.29:079][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.05-09.12.29:777][  0]SourceControl: Source control is disabled
+[2017.09.05-09.12.30:880][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.05-09.12.31:244][  0]LogOcInput: OculusInput pre-init called
+[2017.09.05-09.12.31:623][  0]LogEngine: Initializing Engine...
+[2017.09.05-09.12.31:633][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.09.05-09.12.32:123][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.05-09.12.32:123][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.05-09.12.32:314][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.05-09.12.32:325][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.05-09.12.32:336][  0]LogInit: FAudioDevice initialized.
+[2017.09.05-09.12.32:476][  0]LogDerivedDataCache: Saved boot cache 0.14s 93MB C:/Users/Matmo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.05-09.12.32:489][  0]LogInit: Texture streaming: Enabled
+[2017.09.05-09.12.32:643][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.05-09.12.33:002][  0]LogInit: Transaction tracking system initialized
+[2017.09.05-09.12.33:464][  0]BlueprintLog: New page: Editor Load
+[2017.09.05-09.12.34:820][  0]LocalizationService: Localization service is disabled
+[2017.09.05-09.12.35:962][  0]LogConsoleResponse: Display: 
+[2017.09.05-09.12.36:402][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.05-09.12.36:403][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.05-09.12.36:403][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.05-09.12.36:612][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/' took 0.02s
+[2017.09.05-09.12.38:190][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Map00.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.05-09.12.38:204][  0]LightingResults: New page: Lighting Build
+[2017.09.05-09.12.38:264][  0]MapCheck: New page: Map Check
+[2017.09.05-09.12.38:264][  0]LightingResults: New page: Lighting Build
+[2017.09.05-09.12.38:813][  0]LogBlueprint: Warning: [Compiler FemalePlayerAnimations] Node  Result  uses potentially thread-unsafe call  Get playerRef . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.09.05-09.12.38:813][  0]LogBlueprint: Warning: [Compiler FemalePlayerAnimations] Node  Result  uses potentially thread-unsafe call  Get Owning Actor . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.09.05-09.12.38:813][  0]LogBlueprint: Warning: [Compiler FemalePlayerAnimations] Node  Result  uses potentially thread-unsafe call  Get Owning Actor . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2017.09.05-09.12.38:822][  0]LogBlueprint: Warning: [Compiler FemalePlayerAnimations] [0040.01] Compile of FemalePlayerAnimations successful, but with 3 Warning(s) [in 35 ms] (/Game/GlycoSanatorium/Blueprints/animations/FemalePlayerAnimations.FemalePlayerAnimations)
+[2017.09.05-09.12.40:511][  0]LogAIModule: Creating AISystem for world Map00
+[2017.09.05-09.12.40:727][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.05-09.12.40:762][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.05-09.12.40:900][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 138.189ms to complete.
+[2017.09.05-09.12.40:900][  0]LogFileHelpers: Loading map 'Map00' took 2.710
+[2017.09.05-09.12.41:135][  0]LogCollectionManager: Loaded 0 collections in 0.006871 seconds
+[2017.09.05-09.12.41:267][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Collections/' took 0.02s
+[2017.09.05-09.12.41:267][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/Developers/Matmo/Collections/' took 0.01s
+[2017.09.05-09.12.41:267][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/Collections/' took 0.01s
+[2017.09.05-09.12.41:267][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.05-09.12.41:277][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2386 classes and 500 folders.
+[2017.09.05-09.12.41:397][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.09.05-09.12.41:754][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.05-09.12.41:828][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.05-09.12.41:864][  0]LogSlate: Took 0.012131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.05-09.12.41:870][  0]LogSlate: Took 0.003794 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.05-09.12.41:881][  0]LogSlate: Took 0.006004 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.05-09.12.42:015][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.09.05-09.12.42:232][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.05-09.12.42:232][  0]LogLoad: (Engine Initialization) Total time: 43.42 seconds
+[2017.09.05-09.12.42:232][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.05-09.12.42:232][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.05-09.12.42:288][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.05-09.12.42:371][  0]LogSlate: Took 0.001173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.05-09.12.42:408][  1]LogAssetRegistry: Asset discovery search completed in 31.9443 seconds
+[2017.09.05-09.12.42:410][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.05-09.12.42:410][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000082 seconds (updated 0 objects)
+[2017.09.05-09.12.47:395][517]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/' took 5.14s
+[2017.09.05-09.12.47:999][565]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.05-09.12.48:186][565]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.05-09.12.48:314][565]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.09.05-09.12.48:418][565]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.09.05-09.12.48:647][565]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.05-09.12.48:982][565]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2017.09.05-09.12.48:987][565]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.05-09.12.52:170][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.09.05-09.12.52:216][773]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.09.05-09.12.52:578][773]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.05-09.12.56:136][ 20]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.09.05-09.12.56:184][ 20]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.09.05-09.12.56:544][ 20]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.05-09.14.33:159][167]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Game assets from Schonn/pepperbox 02a/PepperBox_Mesh_02a.fbx)
+[2017.09.05-09.14.33:169][167]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.05-09.14.33:169][167]LogFbx: ItemName: NodeAttribute, ItemCount : 11
+[2017.09.05-09.14.33:169][167]LogFbx: ItemName: Geometry, ItemCount : 4
+[2017.09.05-09.14.33:169][167]LogFbx: ItemName: Model, ItemCount : 15
+[2017.09.05-09.14.33:169][167]LogFbx: ItemName: Pose, ItemCount : 4
+[2017.09.05-09.14.33:169][167]LogFbx: ItemName: Deformer, ItemCount : 41
+[2017.09.05-09.14.33:169][167]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.05-09.14.33:169][167]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.09.05-09.14.33:169][167]LogFbx: ItemName: Video, ItemCount : 2
+[2017.09.05-09.14.33:174][167]LogFbx: Loading FBX Scene from D:/Game assets from Schonn/pepperbox 02a/PepperBox_Mesh_02a.fbx
+[2017.09.05-09.14.33:192][167]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.05-09.14.36:131][167]LogFbx: Loading FBX Scene from D:/Game assets from Schonn/pepperbox 02a/PepperBox_Mesh_02a.fbx
+[2017.09.05-09.14.36:149][167]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.05-09.14.36:149][167]LogFbx: =================================================
+[2017.09.05-09.14.36:149][167]LogFbx: Dumping Node START [GunpowderBottleMesh] 
+[2017.09.05-09.14.36:149][167]LogFbx: 	Total Deformer Count 1841829568.
+[2017.09.05-09.14.36:150][167]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.14.36:150][167]LogFbx: =================================================
+[2017.09.05-09.14.36:150][167]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.14.36:150][167]LogFbx: 		[Node Attribute Child 1] GunpowderBottleMesh (Type Mesh).
+[2017.09.05-09.14.36:150][167]LogFbx: Dumping Node END [GunpowderBottleMesh]
+[2017.09.05-09.14.36:150][167]LogFbx: =================================================
+[2017.09.05-09.14.36:150][167]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.14.36:150][167]LogFbx: 	Total Deformer Count 1765290800.
+[2017.09.05-09.14.36:150][167]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.14.36:150][167]LogFbx: =================================================
+[2017.09.05-09.14.36:150][167]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.09.05-09.14.36:150][167]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.14.36:150][167]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.14.36:150][167]LogFbx: =================================================
+[2017.09.05-09.14.36:150][167]LogFbx: Dumping Node START [ScrewDriverMesh] 
+[2017.09.05-09.14.36:150][167]LogFbx: 	Total Deformer Count 1765290800.
+[2017.09.05-09.14.36:150][167]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.14.36:150][167]LogFbx: =================================================
+[2017.09.05-09.14.36:150][167]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2017.09.05-09.14.36:150][167]LogFbx: 		[Node Attribute Child 1] ScrewDriverMesh (Type Mesh).
+[2017.09.05-09.14.36:150][167]LogFbx: Dumping Node END [ScrewDriverMesh]
+[2017.09.05-09.14.36:150][167]LogFbx: =================================================
+[2017.09.05-09.14.36:150][167]LogFbx: Dumping Node START [PelletMesh] 
+[2017.09.05-09.14.36:150][167]LogFbx: 	Total Deformer Count -2028915712.
+[2017.09.05-09.14.36:150][167]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.14.36:150][167]LogFbx: =================================================
+[2017.09.05-09.14.36:150][167]LogFbx: 	Attribute (Mesh.003) Type (4).
+[2017.09.05-09.14.36:151][167]LogFbx: 		[Node Attribute Child 1] PelletMesh (Type Mesh).
+[2017.09.05-09.14.36:151][167]LogFbx: Dumping Node END [PelletMesh]
+[2017.09.05-09.14.36:151][167]LogFbx: =================================================
+[2017.09.05-09.14.36:151][167]LogFbx: Dumping Node START [GunpowderBottleMesh] 
+[2017.09.05-09.14.36:151][167]LogFbx: 	Total Deformer Count 1841828416.
+[2017.09.05-09.14.36:151][167]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.14.36:151][167]LogFbx: =================================================
+[2017.09.05-09.14.36:151][167]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.14.36:151][167]LogFbx: 		[Node Attribute Child 1] GunpowderBottleMesh (Type Mesh).
+[2017.09.05-09.14.36:151][167]LogFbx: Dumping Node END [GunpowderBottleMesh]
+[2017.09.05-09.14.36:151][167]LogFbx: =================================================
+[2017.09.05-09.14.36:151][167]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.14.36:151][167]LogFbx: 	Total Deformer Count 1765289920.
+[2017.09.05-09.14.36:151][167]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.14.36:151][167]LogFbx: =================================================
+[2017.09.05-09.14.36:151][167]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.09.05-09.14.36:151][167]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.14.36:151][167]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.14.36:151][167]LogFbx: =================================================
+[2017.09.05-09.14.36:151][167]LogFbx: Dumping Node START [ScrewDriverMesh] 
+[2017.09.05-09.14.36:151][167]LogFbx: 	Total Deformer Count 1765289920.
+[2017.09.05-09.14.36:151][167]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.14.36:151][167]LogFbx: =================================================
+[2017.09.05-09.14.36:151][167]LogFbx: 	Attribute (Mesh.002) Type (4).
+[2017.09.05-09.14.36:151][167]LogFbx: 		[Node Attribute Child 1] ScrewDriverMesh (Type Mesh).
+[2017.09.05-09.14.36:151][167]LogFbx: Dumping Node END [ScrewDriverMesh]
+[2017.09.05-09.14.36:151][167]LogFbx: =================================================
+[2017.09.05-09.14.36:151][167]LogFbx: Dumping Node START [PelletMesh] 
+[2017.09.05-09.14.36:151][167]LogFbx: 	Total Deformer Count -2028915712.
+[2017.09.05-09.14.36:151][167]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.14.36:151][167]LogFbx: =================================================
+[2017.09.05-09.14.36:151][167]LogFbx: 	Attribute (Mesh.003) Type (4).
+[2017.09.05-09.14.36:151][167]LogFbx: 		[Node Attribute Child 1] PelletMesh (Type Mesh).
+[2017.09.05-09.14.36:151][167]LogFbx: Dumping Node END [PelletMesh]
+[2017.09.05-09.14.36:151][167]LogFbx: Valid bind pose for Pose (Mesh) - GunpowderBottleMesh
+[2017.09.05-09.14.36:152][167]LogFbx: Valid bind pose for Pose (Mesh.001) - GunpowderBottleMesh
+[2017.09.05-09.14.36:152][167]LogFbx: Valid bind pose for Pose (Mesh.002) - GunpowderBottleMesh
+[2017.09.05-09.14.36:152][167]LogFbx: Valid bind pose for Pose (Mesh.003) - GunpowderBottleMesh
+[2017.09.05-09.14.36:152][167]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/Material'
+[2017.09.05-09.14.36:152][167]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/Material'
+[2017.09.05-09.14.36:153][167]LogMaterial: Warning: Material /Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.05-09.14.36:155][167]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.09.05-09.14.36:213][167]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBoxComposited'
+[2017.09.05-09.14.36:213][167]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBoxComposited'
+[2017.09.05-09.14.36:213][167]LogFbxMaterialImport: Warning: Unable to find Texture file /home/pierre/Documents/blender/uni/glycosanatorium/textures/pepperbox/PepperBoxComposited.png
+[2017.09.05-09.14.36:213][167]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBoxBump'
+[2017.09.05-09.14.36:213][167]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBoxBump'
+[2017.09.05-09.14.36:213][167]LogFbxMaterialImport: Warning: Unable to find Texture file /home/pierre/Documents/blender/uni/glycosanatorium/textures/pepperbox/PepperBoxBump.png
+[2017.09.05-09.14.36:216][167]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.09.05-09.14.36:260][167]LogFbx: Triangulating skeletal mesh GunpowderBottleMesh
+[2017.09.05-09.14.36:477][167]LogFbx: Triangulating skeletal mesh PepperBoxMesh
+[2017.09.05-09.14.37:620][167]LogFbx: Triangulating skeletal mesh ScrewDriverMesh
+[2017.09.05-09.14.37:812][167]LogFbx: Triangulating skeletal mesh PelletMesh
+[2017.09.05-09.14.37:919][167]LogFbx: Warning: Bones digested - 11  Depth of hierarchy - 5
+[2017.09.05-09.14.38:214][167]LogSkeletalMesh: Section 0: 8299 vertices, 9 active bones
+[2017.09.05-09.14.38:274][167]LogSkeletalMesh: Section 0: Material=0, 13920 triangles
+[2017.09.05-09.14.38:278][167]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a_Skeleton'
+[2017.09.05-09.14.38:278][167]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a_Skeleton'
+[2017.09.05-09.14.38:282][167]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a_PhysicsAsset'
+[2017.09.05-09.14.38:282][167]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a_PhysicsAsset'
+[2017.09.05-09.14.38:288][167]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0'
+[2017.09.05-09.14.38:291][167]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_15:PersistentLevel.SkeletalMeshActor_3.SkeletalMeshComponent0'
+[2017.09.05-09.14.38:421][167]FBXImport: Warning: The bone size is too small to create Physics Asset 'PepperBox_Mesh_02a_PhysicsAsset' from Skeletal Mesh 'PepperBox_Mesh_02a'. You will have to create physics asset manually. 
+[2017.09.05-09.14.52:003][434]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2017.09.05-09.14.52:026][434]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.09.05-09.14.52:266][434]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.09.05-09.14.52:315][434]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.09.05-09.14.52:371][434]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.05-09.14.52:408][434]LogSlate: Took 0.020425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.05-09.14.52:730][435]LogSlate: Took 0.000978 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.05-09.15.01:807][962]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_3.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.09.05-09.15.07:734][370]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.05-09.15.07:838][370]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.05-09.15.07:873][370]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.05-09.15.07:933][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.05-09.15.22:414][480]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.09.05-09.15.22:414][480]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.05-09.15.22:414][480]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.05-09.15.25:373][702]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.05-09.15.25:464][702]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.05-09.15.25:511][702]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.05-09.15.25:597][702]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.05-09.15.31:137][116]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.05-09.15.31:175][116]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.05-09.15.31:208][116]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.05-09.15.31:234][116]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.05-09.15.36:674][547]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.05-09.15.39:376][752]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.05-09.15.39:409][752]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.05-09.15.39:444][752]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.05-09.15.39:460][752]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.05-09.15.44:289][977]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.05-09.15.49:080][ 48]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.09.05-09.15.49:080][ 48]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.05-09.15.49:080][ 48]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.05-09.16.36:805][473]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.05-09.16.41:564][876]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.05-09.16.41:601][876]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.05-09.16.41:637][876]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.05-09.16.53:513][846]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.05-09.16.53:549][846]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.05-09.17.06:261][868]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.05-09.17.14:254][222]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.09.05-09.17.14:254][222]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.05-09.17.14:254][222]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.05-09.17.57:181][267]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2017.09.05-09.17.57:212][267]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2017.09.05-09.18.01:373][466]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.09.05-09.18.01:490][466]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.09.05-09.18.01:524][466]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.09.05-09.18.01:583][466]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.05-09.18.20:920][405]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.09.05-09.18.21:010][405]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.09.05-09.18.21:043][405]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.09.05-09.18.21:098][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.05-09.18.23:460][582]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.09.05-09.18.31:959][277]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.09.05-09.18.31:992][277]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.09.05-09.18.32:022][277]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.09.05-09.18.34:005][443]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.09.05-09.18.34:041][443]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.09.05-09.18.45:490][371]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.09.05-09.18.45:490][371]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.05-09.18.45:490][371]MaterialEditorStats: Texture samplers: 2/16
+[2017.09.05-09.18.45:490][371]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.05-09.18.47:024][506]LogMaterialEditor: Saving and Compiling material Material
+[2017.09.05-09.18.47:859][506]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.09.05-09.18.47:930][506]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.09.05-09.18.47:981][506]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.09.05-09.18.48:065][506]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material, compiling. 
+[2017.09.05-09.18.51:301][506]TextureStreamingBuild: Display: Compiling optional shaders took 3.257 seconds.
+[2017.09.05-09.18.55:956][506]LogSavePackage: Save=56.42ms
+[2017.09.05-09.18.55:956][506]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/MaterialADE8E00E450D0033751BD0868AAFCBB5.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Mesh/Material.uasset'
+[2017.09.05-09.18.55:966][506]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Mesh/Material.uasset
+[2017.09.05-09.18.55:993][506]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.09.05-09.18.55:993][506]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.09.05-09.18.55:993][506]MaterialEditorStats: Texture samplers: 3/16
+[2017.09.05-09.18.55:994][506]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.05-09.19.39:998][550]LogLinker: Warning: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton'
+[2017.09.05-09.19.39:998][550]LogLinker: Warning: Can't find file for asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton' while loading ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01e_Equip.uasset.
+[2017.09.05-09.19.39:998][550]LoadErrors: Error: /Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01e_Equip : Can't find file for asset. /Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton
+[2017.09.05-09.19.39:998][550]LogLinker: Warning: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton'
+[2017.09.05-09.19.39:998][550]LogLinker: Warning: Can't find file for asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton' while loading ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01e_Equip.uasset.
+[2017.09.05-09.19.39:999][550]LogLinker: Warning: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton'
+[2017.09.05-09.19.39:999][550]LoadErrors: Failed to load /Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton.PepperBox_Mesh_01c_Skeleton Referenced by PepperBox_01e_Equip
+[2017.09.05-09.19.39:999][550]LogLinker: Warning: Can't find file for asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton' while loading NULL.
+[2017.09.05-09.19.40:001][550]LogLinker: Warning: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton'
+[2017.09.05-09.19.40:002][550]LogLinker: Warning: Can't find file for asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton' while loading ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Idle.uasset.
+[2017.09.05-09.19.40:002][550]LoadErrors: Error: /Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Idle : Can't find file for asset. /Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton
+[2017.09.05-09.19.40:002][550]LogLinker: Warning: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton'
+[2017.09.05-09.19.40:002][550]LogLinker: Warning: Can't find file for asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton' while loading ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Idle.uasset.
+[2017.09.05-09.19.40:003][550]LogLinker: Warning: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton'
+[2017.09.05-09.19.40:003][550]LoadErrors: Failed to load /Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton.PepperBox_Mesh_01c_Skeleton Referenced by PepperBox_01c_Idle
+[2017.09.05-09.19.40:003][550]LogLinker: Warning: Can't find file for asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton' while loading NULL.
+[2017.09.05-09.19.54:806][286]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Idle.fbx)
+[2017.09.05-09.19.54:814][286]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.05-09.19.54:814][286]LogFbx: ItemName: NodeAttribute, ItemCount : 11
+[2017.09.05-09.19.54:814][286]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.05-09.19.54:814][286]LogFbx: ItemName: Model, ItemCount : 12
+[2017.09.05-09.19.54:814][286]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.09.05-09.19.54:814][286]LogFbx: ItemName: Deformer, ItemCount : 11
+[2017.09.05-09.19.54:814][286]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.05-09.19.54:814][286]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.05-09.19.54:814][286]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.05-09.19.54:819][286]LogFbx: Loading FBX Scene from D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Idle.fbx
+[2017.09.05-09.19.54:832][286]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.05-09.20.07:422][286]LogSlate: Took 0.000459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.05-09.20.25:910][286]LogFbx: Loading FBX Scene from D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Idle.fbx
+[2017.09.05-09.20.25:923][286]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.05-09.20.25:931][286]LogFbx: =================================================
+[2017.09.05-09.20.25:931][286]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.20.25:931][286]LogFbx: 	Total Deformer Count -1175400400.
+[2017.09.05-09.20.25:931][286]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.20.25:931][286]LogFbx: =================================================
+[2017.09.05-09.20.25:931][286]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.20.25:931][286]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.20.25:931][286]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.20.25:931][286]LogFbx: =================================================
+[2017.09.05-09.20.25:931][286]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.20.25:931][286]LogFbx: 	Total Deformer Count -1175400400.
+[2017.09.05-09.20.25:931][286]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.20.25:931][286]LogFbx: =================================================
+[2017.09.05-09.20.25:931][286]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.20.25:931][286]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.20.25:931][286]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.20.25:956][286]FBXImport: Warning: This does not contain any valid animation takes. 
+[2017.09.05-09.20.25:956][286]FBXImport: Error: Import failed. 
+[2017.09.05-09.20.28:381][286]LogAssetTools: Warning: Failed to import 'D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Idle.fbx'. Failed to create asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Idle'.
+Please see Output Log for details.
+[2017.09.05-09.20.34:795][753]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Equip.fbx)
+[2017.09.05-09.20.34:803][753]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.05-09.20.34:803][753]LogFbx: ItemName: NodeAttribute, ItemCount : 11
+[2017.09.05-09.20.34:803][753]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.05-09.20.34:803][753]LogFbx: ItemName: Model, ItemCount : 12
+[2017.09.05-09.20.34:803][753]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.09.05-09.20.34:803][753]LogFbx: ItemName: Deformer, ItemCount : 11
+[2017.09.05-09.20.34:803][753]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.05-09.20.34:803][753]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.05-09.20.34:803][753]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.05-09.20.34:803][753]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.05-09.20.34:803][753]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.05-09.20.34:803][753]LogFbx: ItemName: AnimationCurveNode, ItemCount : 2
+[2017.09.05-09.20.34:803][753]LogFbx: ItemName: AnimationCurve, ItemCount : 6
+[2017.09.05-09.20.34:807][753]LogFbx: Loading FBX Scene from D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Equip.fbx
+[2017.09.05-09.20.34:877][753]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.05-09.20.40:458][753]LogFbx: Loading FBX Scene from D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Equip.fbx
+[2017.09.05-09.20.40:473][753]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.05-09.20.40:485][753]LogFbx: =================================================
+[2017.09.05-09.20.40:485][753]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.20.40:485][753]LogFbx: 	Total Deformer Count -916250752.
+[2017.09.05-09.20.40:485][753]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.20.40:485][753]LogFbx: =================================================
+[2017.09.05-09.20.40:485][753]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.20.40:485][753]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.20.40:485][753]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.20.40:485][753]LogFbx: =================================================
+[2017.09.05-09.20.40:486][753]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.20.40:486][753]LogFbx: 	Total Deformer Count -916250752.
+[2017.09.05-09.20.40:486][753]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.20.40:486][753]LogFbx: =================================================
+[2017.09.05-09.20.40:486][753]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.20.40:486][753]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.20.40:486][753]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.20.40:486][753]LogFbx: Valid bind pose for Pose (Mesh) - PepperBoxMesh
+[2017.09.05-09.20.40:487][753]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/Material'
+[2017.09.05-09.20.40:487][753]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/Material'
+[2017.09.05-09.20.40:487][753]LogMaterial: Warning: Material /Game/GlycoSanatorium/Models/Props/PepperBox/Animations/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.05-09.20.40:489][753]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.09.05-09.20.40:530][753]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBoxComposited'
+[2017.09.05-09.20.40:530][753]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBoxComposited'
+[2017.09.05-09.20.40:530][753]LogFbxMaterialImport: Warning: Unable to find Texture file /home/pierre/Documents/blender/uni/glycosanatorium/textures/pepperbox/PepperBoxComposited.png
+[2017.09.05-09.20.40:533][753]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.09.05-09.20.40:587][753]LogFbx: Triangulating skeletal mesh PepperBoxMesh
+[2017.09.05-09.20.41:691][753]LogFbx: Warning: Bones digested - 11  Depth of hierarchy - 5
+[2017.09.05-09.20.41:885][753]LogSkeletalMesh: Section 0: 5969 vertices, 5 active bones
+[2017.09.05-09.20.41:903][753]LogSkeletalMesh: Section 0: Material=0, 9792 triangles
+[2017.09.05-09.20.41:907][753]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip_PhysicsAsset'
+[2017.09.05-09.20.41:907][753]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip_PhysicsAsset'
+[2017.09.05-09.20.41:914][753]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_23:PersistentLevel.SkeletalMeshActor_4.SkeletalMeshComponent0'
+[2017.09.05-09.20.41:917][753]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_24:PersistentLevel.SkeletalMeshActor_5.SkeletalMeshComponent0'
+[2017.09.05-09.20.42:034][753]LogFbx: =================================================
+[2017.09.05-09.20.42:034][753]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.20.42:034][753]LogFbx: 	Total Deformer Count -1898371968.
+[2017.09.05-09.20.42:034][753]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.20.42:034][753]LogFbx: =================================================
+[2017.09.05-09.20.42:034][753]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.20.42:034][753]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.20.42:034][753]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.20.42:035][753]LogFbx: =================================================
+[2017.09.05-09.20.42:035][753]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.20.42:035][753]LogFbx: 	Total Deformer Count -1898371968.
+[2017.09.05-09.20.42:035][753]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.20.42:035][753]LogFbx: =================================================
+[2017.09.05-09.20.42:035][753]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.20.42:035][753]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.20.42:035][753]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.20.42:035][753]LogFbx: SortedLinks :(0) PepperBoxRig
+[2017.09.05-09.20.42:035][753]LogFbx: SortedLinks :(1) PBParentToChest
+[2017.09.05-09.20.42:035][753]LogFbx: SortedLinks :(2) PBPellet
+[2017.09.05-09.20.42:035][753]LogFbx: SortedLinks :(3) PBPowderBottle
+[2017.09.05-09.20.42:035][753]LogFbx: SortedLinks :(4) PBBottleHatch
+[2017.09.05-09.20.42:035][753]LogFbx: SortedLinks :(5) PBBody
+[2017.09.05-09.20.42:035][753]LogFbx: SortedLinks :(6) PBHammer
+[2017.09.05-09.20.42:035][753]LogFbx: SortedLinks :(7) PBTrigger
+[2017.09.05-09.20.42:035][753]LogFbx: SortedLinks :(8) PBBarrel
+[2017.09.05-09.20.42:035][753]LogFbx: SortedLinks :(9) Screw
+[2017.09.05-09.20.42:035][753]LogFbx: SortedLinks :(10) PBScrewDriver
+[2017.09.05-09.20.42:050][753]LogFbx: Parsing AnimStack Scene
+[2017.09.05-09.20.42:067][753]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip_Anim'
+[2017.09.05-09.20.42:068][753]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip_Anim'
+[2017.09.05-09.20.42:130][753]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip_Anim.PepperBox_02a_Equip_Anim
+[2017.09.05-09.20.42:158][753]FBXImport: Warning: The bone size is too small to create Physics Asset 'PepperBox_02a_Equip_PhysicsAsset' from Skeletal Mesh 'PepperBox_02a_Equip'. You will have to create physics asset manually. 
+[2017.09.05-09.21.16:002][114]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Equip.fbx)
+[2017.09.05-09.21.16:009][114]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.05-09.21.16:009][114]LogFbx: ItemName: NodeAttribute, ItemCount : 11
+[2017.09.05-09.21.16:009][114]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.05-09.21.16:009][114]LogFbx: ItemName: Model, ItemCount : 12
+[2017.09.05-09.21.16:009][114]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.09.05-09.21.16:009][114]LogFbx: ItemName: Deformer, ItemCount : 11
+[2017.09.05-09.21.16:009][114]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.05-09.21.16:009][114]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.05-09.21.16:009][114]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.05-09.21.16:009][114]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.05-09.21.16:009][114]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.05-09.21.16:009][114]LogFbx: ItemName: AnimationCurveNode, ItemCount : 2
+[2017.09.05-09.21.16:009][114]LogFbx: ItemName: AnimationCurve, ItemCount : 6
+[2017.09.05-09.21.16:014][114]LogFbx: Loading FBX Scene from D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Equip.fbx
+[2017.09.05-09.21.16:028][114]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.05-09.21.22:295][114]LogFbx: Loading FBX Scene from D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Equip.fbx
+[2017.09.05-09.21.22:309][114]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.05-09.21.22:310][114]LogFbx: =================================================
+[2017.09.05-09.21.22:310][114]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.21.22:310][114]LogFbx: 	Total Deformer Count 1635958144.
+[2017.09.05-09.21.22:310][114]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.21.22:310][114]LogFbx: =================================================
+[2017.09.05-09.21.22:310][114]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.21.22:310][114]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.21.22:310][114]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.21.22:310][114]LogFbx: =================================================
+[2017.09.05-09.21.22:310][114]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.21.22:310][114]LogFbx: 	Total Deformer Count 1635958144.
+[2017.09.05-09.21.22:310][114]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.21.22:310][114]LogFbx: =================================================
+[2017.09.05-09.21.22:310][114]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.21.22:310][114]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.21.22:310][114]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.21.22:310][114]LogFbx: SortedLinks :(0) PepperBoxRig
+[2017.09.05-09.21.22:310][114]LogFbx: SortedLinks :(1) PBParentToChest
+[2017.09.05-09.21.22:310][114]LogFbx: SortedLinks :(2) PBPellet
+[2017.09.05-09.21.22:310][114]LogFbx: SortedLinks :(3) PBPowderBottle
+[2017.09.05-09.21.22:311][114]LogFbx: SortedLinks :(4) PBBottleHatch
+[2017.09.05-09.21.22:311][114]LogFbx: SortedLinks :(5) PBBody
+[2017.09.05-09.21.22:311][114]LogFbx: SortedLinks :(6) PBHammer
+[2017.09.05-09.21.22:311][114]LogFbx: SortedLinks :(7) PBTrigger
+[2017.09.05-09.21.22:311][114]LogFbx: SortedLinks :(8) PBBarrel
+[2017.09.05-09.21.22:311][114]LogFbx: SortedLinks :(9) Screw
+[2017.09.05-09.21.22:311][114]LogFbx: SortedLinks :(10) PBScrewDriver
+[2017.09.05-09.21.22:311][114]LogFbx: Parsing AnimStack Scene
+[2017.09.05-09.21.22:311][114]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip'
+[2017.09.05-09.21.22:311][114]LogLinker: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip'
+[2017.09.05-09.21.22:346][114]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip.PepperBox_02a_Equip
+[2017.09.05-09.21.24:196][311]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_5.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.09.05-09.21.24:551][311]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.05-09.22.08:485][712]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Idle.fbx)
+[2017.09.05-09.22.08:492][712]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.05-09.22.08:492][712]LogFbx: ItemName: NodeAttribute, ItemCount : 11
+[2017.09.05-09.22.08:492][712]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.05-09.22.08:492][712]LogFbx: ItemName: Model, ItemCount : 12
+[2017.09.05-09.22.08:492][712]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.09.05-09.22.08:492][712]LogFbx: ItemName: Deformer, ItemCount : 11
+[2017.09.05-09.22.08:492][712]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.05-09.22.08:492][712]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.05-09.22.08:492][712]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.05-09.22.08:497][712]LogFbx: Loading FBX Scene from D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Idle.fbx
+[2017.09.05-09.22.08:510][712]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.05-09.22.18:127][712]LogFbx: Loading FBX Scene from D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Idle.fbx
+[2017.09.05-09.22.18:141][712]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.05-09.22.18:141][712]LogFbx: =================================================
+[2017.09.05-09.22.18:141][712]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.22.18:141][712]LogFbx: 	Total Deformer Count -913221712.
+[2017.09.05-09.22.18:141][712]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.22.18:141][712]LogFbx: =================================================
+[2017.09.05-09.22.18:141][712]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.22.18:141][712]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.22.18:141][712]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.22.18:141][712]LogFbx: =================================================
+[2017.09.05-09.22.18:141][712]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.22.18:141][712]LogFbx: 	Total Deformer Count -913221712.
+[2017.09.05-09.22.18:141][712]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.22.18:141][712]LogFbx: =================================================
+[2017.09.05-09.22.18:141][712]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.22.18:141][712]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.22.18:142][712]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.22.18:145][712]FBXImport: Warning: This does not contain any valid animation takes. 
+[2017.09.05-09.22.18:145][712]FBXImport: Error: Import failed. 
+[2017.09.05-09.22.21:258][712]LogAssetTools: Warning: Failed to import 'D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Idle.fbx'. Failed to create asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Idle'.
+Please see Output Log for details.
+[2017.09.05-09.22.52:067][ 88]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Idle.fbx)
+[2017.09.05-09.22.52:074][ 88]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.05-09.22.52:074][ 88]LogFbx: ItemName: NodeAttribute, ItemCount : 11
+[2017.09.05-09.22.52:074][ 88]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.05-09.22.52:075][ 88]LogFbx: ItemName: Model, ItemCount : 12
+[2017.09.05-09.22.52:075][ 88]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.09.05-09.22.52:075][ 88]LogFbx: ItemName: Deformer, ItemCount : 11
+[2017.09.05-09.22.52:075][ 88]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.05-09.22.52:075][ 88]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.05-09.22.52:075][ 88]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.05-09.22.52:079][ 88]LogFbx: Loading FBX Scene from D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Idle.fbx
+[2017.09.05-09.22.52:093][ 88]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.05-09.22.58:769][ 88]LogFbx: Loading FBX Scene from D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Idle.fbx
+[2017.09.05-09.22.58:782][ 88]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.05-09.22.58:783][ 88]LogFbx: =================================================
+[2017.09.05-09.22.58:783][ 88]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.22.58:783][ 88]LogFbx: 	Total Deformer Count 132351696.
+[2017.09.05-09.22.58:783][ 88]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.22.58:783][ 88]LogFbx: =================================================
+[2017.09.05-09.22.58:783][ 88]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.22.58:783][ 88]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.22.58:783][ 88]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.22.58:783][ 88]LogFbx: =================================================
+[2017.09.05-09.22.58:783][ 88]LogFbx: Dumping Node START [PepperBoxMesh] 
+[2017.09.05-09.22.58:783][ 88]LogFbx: 	Total Deformer Count 132351696.
+[2017.09.05-09.22.58:783][ 88]LogFbx: 		[Node 1] PepperBoxRig (Type Skin).
+[2017.09.05-09.22.58:783][ 88]LogFbx: =================================================
+[2017.09.05-09.22.58:783][ 88]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.09.05-09.22.58:783][ 88]LogFbx: 		[Node Attribute Child 1] PepperBoxMesh (Type Mesh).
+[2017.09.05-09.22.58:783][ 88]LogFbx: Dumping Node END [PepperBoxMesh]
+[2017.09.05-09.22.58:787][ 88]FBXImport: Warning: This does not contain any valid animation takes. 
+[2017.09.05-09.22.58:787][ 88]FBXImport: Error: Import failed. 
+[2017.09.05-09.23.00:977][ 88]LogAssetTools: Warning: Failed to import 'D:/Game assets from Schonn/pepperbox 02a/PepperBox_02a_Idle.fbx'. Failed to create asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Idle'.
+Please see Output Log for details.
+[2017.09.05-09.23.05:042][338]LogSavePackage: Save=778.94ms
+[2017.09.05-09.23.05:042][338]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Map00_Auto1FF78E31C43E37B206947108A80DA6433.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Map00_Auto1.umap'
+[2017.09.05-09.23.05:046][338]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Map00_Auto1.umap
+[2017.09.05-09.23.05:057][338]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GlycoSanatorium/Map00' took 0.883
+[2017.09.05-09.23.05:057][338]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.883
+[2017.09.05-09.23.05:066][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.09.05-09.23.05:081][338]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.09.05-09.23.05:081][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.09.05-09.23.05:244][338]LogSavePackage: Save=153.87ms
+[2017.09.05-09.23.05:244][338]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/FirstPersonCharacter_Auto17209E75F419656ED41A47E844E05090A.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2017.09.05-09.23.05:248][338]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset
+[2017.09.05-09.23.05:250][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a] ([1] browsable assets)...
+[2017.09.05-09.23.05:266][338]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a.PepperBox_Mesh_02a]
+[2017.09.05-09.23.05:266][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a]
+[2017.09.05-09.23.05:299][338]LogSavePackage: Save=29.35ms
+[2017.09.05-09.23.05:299][338]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/PepperBox_Mesh_02a_Auto1427F51D24FBA43B4221BF99F032AFD45.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a_Auto1.uasset'
+[2017.09.05-09.23.05:302][338]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a_Auto1.uasset
+[2017.09.05-09.23.05:304][338]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GlycoSanatorium/Blueprints/super_basic_gun] ([1] browsable assets)...
+[2017.09.05-09.23.05:304][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Blueprints/super_basic_gun]
+[2017.09.05-09.23.05:368][338]LogSavePackage: Save=53.75ms
+[2017.09.05-09.23.05:368][338]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/super_basic_gun_Auto17133F156453FC33278C841827DFE6678.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Blueprints/super_basic_gun_Auto1.uasset'
+[2017.09.05-09.23.05:371][338]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Blueprints/super_basic_gun_Auto1.uasset
+[2017.09.05-09.23.05:373][338]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a_Skeleton] ([1] browsable assets)...
+[2017.09.05-09.23.05:373][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a_Skeleton]
+[2017.09.05-09.23.05:378][338]LogSavePackage: Save=2.43ms
+[2017.09.05-09.23.05:378][338]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/PepperBox_Mesh_02a_Skeleton_Auto1F222B772409EED084158869FFC2308A2.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a_Skeleton_Auto1.uasset'
+[2017.09.05-09.23.05:381][338]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a_Skeleton_Auto1.uasset
+[2017.09.05-09.23.05:383][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip] ([1] browsable assets)...
+[2017.09.05-09.23.05:399][338]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip.PepperBox_02a_Equip]
+[2017.09.05-09.23.05:399][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip]
+[2017.09.05-09.23.05:413][338]LogSavePackage: Save=10.99ms
+[2017.09.05-09.23.05:413][338]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/PepperBox_02a_Equip_Auto14D5FB21A433B0DA8665980B2E5273626.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip_Auto1.uasset'
+[2017.09.05-09.23.05:416][338]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip_Auto1.uasset
+[2017.09.05-09.23.05:416][338]LogFileHelpers: Auto-saving content packages took 0.353
+[2017.09.05-09.24.40:362][780]LogLinker: Warning: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton'
+[2017.09.05-09.24.40:363][780]LogLinker: Warning: Can't find file for asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton' while loading ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Reload.uasset.
+[2017.09.05-09.24.40:363][780]LoadErrors: Error: /Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Reload : Can't find file for asset. /Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton
+[2017.09.05-09.24.40:363][780]LogLinker: Warning: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton'
+[2017.09.05-09.24.40:363][780]LogLinker: Warning: Can't find file for asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton' while loading ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Reload.uasset.
+[2017.09.05-09.24.40:364][780]LogLinker: Warning: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton'
+[2017.09.05-09.24.40:364][780]LoadErrors: Failed to load /Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton.PepperBox_Mesh_01c_Skeleton Referenced by PepperBox_01c_Reload
+[2017.09.05-09.24.40:364][780]LogLinker: Warning: Can't find file for asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton' while loading NULL.
+[2017.09.05-09.24.43:187][780]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2017.09.05-09.24.49:820][528]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Reload.PepperBox_01c_Reload
+[2017.09.05-09.24.49:861][528]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.Actor_6.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2017.09.05-09.24.50:384][528]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.05-09.24.53:906][734]LogLinker: Warning: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton'
+[2017.09.05-09.24.53:906][734]LogLinker: Warning: Can't find file for asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton' while loading ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Fire.uasset.
+[2017.09.05-09.24.53:906][734]LoadErrors: Error: /Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Fire : Can't find file for asset. /Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton
+[2017.09.05-09.24.53:907][734]LogLinker: Warning: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton'
+[2017.09.05-09.24.53:907][734]LogLinker: Warning: Can't find file for asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton' while loading ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Fire.uasset.
+[2017.09.05-09.24.53:907][734]LogLinker: Warning: Can't find file '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton'
+[2017.09.05-09.24.53:907][734]LoadErrors: Failed to load /Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton.PepperBox_Mesh_01c_Skeleton Referenced by PepperBox_01c_Fire
+[2017.09.05-09.24.53:907][734]LogLinker: Warning: Can't find file for asset '/Game/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_01c_Skeleton' while loading NULL.
+[2017.09.05-09.24.55:382][734]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2017.09.05-09.24.58:946][976]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Fire.PepperBox_01c_Fire
+[2017.09.05-09.25.03:978][281]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.Actor_7.DebugSkelMeshComponent_22) Already registered. Aborting.
+[2017.09.05-09.25.04:376][281]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.05-09.25.07:176][463]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.Actor_8.DebugSkelMeshComponent_25) Already registered. Aborting.
+[2017.09.05-09.25.07:562][463]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.05-09.25.51:145][131]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.Actor_9.DebugSkelMeshComponent_28) Already registered. Aborting.
+[2017.09.05-09.25.51:537][131]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.05-09.33.06:059][625]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/GlycoSanatorium/Map00' took 0.031
+[2017.09.05-09.33.06:063][625]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Fire] ([1] browsable assets)...
+[2017.09.05-09.33.06:094][625]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Fire.PepperBox_01c_Fire]
+[2017.09.05-09.33.06:094][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Fire]
+[2017.09.05-09.33.06:117][625]LogSavePackage: Save=12.01ms
+[2017.09.05-09.33.06:117][625]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/PepperBox_01c_Fire_Auto2A5BCA3F8440946BC553D369D3C39AFFD.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Fire_Auto2.uasset'
+[2017.09.05-09.33.06:120][625]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Fire_Auto2.uasset
+[2017.09.05-09.33.06:122][625]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Reload] ([1] browsable assets)...
+[2017.09.05-09.33.06:153][625]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Reload.PepperBox_01c_Reload]
+[2017.09.05-09.33.06:153][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Reload]
+[2017.09.05-09.33.06:175][625]LogSavePackage: Save=11.97ms
+[2017.09.05-09.33.06:175][625]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/PepperBox_01c_Reload_Auto2A2051CBA485393314552818F162656E3.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Reload_Auto2.uasset'
+[2017.09.05-09.33.06:178][625]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Autosaves/Game/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Reload_Auto2.uasset
+[2017.09.05-09.33.06:178][625]LogFileHelpers: Auto-saving content packages took 0.118
+[2017.09.05-10.31.19:129][390]LogSavePackage: Save=6.45ms
+[2017.09.05-10.31.19:129][390]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/PepperBox_01c_ReloadB13677DA48A23CB81B8279B2E5637C88.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Reload.uasset'
+[2017.09.05-10.31.19:136][390]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Reload.uasset
+[2017.09.05-10.31.40:724][540]LogSavePackage: Save=135.85ms
+[2017.09.05-10.31.40:724][540]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/FirstPersonCharacter076BC94B456AB69F2454119485F8C54E.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.09.05-10.31.40:730][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.09.05-10.31.40:808][540]LogSavePackage: Save=55.51ms
+[2017.09.05-10.31.40:808][540]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/super_basic_gun0A5F68D842D78F82A0491F9DA1F0F7E5.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Blueprints/super_basic_gun.uasset'
+[2017.09.05-10.31.40:814][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Blueprints/super_basic_gun.uasset
+[2017.09.05-10.31.41:702][540]LogSavePackage: Save=693.38ms
+[2017.09.05-10.31.41:702][540]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Map00EE30DF6B436554C28115B6BC4D196796.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Map00.umap'
+[2017.09.05-10.31.41:709][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Map00.umap
+[2017.09.05-10.31.41:752][540]LogFileHelpers: Saving map 'Map00' took 0.901
+[2017.09.05-10.31.41:771][540]LogSavePackage: Save=4.42ms
+[2017.09.05-10.31.41:771][540]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/PepperBox_01c_Fire8C992D6349878C91D852D38765C54915.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Fire.uasset'
+[2017.09.05-10.31.41:777][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_01c_Fire.uasset
+[2017.09.05-10.31.41:832][540]LogSavePackage: Save=11.34ms
+[2017.09.05-10.31.41:832][540]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/PepperBox_02a_Equip942CFEB54E03E512939D328588216C7D.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip.uasset'
+[2017.09.05-10.31.41:838][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Animations/PepperBox_02a_Equip.uasset
+[2017.09.05-10.31.41:906][540]LogSavePackage: Save=32.60ms
+[2017.09.05-10.31.41:906][540]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/PepperBox_Mesh_02aBC598B754E18B37E8F015195395CC856.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a.uasset'
+[2017.09.05-10.31.41:912][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a.uasset
+[2017.09.05-10.31.41:923][540]LogSavePackage: Save=2.84ms
+[2017.09.05-10.31.41:923][540]LogSavePackage: Moving '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/PepperBox_Mesh_02a_SkeletonEA4A9610461A304D2D90DDB99AC2443E.tmp' to '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a_Skeleton.uasset'
+[2017.09.05-10.31.41:929][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/GlycoSanatorium/Models/Props/PepperBox/Mesh/PepperBox_Mesh_02a_Skeleton.uasset
+[2017.09.05-10.31.42:029][540]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.05-10.31.42:259][541]Cmd: QUIT_EDITOR
+[2017.09.05-10.31.42:369][541]LogExit: Preparing to exit.
+[2017.09.05-10.31.43:212][541]LogDirectoryWatcher: A directory notification for 'C:/Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/' was aborted.
+[2017.09.05-10.31.43:302][541]LogExit: Editor shut down
+[2017.09.05-10.31.43:328][541]LogExit: Transaction tracking system shut down
+[2017.09.05-10.31.43:657][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.05-10.31.43:657][541]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/' was aborted.
+[2017.09.05-10.31.43:657][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.05-10.31.43:657][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.05-10.31.43:657][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.05-10.31.44:060][541]LogExit: Object subsystem successfully closed.
+[2017.09.05-10.31.44:078][541]LogD3D11RHI: Shutdown
+[2017.09.05-10.31.44:078][541]LogD3D11RHI: CleanupD3DDevice
+[2017.09.05-10.31.44:192][541]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.05-10.31.44:227][541]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (540)
+[2017.09.05-10.31.44:227][541]LogModuleManager: Shutting down and abandoning module MaterialEditor (538)
+[2017.09.05-10.31.44:227][541]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (536)
+[2017.09.05-10.31.44:227][541]LogModuleManager: Shutting down and abandoning module SkeletonEditor (534)
+[2017.09.05-10.31.44:227][541]LogModuleManager: Shutting down and abandoning module AnimationEditor (532)
+[2017.09.05-10.31.44:227][541]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.05-10.31.44:227][541]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.05-10.31.44:227][541]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.05-10.31.44:227][541]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.05-10.31.44:233][541]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.05-10.31.44:233][541]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.05-10.31.44:233][541]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.05-10.31.44:233][541]LogDirectoryWatcher: A directory notification for 'C:/Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/Collections/' was aborted.
+[2017.09.05-10.31.44:233][541]LogDirectoryWatcher: A directory notification for 'C:/Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Content/Developers/Matmo/Collections/' was aborted.
+[2017.09.05-10.31.44:233][541]LogDirectoryWatcher: A directory notification for 'C:/Users/Matmo/Documents/GitHub/uni_game_dev_ue/uni_game_dev_ue/git_test/Saved/Collections/' was aborted.
+[2017.09.05-10.31.44:233][541]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.05-10.31.44:233][541]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.05-10.31.44:233][541]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.05-10.31.44:234][541]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.05-10.31.44:235][541]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.05-10.31.44:235][541]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.05-10.31.44:235][541]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.05-10.31.44:235][541]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.05-10.31.44:235][541]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.05-10.31.44:235][541]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.05-10.31.44:711][541]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.05-10.31.44:711][541]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.05-10.31.44:711][541]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.05-10.31.44:711][541]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.05-10.31.44:711][541]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.05-10.31.44:711][541]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.05-10.31.44:711][541]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.05-10.31.44:711][541]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.05-10.31.44:711][541]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.05-10.31.44:712][541]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.05-10.31.44:712][541]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.05-10.31.44:712][541]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.05-10.31.44:712][541]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.05-10.31.44:712][541]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.05-10.31.44:712][541]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.05-10.31.44:712][541]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.05-10.31.44:712][541]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.05-10.31.44:712][541]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.05-10.31.44:712][541]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.05-10.31.44:712][541]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.05-10.31.44:712][541]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.05-10.31.44:713][541]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.05-10.31.44:713][541]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.05-10.31.44:713][541]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.05-10.31.44:775][541]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.05-10.31.44:775][541]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.05-10.31.44:775][541]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.05-10.31.44:775][541]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.05-10.31.44:775][541]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.05-10.31.44:775][541]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.05-10.31.44:776][541]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.05-10.31.44:776][541]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.05-10.31.44:776][541]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.05-10.31.44:776][541]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.05-10.31.44:777][541]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.05-10.31.44:777][541]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.05-10.31.44:777][541]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.05-10.31.44:777][541]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.05-10.31.44:777][541]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.05-10.31.44:777][541]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.05-10.31.44:777][541]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.05-10.31.44:778][541]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.05-10.31.44:879][541]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.05-10.31.44:880][541]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.05-10.31.44:880][541]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.05-10.31.44:880][541]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.05-10.31.44:880][541]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.05-10.31.44:880][541]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.05-10.31.44:880][541]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.05-10.31.44:880][541]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.05-10.31.44:881][541]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.05-10.31.44:881][541]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.05-10.31.44:881][541]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.05-10.31.44:882][541]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.05-10.31.44:882][541]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.05-10.31.44:882][541]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.05-10.31.44:882][541]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.05-10.31.44:882][541]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.05-10.31.44:882][541]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.05-10.31.44:882][541]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.05-10.31.44:882][541]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.05-10.31.44:983][541]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.05-10.31.45:083][541]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.05-10.31.45:083][541]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.05-10.31.45:083][541]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.05-10.31.45:083][541]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.05-10.31.45:083][541]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.05-10.31.45:083][541]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.05-10.31.45:085][541]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.05-10.31.45:085][541]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.05-10.31.45:085][541]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.05-10.31.45:085][541]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.05-10.31.45:085][541]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.05-10.31.45:086][541]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.05-10.31.45:090][541]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.05-10.31.45:090][541]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.05-10.31.45:090][541]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.05-10.31.45:090][541]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.05-10.31.45:091][541]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.05-10.31.45:091][541]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.05-10.31.45:091][541]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.05-10.31.45:091][541]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.05-10.31.45:091][541]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.05-10.31.45:091][541]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.05-10.31.45:091][541]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.05-10.31.45:091][541]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.05-10.31.45:091][541]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.05-10.31.45:091][541]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.05-10.31.45:091][541]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.05-10.31.45:091][541]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.05-10.31.45:096][541]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.05-10.31.45:194][541]LogDerivedDataCache: Shutdown
+[2017.09.05-10.31.45:194][541]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.05-10.31.45:194][541]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.05-10.31.45:194][541]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.05-10.31.45:195][541]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.05-10.31.45:196][541]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.05-10.31.45:196][541]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.05-10.31.45:196][541]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.05-10.31.45:196][541]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE069A66E-426F-0F81-AFCA-F8A63117F69A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=a9adbcd74d10b89bdd6a099d715372b2%7Cc22689a14c5a4253bea4e46ac3cdb664%7C09ed0535-e988-4406-90ad-c6d3215feefb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.05-10.31.45:209][541]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.05-10.31.45:211][541]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.05-10.31.45:211][541]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.05-10.31.45:212][541]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.05-10.31.45:212][541]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.05-10.31.45:212][541]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.05-10.31.45:212][541]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.05-10.31.45:212][541]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.05-10.31.45:217][541]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.05-10.31.45:217][541]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.05-10.31.45:217][541]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.05-10.31.45:217][541]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.05-10.31.45:217][541]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.05-10.31.45:217][541]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.05-10.31.45:217][541]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.05-10.31.45:217][541]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.05-10.31.45:217][541]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.05-10.31.45:217][541]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.05-10.31.45:217][541]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.05-10.31.45:247][541]LogExit: Exiting.
+[2017.09.05-10.31.45:363][541]Log file closed, 09/05/17 20:01:45
